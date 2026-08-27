@@ -14,7 +14,7 @@ Or you can send an issue for me.
 
 As AI agents increasingly write, analyze, and rewrite low-level code, generic toolchains become a bottleneck. Security researchers need semantics they can trust — deterministic compilation on the way in, and faithful decompilation on the way out. **In the age of AI, everyone needs their own compiler and their own decoder.**
 
-* **[NeverC](https://github.com/NeverSight/NeverC) ⭐ 77 | 🐛 0 | 🌐 C | 📅 2026-08-27** — The AI-friendly C23 compiler for security research. Pure C23, integrated linker, DynCode pipeline, cross-platform PE/ELF/Mach-O generation, compile-time string encryption, and a plugin API spanning 130+ compiler phases — designed so LLM-generated code compiles correctly more often than C++ alternatives.
+* **[NeverC](https://github.com/NeverSight/NeverC) ⭐ 78 | 🐛 0 | 🌐 C | 📅 2026-08-27** — The AI-friendly C23 compiler for security research. Pure C23, integrated linker, DynCode pipeline, cross-platform PE/ELF/Mach-O generation, compile-time string encryption, and a plugin API spanning 130+ compiler phases — designed so LLM-generated code compiles correctly more often than C++ alternatives.
 * **[NeverD](https://github.com/NeverSight/NeverD) ⭐ 46 | 🐛 6 | 🌐 C++ | 📅 2026-08-27** — The AI-friendly binary analysis & decompilation engine with 1:1 instruction-level lifting. PE/ELF/Mach-O support, strict semantic fidelity, structured C and LLVM IR output, binary rewrite, and a pure C SDK (`libneverd`) built for CLI tools, integrators, and AI agents.
 
 Compile with **NeverC**, analyze and decompile with **NeverD** — an AI-friendly LLVM toolchain you control, built for security research.
@@ -26,7 +26,7 @@ Compile with **NeverC**, analyze and decompile with **NeverD** — an AI-friendl
 
 ## Skills for AI Agents
 
-This repository provides skills that can be used with AI agents and coding assistants such as [Cursor](https://www.cursor.com/), [OpenClaw](https://docs.openclaw.ai/), [Claude Code](https://docs.anthropic.com/en/docs/claude-code), [Codex CLI](https://github.com/openai/codex) ⭐ 119,080 | 🐛 14,067 | 🌐 Rust | 📅 2026-08-27, and other compatible tools. Install skills to get specialized knowledge about game security topics.
+This repository provides skills that can be used with AI agents and coding assistants such as [Cursor](https://www.cursor.com/), [OpenClaw](https://docs.openclaw.ai/), [Claude Code](https://docs.anthropic.com/en/docs/claude-code), [Codex CLI](https://github.com/openai/codex) ⭐ 119,177 | 🐛 14,124 | 🌐 Rust | 📅 2026-08-27, and other compatible tools. Install skills to get specialized knowledge about game security topics.
 
 **[View on learn-skills.dev](https://learn-skills.dev/skills/gmh5225/awesome-game-security)**
 
@@ -106,7 +106,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 > Guide
 
-* <https://github.com/ssloy/tinyrenderer> ⭐ 24,148 | 🐛 4 | 🌐 C++ | 📅 2026-07-29 \[Render]
+* <https://github.com/ssloy/tinyrenderer> ⭐ 24,149 | 🐛 4 | 🌐 C++ | 📅 2026-07-29 \[Render]
 * <https://github.com/lettier/3d-game-shaders-for-beginners> ⭐ 19,855 | 🐛 18 | 🌐 C++ | 📅 2023-06-25 \[Shader]
 * <https://github.com/QianMo/Game-Programmer-Study-Notes> ⭐ 10,022 | 🐛 736 | 📅 2021-10-16
 * <https://github.com/RyanNielson/awesome-unity> ⚠️ Archived \[Unity]
@@ -114,7 +114,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 * <https://github.com/QianMo/Unity-Design-Pattern> ⭐ 4,681 | 🐛 5 | 🌐 C# | 📅 2020-02-06 \[Unity Design]
 * <https://github.com/ThisisGame/cpp-game-engine-book> ⭐ 3,591 | 🐛 2 | 🌐 C++ | 📅 2024-04-19
 * <https://github.com/Gforcex/OpenGraphic> ⭐ 2,274 | 🐛 3 | 📅 2026-07-09 \[Graphic Engine & Game Engine lists]
-* <https://github.com/crazyshader/GameDev> ⭐ 1,927 | 🐛 0 | 📅 2026-05-25 \[Unity]
+* <https://github.com/crazyshader/GameDev> ⭐ 1,930 | 🐛 0 | 📅 2026-05-25 \[Unity]
 * <https://github.com/netwarm007/GameEngineFromScratch> ⭐ 1,811 | 🐛 2 | 🌐 C++ | 📅 2023-09-16
 * <https://github.com/mikeroyal/Unreal-Engine-Guide> ⭐ 1,509 | 🐛 2 | 🌐 C++ | 📅 2025-06-27 \[Unreal]
 * <https://github.com/stevinz/awesome-game-engine-dev> ⭐ 1,403 | 🐛 0 | 📅 2026-08-17 \[Awesome Game Engine Development]
@@ -137,53 +137,53 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 > Source
 
-* <https://github.com/godotengine/godot> ⭐ 116,217 | 🐛 18,769 | 🌐 C++ | 📅 2026-08-27
-* <https://github.com/pixijs/pixijs> ⭐ 48,082 | 🐛 340 | 🌐 TypeScript | 📅 2026-08-26 \[HTML5]
-* <https://github.com/bevyengine/bevy> ⭐ 47,898 | 🐛 3,437 | 🌐 Rust | 📅 2026-08-27 \[Rust]
-* <https://github.com/BabylonJS/Babylon.js> ⭐ 25,987 | 🐛 19 | 🌐 TypeScript | 📅 2026-08-27 \[HTML5/WebGL/WebGPU game and rendering engine]
-* <https://github.com/4ian/GDevelop> ⭐ 25,983 | 🐛 629 | 🌐 JavaScript | 📅 2026-08-27 \[Open-source cross-platform 2D/3D/multiplayer game engine]
-* <https://github.com/libgdx/libgdx> ⭐ 25,336 | 🐛 340 | 🌐 Java | 📅 2026-08-25 \[Cross-platform Java game development framework]
-* <https://github.com/cocos2d/cocos2d-x> ⭐ 19,163 | 🐛 1,604 | 🌐 C++ | 📅 2025-05-09
-* <https://github.com/playcanvas/engine> ⭐ 16,570 | 🐛 528 | 🌐 JavaScript | 📅 2026-08-27 \[HTML5 3D]
-* <https://github.com/MonoGame/MonoGame> ⭐ 14,352 | 🐛 754 | 🌐 C# | 📅 2026-08-26 \[.NET]
-* <https://github.com/minetest/minetest> ⭐ 13,503 | 🐛 1,505 | 🌐 C++ | 📅 2026-08-26
+* <https://github.com/godotengine/godot> ⭐ 116,243 | 🐛 18,767 | 🌐 C++ | 📅 2026-08-27
+* <https://github.com/pixijs/pixijs> ⭐ 48,085 | 🐛 341 | 🌐 TypeScript | 📅 2026-08-26 \[HTML5]
+* <https://github.com/bevyengine/bevy> ⭐ 47,911 | 🐛 3,440 | 🌐 Rust | 📅 2026-08-27 \[Rust]
+* <https://github.com/BabylonJS/Babylon.js> ⭐ 25,991 | 🐛 16 | 🌐 TypeScript | 📅 2026-08-27 \[HTML5/WebGL/WebGPU game and rendering engine]
+* <https://github.com/4ian/GDevelop> ⭐ 25,988 | 🐛 629 | 🌐 JavaScript | 📅 2026-08-27 \[Open-source cross-platform 2D/3D/multiplayer game engine]
+* <https://github.com/libgdx/libgdx> ⭐ 25,338 | 🐛 340 | 🌐 Java | 📅 2026-08-25 \[Cross-platform Java game development framework]
+* <https://github.com/cocos2d/cocos2d-x> ⭐ 19,165 | 🐛 1,604 | 🌐 C++ | 📅 2025-05-09
+* <https://github.com/playcanvas/engine> ⭐ 16,572 | 🐛 527 | 🌐 JavaScript | 📅 2026-08-27 \[HTML5 3D]
+* <https://github.com/MonoGame/MonoGame> ⭐ 14,356 | 🐛 755 | 🌐 C# | 📅 2026-08-27 \[.NET]
+* <https://github.com/minetest/minetest> ⭐ 13,505 | 🐛 1,507 | 🌐 C++ | 📅 2026-08-26
 * <https://github.com/TheCherno/Hazel> ⭐ 13,089 | 🐛 135 | 🌐 C++ | 📅 2024-04-20
 * <https://github.com/Unity-Technologies/UnityCsReference> ⭐ 12,968 | 🐛 19 | 🌐 C# | 📅 2026-08-27 \[C# reference]
-* <https://github.com/ValveSoftware/source-sdk-2013> ⭐ 9,951 | 🐛 1,052 | 🌐 C++ | 📅 2026-08-26
+* <https://github.com/ValveSoftware/source-sdk-2013> ⭐ 9,952 | 🐛 1,052 | 🌐 C++ | 📅 2026-08-26
 * <https://github.com/cocos/cocos-engine> ⭐ 9,780 | 🐛 1,006 | 🌐 C++ | 📅 2026-08-26
-* <https://github.com/FyroxEngine/Fyrox> ⭐ 9,528 | 🐛 59 | 🌐 Rust | 📅 2026-08-23 \[Rust]
+* <https://github.com/FyroxEngine/Fyrox> ⭐ 9,529 | 🐛 59 | 🌐 Rust | 📅 2026-08-27 \[Rust]
 * <https://github.com/chrismaltby/gb-studio> ⭐ 9,386 | 🐛 793 | 🌐 TypeScript | 📅 2026-08-27 \[GameBoy]
 * <https://github.com/love2d/love> ⭐ 8,657 | 🐛 124 | 🌐 C++ | 📅 2026-08-26 \[2D game framework for Lua]
 * <https://github.com/stride3d/stride> ⭐ 7,806 | 🐛 686 | 🌐 C# | 📅 2026-08-25 \[C# 3D]
-* <https://github.com/turanszkij/WickedEngine> ⭐ 7,203 | 🐛 113 | 🌐 C++ | 📅 2026-08-24 \[C++ 3D]
-* <https://github.com/FlaxEngine/FlaxEngine> ⭐ 6,983 | 🐛 785 | 🌐 C++ | 📅 2026-08-18 \[C++/C# 3D]
+* <https://github.com/turanszkij/WickedEngine> ⭐ 7,203 | 🐛 114 | 🌐 C++ | 📅 2026-08-24 \[C++ 3D]
+* <https://github.com/FlaxEngine/FlaxEngine> ⭐ 6,983 | 🐛 786 | 🌐 C++ | 📅 2026-08-18 \[C++/C# 3D]
 * <https://github.com/BoomingTech/Pilot> ⭐ 6,689 | 🐛 94 | 🌐 C++ | 📅 2024-09-30
-* <https://github.com/melonjs/melonJS> ⭐ 6,377 | 🐛 18 | 🌐 JavaScript | 📅 2026-08-27 \[HTML5]
+* <https://github.com/melonjs/melonJS> ⭐ 6,378 | 🐛 18 | 🌐 JavaScript | 📅 2026-08-27 \[HTML5]
 * <https://github.com/panda3d/panda3d> ⭐ 5,213 | 🐛 368 | 🌐 C++ | 📅 2026-07-28
-* <https://github.com/turbulenz/turbulenz_engine> ⭐ 5,057 | 🐛 39 | 🌐 TypeScript | 📅 2023-05-28 \[HTML5]
-* <https://github.com/gameplay3d/gameplay> ⭐ 4,900 | 🐛 9 | 🌐 C++ | 📅 2025-02-25 \[2D/3D]
+* <https://github.com/turbulenz/turbulenz_engine> ⭐ 5,058 | 🐛 39 | 🌐 TypeScript | 📅 2023-05-28 \[HTML5]
+* <https://github.com/gameplay3d/gameplay> ⭐ 4,901 | 🐛 9 | 🌐 C++ | 📅 2025-02-25 \[2D/3D]
 * <https://github.com/urho3d/Urho3D> ⚠️ Archived
-* <https://github.com/not-fl3/macroquad> ⭐ 4,596 | 🐛 335 | 🌐 Rust | 📅 2026-08-18 \[Rust 2D]
-* <https://github.com/ValveSoftware/halflife> ⭐ 4,351 | 🐛 2,123 | 🌐 C++ | 📅 2024-10-02 \[Half-Life 1]
+* <https://github.com/not-fl3/macroquad> ⭐ 4,596 | 🐛 337 | 🌐 Rust | 📅 2026-08-18 \[Rust 2D]
+* <https://github.com/ValveSoftware/halflife> ⭐ 4,352 | 🐛 2,123 | 🌐 C++ | 📅 2024-10-02 \[Half-Life 1]
 * <https://github.com/egret-labs/egret-core> ⭐ 4,018 | 🐛 54 | 🌐 JavaScript | 📅 2022-07-20 \[HTML5]
 * <https://github.com/AmbientRun/Ambient> ⭐ 3,909 | 🐛 281 | 🌐 Rust | 📅 2025-01-07 \[Rust]
-* <https://github.com/nem0/LumixEngine> ⭐ 3,869 | 🐛 35 | 🌐 C++ | 📅 2026-08-26
-* <https://github.com/PixelGuys/Cubyz> ⭐ 3,633 | 🐛 940 | 🌐 Zig | 📅 2026-08-26 \[3D voxel sandbox game written by Zig language]
-* <https://github.com/OpenXRay/xray-16> ⭐ 3,547 | 🐛 293 | 🌐 C++ | 📅 2026-07-30 \[Improved version of the X-Ray Engine]
-* <https://github.com/isadorasophia/murder> ⭐ 3,314 | 🐛 16 | 🌐 C# | 📅 2026-08-27 \[pixel]
+* <https://github.com/nem0/LumixEngine> ⭐ 3,870 | 🐛 35 | 🌐 C++ | 📅 2026-08-26
+* <https://github.com/PixelGuys/Cubyz> ⭐ 3,634 | 🐛 940 | 🌐 Zig | 📅 2026-08-26 \[3D voxel sandbox game written by Zig language]
+* <https://github.com/OpenXRay/xray-16> ⭐ 3,548 | 🐛 293 | 🌐 C++ | 📅 2026-07-30 \[Improved version of the X-Ray Engine]
+* <https://github.com/isadorasophia/murder> ⭐ 3,315 | 🐛 16 | 🌐 C# | 📅 2026-08-27 \[pixel]
 * <https://github.com/PanosK92/SpartanEngine> ⭐ 3,111 | 🐛 25 | 🌐 C++ | 📅 2026-08-27 \[Research-focused game engine designed for real-time solutions]
-* <https://github.com/ZDoom/gzdoom> ⭐ 3,107 | 🐛 185 | 🌐 C++ | 📅 2026-08-10 \[Doom]
-* <https://github.com/adriengivry/Overload> ⭐ 2,467 | 🐛 88 | 🌐 C++ | 📅 2026-08-25
+* <https://github.com/ZDoom/gzdoom> ⭐ 3,106 | 🐛 185 | 🌐 C++ | 📅 2026-08-10 \[Doom]
+* <https://github.com/adriengivry/Overload> ⭐ 2,468 | 🐛 88 | 🌐 C++ | 📅 2026-08-25
 * <https://github.com/crownengine/crown> ⭐ 2,437 | 🐛 46 | 🌐 C++ | 📅 2026-08-27 \[C++ 2D/3D]
 * <https://github.com/nillerusr/source-engine> ⭐ 2,214 | 🐛 130 | 🌐 C++ | 📅 2025-11-25
 * <https://github.com/UZDoom/UZDoom> ⭐ 2,106 | 🐛 613 | 🌐 C++ | 📅 2026-08-27 \[Doom source port, GZDoom continuation]
-* <https://github.com/TorqueGameEngines/Torque3D> ⭐ 2,091 | 🐛 114 | 🌐 C++ | 📅 2026-08-24 \[3D]
+* <https://github.com/TorqueGameEngines/Torque3D> ⭐ 2,092 | 🐛 114 | 🌐 C++ | 📅 2026-08-24 \[3D]
 * <https://github.com/multitheftauto/mtasa-blue> ⭐ 1,833 | 🐛 1,062 | 🌐 C++ | 📅 2026-08-26 \[Multi Theft Auto — networked multiplayer engine/mod framework for GTA: San Andreas]
 * <https://github.com/BobbyAnguelov/Esoterica> ⭐ 1,791 | 🐛 1 | 🌐 C++ | 📅 2026-08-27
 * <https://github.com/orx/orx> ⭐ 1,764 | 🐛 2 | 🌐 C | 📅 2026-08-19 \[C++]
-* <https://github.com/TorqueGameEngines/Torque2D> ⭐ 1,670 | 🐛 13 | 🌐 C | 📅 2026-08-18 \[2D]
+* <https://github.com/TorqueGameEngines/Torque2D> ⭐ 1,671 | 🐛 13 | 🌐 C | 📅 2026-08-18 \[2D]
 * <https://github.com/jmorton06/Lumos> ⭐ 1,595 | 🐛 3 | 🌐 C++ | 📅 2026-06-23 \[C++ 2D/3D]
-* <https://github.com/cocos/cocos4> ⭐ 1,444 | 🐛 88 | 🌐 C++ | 📅 2026-08-25
+* <https://github.com/cocos/cocos4> ⭐ 1,445 | 🐛 87 | 🌐 C++ | 📅 2026-08-25
 * <https://github.com/nCine/nCine> ⭐ 1,327 | 🐛 1 | 🌐 C++ | 📅 2026-08-24 \[2D]
 * <https://github.com/asc-community/MxEngine> ⭐ 1,233 | 🐛 18 | 🌐 C++ | 📅 2024-04-06 \[C++ 3D]
 * <https://github.com/gscept/nebula> ⭐ 1,092 | 🐛 34 | 🌐 C++ | 📅 2026-08-25
@@ -191,16 +191,16 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 * <https://github.com/inanevin/LinaEngine> ⭐ 901 | 🐛 2 | 🌐 C++ | 📅 2025-10-08
 * <https://github.com/storm-devs/storm-engine> ⚠️ Archived
 * <https://github.com/ObEngine/ObEngine> ⭐ 862 | 🐛 124 | 🌐 C++ | 📅 2026-07-09 \[2D+Lua]
-* <https://github.com/ProwlEngine/Prowl> ⭐ 849 | 🐛 26 | 🌐 C# | 📅 2026-08-25 \[Open-source C# 3D game engine with Unity-like editor (MIT)]
+* <https://github.com/ProwlEngine/Prowl> ⭐ 849 | 🐛 27 | 🌐 C# | 📅 2026-08-25 \[Open-source C# 3D game engine with Unity-like editor (MIT)]
 * <https://github.com/RavEngine/RavEngine> ⭐ 819 | 🐛 2 | 🌐 C++ | 📅 2025-07-29 \[C++ 3D]
 * <https://github.com/solenum/exengine> ⭐ 784 | 🐛 0 | 🌐 C | 📅 2026-02-21 \[C99 3D]
 * <https://github.com/skylicht-lab/skylicht-engine> ⭐ 769 | 🐛 26 | 🌐 C++ | 📅 2026-08-25
-* <https://github.com/doriaxengine/doriax> ⭐ 765 | 🐛 13 | 🌐 C++ | 📅 2026-08-26 \[Cross-platform C++ ECS game engine with editor, Lua/C++ scripting, and DirectX/OpenGL/Metal/Vulkan backends]
+* <https://github.com/doriaxengine/doriax> ⭐ 765 | 🐛 13 | 🌐 C++ | 📅 2026-08-27 \[Cross-platform C++ ECS game engine with editor, Lua/C++ scripting, and DirectX/OpenGL/Metal/Vulkan backends]
 * <https://github.com/NVIDIA-RTX/godot> ⭐ 625 | 🐛 2 | 🌐 C++ | 📅 2026-07-28 \[NVIDIA fork of Godot Engine]
 * <https://github.com/KorokEngine/Korok> ⭐ 620 | 🐛 3 | 🌐 Go | 📅 2021-10-23 \[Golang]
 * <https://github.com/NoelFB/blah> ⭐ 605 | 🐛 2 | 🌐 C++ | 📅 2023-04-27 \[C++ 2D]
-* <https://github.com/vchelaru/FlatRedBall> ⭐ 568 | 🐛 94 | 🌐 C# | 📅 2026-08-26 \[.NET 2D]
-* <https://github.com/RSDKModding/RSDKv5-Decompilation> ⭐ 555 | 🐛 28 | 🌐 C++ | 📅 2026-08-16 \[Retro Engine v5 / v5Ultimate decompilation]
+* <https://github.com/vchelaru/FlatRedBall> ⭐ 569 | 🐛 96 | 🌐 C# | 📅 2026-08-27 \[.NET 2D]
+* <https://github.com/RSDKModding/RSDKv5-Decompilation> ⭐ 554 | 🐛 28 | 🌐 C++ | 📅 2026-08-16 \[Retro Engine v5 / v5Ultimate decompilation]
 * <https://github.com/Squalr/Squally> ⭐ 484 | 🐛 5 | 🌐 C++ | 📅 2026-05-22 \[C++ 2D]
 * <https://github.com/alliedmodders/hl2sdk> ⭐ 461 | 🐛 8 | 🌐 C++ | 📅 2026-08-25 \[Half-Life SDK]
 * <https://github.com/OpenKH/OpenKh> ⭐ 429 | 🐛 47 | 🌐 C# | 📅 2026-08-26 \[Kingdom Hearts reverse-engineering libraries, tools, engine research, and modding documentation]
@@ -211,11 +211,11 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 * <https://github.com/rxi/kit> ⭐ 331 | 🐛 1 | 🌐 C | 📅 2025-05-17 \[pixels]
 * <https://github.com/WistfulHopes/NightSkyEngine> ⭐ 323 | 🐛 1 | 🌐 C++ | 📅 2026-08-08 \[A fighting game engine written in Unreal Engine 5]
 * <https://github.com/lowenware/dotrix> ⭐ 312 | 🐛 12 | 🌐 Rust | 📅 2025-06-09 \[Rust]
-* <https://github.com/AbyssEngine/AbyssEngine> ⭐ 280 | 🐛 7 | 🌐 C | 📅 2024-04-21 \[ARPG]
+* <https://github.com/AbyssEngine/AbyssEngine> ⭐ 281 | 🐛 7 | 🌐 C | 📅 2024-04-21 \[ARPG]
 * <https://github.com/oxylusengine/Oxylus> ⭐ 273 | 🐛 10 | 🌐 C++ | 📅 2026-08-26 \[Data-driven C++ game engine with modular Vulkan renderer, flecs ECS, Lua scripting, and ImGui editor]
-* <https://github.com/OpenArena/engine> ⭐ 250 | 🐛 48 | 🌐 C | 📅 2026-04-21 \[quake3]
+* <https://github.com/OpenArena/engine> ⭐ 251 | 🐛 48 | 🌐 C | 📅 2026-04-21 \[quake3]
 * <https://github.com/fredakilla/GPlayEngine> ⭐ 232 | 🐛 9 | 🌐 C++ | 📅 2018-11-08 \[C++ 2D/3D]
-* <https://github.com/ExplosionEngine/Explosion> ⭐ 196 | 🐛 1 | 🌐 C++ | 📅 2026-08-02
+* <https://github.com/ExplosionEngine/Explosion> ⭐ 196 | 🐛 2 | 🌐 C++ | 📅 2026-08-02
 * <https://github.com/SamVanheer/halflife-unified-sdk> ⭐ 173 | 🐛 79 | 🌐 C++ | 📅 2025-02-05 \[Half-Life SDK]
 * <https://github.com/Hekbas/Luth> ⭐ 152 | 🐛 19 | 🌐 C++ | 📅 2026-07-13 \[C++ 2D]
 * <https://github.com/Net5F/AmalgamEngine> ⭐ 129 | 🐛 3 | 🌐 C++ | 📅 2026-08-24
@@ -223,13 +223,13 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 * <https://github.com/InfiniteC0re/OpenBarnyard> ⭐ 84 | 🐛 3 | 🌐 C++ | 📅 2026-08-02 \[WIP decompilation of Barnyard and the proprietary TOSHI 2.0 engine, with Ghidra RE workflow]
 * <https://github.com/ostef/Vk-Engine> ⭐ 80 | 🐛 21 | 🌐 Jai | 📅 2026-08-18 \[WIP Vulkan game engine with hot-reloadable modules, clustered forward rendering, PBR, and editor viewports]
 * <https://github.com/harukumo/HorizonEngine> ⭐ 77 | 🐛 0 | 🌐 C++ | 📅 2024-08-03 \[3D rendering engine]
-* <https://github.com/udinmoInc/WindEffects> ⭐ 71 | 🐛 0 | 🌐 C++ | 📅 2026-07-20 \[C++23 Vulkan game engine with ECS, editor, and asset pipeline]
+* <https://github.com/udinmoInc/WindEffects> ⭐ 71 | 🐛 0 | 🌐 C++ | 📅 2026-08-27 \[C++23 Vulkan game engine with ECS, editor, and asset pipeline]
 * <https://github.com/K0bin/SourceRenderer> ⭐ 53 | 🐛 30 | 🌐 Rust | 📅 2026-08-26 \[Rust toy engine/renderer with Valve Source format loaders (bsp/mdl/vpk/vtf) and Vulkan/Metal/WebGPU backends]
 * <https://github.com/matthewjberger/nightshade> ⭐ 49 | 🐛 0 | 🌐 Rust | 📅 2026-08-27 \[Rust data-oriented game engine with custom ECS and wgpu PBR renderer (native/web/VR)]
 * <https://github.com/AustinBrunkhorst/Ursine3D> ⭐ 34 | 🐛 0 | 🌐 C++ | 📅 2018-05-17 \[C++ 3D]
 * <https://github.com/benanil/Castle-Engine> ⚠️ Archived \[DX11]
 * <https://github.com/nitaigao/engine-showcase> ⭐ 28 | 🐛 0 | 🌐 C++ | 📅 2009-07-23 \[Old engine]
-* <https://github.com/Krilliac/SparkEngine> ⭐ 27 | 🐛 0 | 🌐 C++ | 📅 2026-08-27 \[Open-source C++23 3D engine with DirectX 12/Vulkan RHI, ECS, Jolt Physics, and ImGui editor]
+* <https://github.com/Krilliac/SparkEngine> ⭐ 28 | 🐛 0 | 🌐 C++ | 📅 2026-08-27 \[Open-source C++23 3D engine with DirectX 12/Vulkan RHI, ECS, Jolt Physics, and ImGui editor]
 * <https://github.com/wh1t3lord/kotek> ⭐ 19 | 🐛 0 | 🌐 C++ | 📅 2026-08-02 \[Modular C++20 game/application framework with OpenGL ES, Vulkan, DirectX, and BGFX backends]
 * <https://github.com/danhuynh0803/Campfire> ⭐ 18 | 🐛 44 | 🌐 C++ | 📅 2025-12-28
 * <https://github.com/gmh5225/reGS> ⭐ 15 | 🐛 0 | 📅 2022-04-02
@@ -258,8 +258,8 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 > Game Engine Plugins:Unreal
 
 * [Unreal Engine .NET 6 integration](https://github.com/nxrighthere/UnrealCLR) ⭐ 3,310 | 🐛 5 | 🌐 C# | 📅 2023-06-07
-* [Design-agnostic node system for scripting game’s flow in Unreal Engine](https://github.com/MothCocoon/FlowGraph) ⭐ 1,894 | 🐛 13 | 🌐 C++ | 📅 2026-07-28
-* [Houdini Engine Plugin for Unreal Engine](https://github.com/sideeffects/HoudiniEngineForUnreal) ⭐ 1,593 | 🐛 113 | 🌐 C++ | 📅 2026-08-26
+* [Design-agnostic node system for scripting game’s flow in Unreal Engine](https://github.com/MothCocoon/FlowGraph) ⭐ 1,895 | 🐛 13 | 🌐 C++ | 📅 2026-07-28
+* [Houdini Engine Plugin for Unreal Engine](https://github.com/sideeffects/HoudiniEngineForUnreal) ⭐ 1,594 | 🐛 113 | 🌐 C++ | 📅 2026-08-26
 * <https://github.com/Natfii/UnrealClaude> ⭐ 888 | 🐛 10 | 🌐 C++ | 📅 2026-06-26 \[Claude Code CLI integration for Unreal Engine 5.7; AI coding assistance with built-in UE5.7 documentation context in the editor]
 * [Generic graph data structure plugin for ue4](https://github.com/jinyuliao/GenericGraph) ⭐ 769 | 🐛 11 | 🌐 C++ | 📅 2024-02-04
 * ['Dear Imgui' remote access library and application](https://github.com/sammyfreg/netImgui) ⭐ 726 | 🐛 6 | 🌐 C | 📅 2026-05-28
@@ -286,7 +286,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 * [A maintained collection of useful & free unity scripts / library's / plugins and extensions](https://github.com/michidk/Unity-Script-Collection) ⭐ 6,355 | 🐛 1 | 📅 2025-08-20
 * [ChatGPT integration with Unity Editor](https://github.com/keijiro/AICommand) ⭐ 4,103 | 🐛 6 | 🌐 C# | 📅 2023-12-05
 * [Code editor integration for supporting Cursor as code editor for unity](https://github.com/boxqkrtm/com.unity.ide.cursor) ⭐ 1,686 | 🐛 9 | 🌐 C# | 📅 2026-02-12
-* <https://github.com/Besty0728/Unity-Skills> ⭐ 1,667 | 🐛 0 | 🌐 C# | 📅 2026-08-26 \[AI automation skills specifically designed for Unity]
+* <https://github.com/Besty0728/Unity-Skills> ⭐ 1,674 | 🐛 0 | 🌐 C# | 📅 2026-08-27 \[AI automation skills specifically designed for Unity]
 * [An integrated solution for authoring / importing / simulating / rendering strand-based hair in Unity](https://github.com/Unity-Technologies/com.unity.demoteam.hair) ⭐ 839 | 🐛 60 | 🌐 C# | 📅 2025-02-11
 * [A markdown viewer for unity](https://github.com/gwaredd/UnityMarkdownViewer) ⭐ 311 | 🐛 3 | 🌐 C# | 📅 2026-07-14
 * <https://github.com/yucchiy/UniCli> ⭐ 250 | 🐛 6 | 🌐 C# | 📅 2026-07-26 \[CLI to control Unity Editor from terminal — compile, test, build, inspect GameObjects; 80+ commands, AI-agent ready (Claude Code plugin, Agent Skills)]
@@ -318,7 +318,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 ## Renderer
 
-* <https://github.com/bkaradzic/bgfx> ⭐ 17,434 | 🐛 285 | 🌐 C++ | 📅 2026-08-26 \[Rendering library]
+* <https://github.com/bkaradzic/bgfx> ⭐ 17,436 | 🐛 285 | 🌐 C++ | 📅 2026-08-27 \[Rendering library]
 * <https://github.com/HackerPoet/NonEuclidean> ⭐ 6,456 | 🐛 42 | 🌐 C++ | 📅 2023-11-14
 * <https://github.com/crosire/reshade> ⭐ 5,369 | 🐛 8 | 🌐 C++ | 📅 2026-08-22 \[A generic post-processing injector for games and video software]
 * <https://github.com/ssloy/tinyraytracer> ⭐ 5,357 | 🐛 16 | 🌐 C++ | 📅 2023-07-07 \[A brief computer graphics / rendering course]
@@ -326,11 +326,11 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 * <https://github.com/DiligentGraphics/DiligentEngine> ⭐ 4,416 | 🐛 24 | 🌐 Batchfile | 📅 2026-08-16 \[Rendering library]
 * <https://github.com/paroj/gltut> ⭐ 1,834 | 🐛 30 | 🌐 C++ | 📅 2025-12-30 \[OpenGL Render]
 * <https://github.com/kanition/pbrtbook> ⭐ 1,336 | 🐛 14 | 🌐 TeX | 📅 2026-05-09 \[Physically Based Rendering: From Theory To Implementation]
-* <https://github.com/tgfrerer/island> ⭐ 1,284 | 🐛 1 | 🌐 C++ | 📅 2026-08-17 \[Experimental hot-reloading Vulkan renderer/engine (C/C++) for Linux and Windows]
+* <https://github.com/tgfrerer/island> ⭐ 1,285 | 🐛 1 | 🌐 C++ | 📅 2026-08-17 \[Experimental hot-reloading Vulkan renderer/engine (C/C++) for Linux and Windows]
 * <https://github.com/sultim-t/xash-rt> ⭐ 1,172 | 🐛 98 | 🌐 C | 📅 2023-08-26 \[Xash3D FWGS with a real-time path tracing]
-* <https://github.com/keith2018/SoftGLRender> ⭐ 1,149 | 🐛 0 | 🌐 C++ | 📅 2026-07-20
+* <https://github.com/keith2018/SoftGLRender> ⭐ 1,150 | 🐛 0 | 🌐 C++ | 📅 2026-07-20
 * <https://github.com/MethanePowered/MethaneKit> ⭐ 971 | 🐛 24 | 🌐 C++ | 📅 2026-08-27 \[DirectX 12, Metal & Vulkan]
-* <https://github.com/freetype/freetype> ⭐ 886 | 🐛 1 | 🌐 C | 📅 2026-08-25 \[Render fonts]
+* <https://github.com/freetype/freetype> ⭐ 886 | 🐛 1 | 🌐 C | 📅 2026-08-27 \[Render fonts]
 * <https://github.com/Patryk27/strolle> ⚠️ Archived \[Real-time rendering engine]
 * <https://github.com/DQLin/VolumetricReSTIRRelease> ⭐ 166 | 🐛 1 | 🌐 C++ | 📅 2024-05-25
 * <https://github.com/ashawkey/raytracing> ⚠️ Archived \[RayTracer]
@@ -339,25 +339,25 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 ## 3D Graphics
 
-* <https://github.com/mrdoob/three.js> ⭐ 114,846 | 🐛 380 | 🌐 JavaScript | 📅 2026-08-27 \[JavaScript 3D Library]
+* <https://github.com/mrdoob/three.js> ⭐ 114,853 | 🐛 377 | 🌐 JavaScript | 📅 2026-08-27 \[JavaScript 3D Library]
 * <https://github.com/playcanvas/supersplat> ⭐ 9,909 | 🐛 107 | 🌐 TypeScript | 📅 2026-08-27 \[3D Gaussian Splat Editor]
 * <https://github.com/MethanePowered/MethaneKit> ⭐ 971 | 🐛 24 | 🌐 C++ | 📅 2026-08-27 \[DirectX 12, Metal & Vulkan]
 * <https://github.com/gmh5225/nv-graphics-mesa> ⭐ 0 | 🐛 0 | 📅 2022-08-11
 
 ## AI
 
-* <https://github.com/lightningpixel/modly> ⭐ 7,287 | 🐛 63 | 🌐 TypeScript | 📅 2026-08-26 \[Local image-to-3D mesh desktop app; open-source AI on GPU; Windows/Linux; extensible generators]
-* <https://github.com/neilsonnn/image-blaster> ⭐ 4,823 | 🐛 9 | 🌐 TypeScript | 📅 2026-05-15 \[Claude skillset: single image to 3D meshes (.glb/.obj), Gaussian splat environment (.spz), and SFX; World Labs + FAL; Unity/Unreal/Godot/Blender]
-* <https://github.com/blendi-remade/sprite-sheet-creator> ⭐ 1,706 | 🐛 3 | 🌐 TypeScript | 📅 2026-07-01 \[AI 2D pixel-art sprite sheets & parallax backgrounds; fal.ai; Next.js; walk/jump/attack/idle, sandbox]
+* <https://github.com/lightningpixel/modly> ⭐ 7,295 | 🐛 63 | 🌐 TypeScript | 📅 2026-08-26 \[Local image-to-3D mesh desktop app; open-source AI on GPU; Windows/Linux; extensible generators]
+* <https://github.com/neilsonnn/image-blaster> ⭐ 4,825 | 🐛 9 | 🌐 TypeScript | 📅 2026-05-15 \[Claude skillset: single image to 3D meshes (.glb/.obj), Gaussian splat environment (.spz), and SFX; World Labs + FAL; Unity/Unreal/Godot/Blender]
+* <https://github.com/blendi-remade/sprite-sheet-creator> ⭐ 1,708 | 🐛 3 | 🌐 TypeScript | 📅 2026-07-01 \[AI 2D pixel-art sprite sheets & parallax backgrounds; fal.ai; Next.js; walk/jump/attack/idle, sandbox]
 * <https://github.com/ls361664056/GameAI-paper-list> ⭐ 150 | 🐛 0 | 📅 2021-09-30 \[zh]
 * <https://github.com/PSkinnerTech/3d-asset-factory> ⭐ 5 | 🐛 0 | 🌐 Python | 📅 2026-05-23 \[CLI-first YAML→3D pipeline: GPT Image 2.0 concept → TRELLIS.2 GLB; QA gate, review HTML, web/Unity/Unreal export; mock & remote GPU runners]
 
 ## Image Codec
 
-* <https://github.com/nothings/stb> ⭐ 34,519 | 🐛 417 | 🌐 C | 📅 2026-08-02
-* <https://github.com/libjpeg-turbo/libjpeg-turbo> ⭐ 4,403 | 🐛 16 | 🌐 C | 📅 2026-08-26
+* <https://github.com/nothings/stb> ⭐ 34,518 | 🐛 417 | 🌐 C | 📅 2026-08-02
+* <https://github.com/libjpeg-turbo/libjpeg-turbo> ⭐ 4,403 | 🐛 16 | 🌐 C | 📅 2026-08-27
 * <https://github.com/tsoding/olive.c> ⭐ 2,444 | 🐛 26 | 🌐 C++ | 📅 2025-09-27
-* <https://github.com/erkkah/tigr> ⭐ 906 | 🐛 7 | 🌐 C | 📅 2025-11-10
+* <https://github.com/erkkah/tigr> ⭐ 905 | 🐛 7 | 🌐 C | 📅 2025-11-10
 * <https://github.com/kylejckson/PaintFE> ⭐ 370 | 🐛 2 | 🌐 Rust | 📅 2026-08-26 \[Rust raster image editor — layers, wgpu GPU filters, Rhai scripting, CLI batch, GIF/APNG, single portable binary]
 
 ## Wavefront Obj
@@ -373,20 +373,20 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 > Guide
 
-* <https://github.com/MFatihMAR/Game-Networking-Resources> ⭐ 8,668 | 🐛 2 | 🌐 C | 📅 2026-08-27
-* <https://github.com/mcxiaoke/mqtt> ⭐ 5,197 | 🐛 2 | 🌐 Rich Text Format | 📅 2024-10-11 \[mqtt]
+* <https://github.com/MFatihMAR/Game-Networking-Resources> ⭐ 8,669 | 🐛 2 | 🌐 C | 📅 2026-08-27
+* <https://github.com/mcxiaoke/mqtt> ⭐ 5,198 | 🐛 2 | 🌐 Rich Text Format | 📅 2024-10-11 \[mqtt]
 * <https://partner.steamgames.com/doc/api/ISteamNetworkingMessages#functions_sendrecv> \[Steam]
 
 > Source
 
-* <https://github.com/socketio/socket.io> ⭐ 63,208 | 🐛 198 | 🌐 TypeScript | 📅 2026-07-24 \[Nodejs]
+* <https://github.com/socketio/socket.io> ⭐ 63,208 | 🐛 199 | 🌐 TypeScript | 📅 2026-07-24 \[Nodejs]
 * <https://github.com/uNetworking/uWebSockets> ⭐ 18,967 | 🐛 48 | 🌐 C++ | 📅 2026-08-18 \[WebSockets]
-* <https://github.com/skywind3000/kcp> ⭐ 16,888 | 🐛 196 | 🌐 C | 📅 2026-06-23 \[KCP]
-* <https://github.com/cloudwu/skynet> ⭐ 14,132 | 🐛 27 | 🌐 C | 📅 2026-08-26
-* <https://github.com/TrinityCore/TrinityCore> ⭐ 10,747 | 🐛 1,535 | 🌐 C++ | 📅 2026-08-26 \[Server for WOW]
-* <https://github.com/ValveSoftware/GameNetworkingSockets> ⭐ 9,867 | 🐛 28 | 🌐 C++ | 📅 2026-08-27 \[Steam]
+* <https://github.com/skywind3000/kcp> ⭐ 16,889 | 🐛 196 | 🌐 C | 📅 2026-06-23 \[KCP]
+* <https://github.com/cloudwu/skynet> ⭐ 14,133 | 🐛 27 | 🌐 C | 📅 2026-08-26
+* <https://github.com/TrinityCore/TrinityCore> ⭐ 10,747 | 🐛 1,535 | 🌐 C++ | 📅 2026-08-27 \[Server for WOW]
+* <https://github.com/ValveSoftware/GameNetworkingSockets> ⭐ 9,867 | 🐛 29 | 🌐 C++ | 📅 2026-08-27 \[Steam]
 * <https://github.com/mqttjs/MQTT.js> ⭐ 9,110 | 🐛 33 | 🌐 TypeScript | 📅 2026-07-20 \[mqtt nodejs]
-* <https://github.com/azerothcore/azerothcore-wotlk> ⭐ 8,839 | 🐛 2,522 | 🌐 C++ | 📅 2026-08-27 \[Server for WOW]
+* <https://github.com/azerothcore/azerothcore-wotlk> ⭐ 8,841 | 🐛 2,503 | 🌐 C++ | 📅 2026-08-27 \[Server for WOW]
 * <https://github.com/ketoo/NoahGameFrame> ⭐ 4,147 | 🐛 25 | 🌐 C++ | 📅 2023-02-25 \[Server Engine]
 * <https://github.com/Qihoo360/evpp> ⭐ 3,773 | 🐛 150 | 🌐 C++ | 📅 2024-04-10
 * <https://github.com/rathena/rathena> ⭐ 3,537 | 🐛 617 | 🌐 C++ | 📅 2026-08-21 \[MMORPG]
@@ -394,7 +394,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 * <https://github.com/chronoxor/CppServer> ⭐ 1,647 | 🐛 60 | 🌐 C++ | 📅 2026-05-27
 * <https://github.com/eclipse/paho.mqtt.cpp> ⭐ 1,324 | 🐛 65 | 🌐 C++ | 📅 2026-06-04 \[mqtt cpp]
 * <https://github.com/cBournhonesque/lightyear> ⭐ 1,121 | 🐛 41 | 🌐 Rust | 📅 2026-08-24 \[Rust server-authoritative Bevy multiplayer library with prediction, rollback, and WebTransport/wasm support]
-* <https://github.com/TLeonardUK/ds3os> ⭐ 781 | 🐛 16 | 🌐 CMake | 📅 2026-07-10 \[Dark Souls 3]
+* <https://github.com/TLeonardUK/ds3os> ⭐ 782 | 🐛 16 | 🌐 CMake | 📅 2026-07-10 \[Dark Souls 3]
 * <https://github.com/Unit-X/kcp-cpp> ⭐ 105 | 🐛 2 | 🌐 C++ | 📅 2022-05-17 \[KCP]
 * <https://github.com/2601677867/One-Click-Run_Source_Server> ⚠️ Archived \[Server for Source Engine]
 * <https://github.com/TLeonardUK/ds2os> ⭐ 45 | 🐛 0 | 📅 2024-01-01 \[Dark Souls 2]
@@ -413,7 +413,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 ## PhysX SDK
 
-* <https://github.com/bulletphysics/bullet3> ⭐ 14,699 | 🐛 424 | 🌐 C++ | 📅 2025-10-22
+* <https://github.com/bulletphysics/bullet3> ⭐ 14,698 | 🐛 424 | 🌐 C++ | 📅 2025-10-22
 * <https://github.com/NVIDIAGameWorks/PhysX> ⭐ 3,587 | 🐛 331 | 🌐 C++ | 📅 2023-09-05
 * <https://github.com/NVIDIAGameWorks/PhysX-3.4> ⭐ 2,412 | 🐛 59 | 🌐 C++ | 📅 2022-11-15
 
@@ -421,45 +421,45 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 > Guide
 
-* <https://github.com/bobeff/open-source-games> ⭐ 13,493 | 🐛 27 | 🌐 Python | 📅 2026-02-25 \[A list of open source games]
+* <https://github.com/bobeff/open-source-games> ⭐ 13,495 | 🐛 27 | 🌐 Python | 📅 2026-02-25 \[A list of open source games]
 * <https://github.com/RyanNielson/awesome-unity> ⚠️ Archived \[Unity]
-* <https://github.com/Kavex/GameDev-Resources> ⭐ 6,880 | 🐛 13 | 📅 2026-04-10 \[Game Development resources]
+* <https://github.com/Kavex/GameDev-Resources> ⭐ 6,881 | 🐛 13 | 📅 2026-04-10 \[Game Development resources]
 * <https://github.com/QianMo/Unity-Design-Pattern> ⭐ 4,681 | 🐛 5 | 🌐 C# | 📅 2020-02-06 \[Unity Design]
-* <https://github.com/killop/anything_about_game> ⭐ 4,048 | 🐛 0 | 📅 2026-08-06 \[Game Development resources]
-* <https://github.com/notpresident35/learn-awesome-gamedev> ⭐ 3,529 | 🐛 3 | 📅 2026-06-01
+* <https://github.com/killop/anything_about_game> ⭐ 4,050 | 🐛 0 | 📅 2026-08-06 \[Game Development resources]
+* <https://github.com/notpresident35/learn-awesome-gamedev> ⭐ 3,531 | 🐛 3 | 📅 2026-06-01
 * <https://github.com/Calinou/awesome-gamedev> ⭐ 3,114 | 🐛 15 | 📅 2026-08-25
-* <https://github.com/michelpereira/awesome-open-source-games> ⭐ 3,034 | 🐛 8 | 📅 2026-08-14 \[Collection of Games]
+* <https://github.com/michelpereira/awesome-open-source-games> ⭐ 3,033 | 🐛 8 | 📅 2026-08-14 \[Collection of Games]
 * <https://github.com/michal-z/zig-gamedev> ⭐ 2,862 | 🐛 37 | 🌐 Zig | 📅 2026-03-08 \[Building game development ecosystem for ziglang]
-* <https://github.com/crazyshader/GameDev> ⭐ 1,927 | 🐛 0 | 📅 2026-05-25 \[Unity]
-* <https://github.com/raizam/gamedev_libraries> ⭐ 1,766 | 🐛 5 | 📅 2024-04-22 \[A collection of open source c/c++ libraries for gamedev]
+* <https://github.com/crazyshader/GameDev> ⭐ 1,930 | 🐛 0 | 📅 2026-05-25 \[Unity]
+* <https://github.com/raizam/gamedev_libraries> ⭐ 1,767 | 🐛 5 | 📅 2024-04-22 \[A collection of open source c/c++ libraries for gamedev]
 * <https://github.com/OTFCG/Awesome-Game-Analysis> ⭐ 1,160 | 🐛 0 | 🌐 Python | 📅 2026-04-19 \[Video game tech analysis resources]
 * <https://github.com/yrgo/awesome-educational-games> ⭐ 1,159 | 🐛 13 | 📅 2024-04-08
-* <https://github.com/TastSong/GameProgrammerStudyNotes> ⭐ 438 | 🐛 0 | 🌐 C# | 📅 2026-01-21 \[Game Development notes]
+* <https://github.com/TastSong/GameProgrammerStudyNotes> ⭐ 439 | 🐛 0 | 🌐 C# | 📅 2026-01-21 \[Game Development notes]
 * <https://github.com/gheja/game-design-documents> ⭐ 67 | 🐛 0 | 📅 2019-06-20 \[Game design documents]
 * <https://github.com/gmh5225/gtav-sourcecode-build-guide> ⭐ 2 | 🐛 0 | 📅 2024-04-03 \[GTA V Source Code Build Tutorial]
 
 > Source
 
-* <https://github.com/raysan5/raylib> ⭐ 34,484 | 🐛 17 | 🌐 C | 📅 2026-08-26 \[A simple and easy-to-use library to enjoy videogames programming]
-* <https://github.com/ppy/osu> ⭐ 18,935 | 🐛 1,898 | 🌐 C# | 📅 2026-08-26 \[osu]
-* [An open source re-implementation of RollerCoaster Tycoon 2](https://github.com/OpenRCT2/OpenRCT2) ⭐ 16,144 | 🐛 1,590 | 🌐 C++ | 📅 2026-08-26
-* <https://github.com/godotengine/godot-demo-projects> ⭐ 9,416 | 🐛 82 | 🌐 GDScript | 📅 2026-08-25 \[Demonstration and Template Projects for Godot]
-* <https://github.com/jynew/jynew> ⭐ 8,949 | 🐛 42 | 🌐 C# | 📅 2026-03-25 \[JinYongLegend]
+* <https://github.com/raysan5/raylib> ⭐ 34,483 | 🐛 18 | 🌐 C | 📅 2026-08-26 \[A simple and easy-to-use library to enjoy videogames programming]
+* <https://github.com/ppy/osu> ⭐ 18,939 | 🐛 1,896 | 🌐 C# | 📅 2026-08-27 \[osu]
+* [An open source re-implementation of RollerCoaster Tycoon 2](https://github.com/OpenRCT2/OpenRCT2) ⭐ 16,147 | 🐛 1,587 | 🌐 C++ | 📅 2026-08-27
+* <https://github.com/godotengine/godot-demo-projects> ⭐ 9,421 | 🐛 82 | 🌐 GDScript | 📅 2026-08-25 \[Demonstration and Template Projects for Godot]
+* <https://github.com/jynew/jynew> ⭐ 8,950 | 🐛 42 | 🌐 C# | 📅 2026-03-25 \[JinYongLegend]
 * <https://github.com/electronicarts/CnC_Red_Alert> ⚠️ Archived \[Command and Conquer: Red Alert]
 * <https://github.com/Unity-Technologies/FPSSample> ⭐ 5,128 | 🐛 110 | 🌐 C# | 📅 2025-10-23 \[Unity Game]
 * <https://github.com/snesrev/zelda3> ⭐ 4,739 | 🐛 88 | 🌐 C | 📅 2023-12-27 \[A reimplementation of Zelda 3]
 * <https://github.com/tomlooman/ActionRoguelike> ⭐ 4,569 | 🐛 3 | 🌐 C++ | 📅 2026-08-18 \[UE Roguelike Game]
-* <https://github.com/marblexu/PythonPlantsVsZombies> ⭐ 3,752 | 🐛 55 | 🌐 Python | 📅 2024-05-17 \[PlantsVsZombies]
-* <https://github.com/tomlooman/EpicSurvivalGame> ⭐ 3,395 | 🐛 18 | 🌐 C++ | 📅 2026-02-12 \[UE4 FPS Game]
-* <https://github.com/pafuhana1213/KawaiiPhysics> ⭐ 3,252 | 🐛 6 | 🌐 C++ | 📅 2026-08-27 \[Simple fake Physics for UnrealEngine4 & 5]
-* <https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix> ⭐ 3,137 | 🐛 58 | 🌐 C++ | 📅 2026-08-26 \[GTA IV: Complete Edition fixes and modern-feature patch (graphics, FPS, QoL, scripting, widescreen)]
+* <https://github.com/marblexu/PythonPlantsVsZombies> ⭐ 3,751 | 🐛 55 | 🌐 Python | 📅 2024-05-17 \[PlantsVsZombies]
+* <https://github.com/tomlooman/EpicSurvivalGame> ⭐ 3,397 | 🐛 18 | 🌐 C++ | 📅 2026-02-12 \[UE4 FPS Game]
+* <https://github.com/pafuhana1213/KawaiiPhysics> ⭐ 3,254 | 🐛 6 | 🌐 C++ | 📅 2026-08-27 \[Simple fake Physics for UnrealEngine4 & 5]
+* <https://github.com/ThirteenAG/GTAIV.EFLC.FusionFix> ⭐ 3,139 | 🐛 59 | 🌐 C++ | 📅 2026-08-26 \[GTA IV: Complete Edition fixes and modern-feature patch (graphics, FPS, QoL, scripting, widescreen)]
 * <https://github.com/WolfireGames/overgrowth> ⭐ 2,892 | 🐛 92 | 🌐 C++ | 📅 2026-08-22 \[Overgrowth]
 * <https://github.com/plibither8/2048.cpp> ⭐ 2,244 | 🐛 23 | 🌐 C++ | 📅 2024-06-24 \[2048]
-* <https://github.com/ppy/osu-framework> ⭐ 1,998 | 🐛 472 | 🌐 C# | 📅 2026-08-24 \[osu]
+* <https://github.com/ppy/osu-framework> ⭐ 1,998 | 🐛 474 | 🌐 C# | 📅 2026-08-24 \[osu]
 * <https://github.com/orangeduck/Corange> ⭐ 1,986 | 🐛 22 | 🌐 C | 📅 2024-06-03 \[Pure C Game Engine]
 * <https://github.com/fishfolk/jumpy> ⭐ 1,876 | 🐛 80 | 🌐 Rust | 📅 2026-01-30 \[Pixels style]
 * <https://github.com/Suprcode/mir2> ⭐ 1,648 | 🐛 62 | 🌐 C# | 📅 2026-08-12 \[MIR2]
-* <https://github.com/perilouswithadollarsign/cstrike15_src> ⭐ 1,647 | 🐛 5 | 🌐 C++ | 📅 2024-02-18 \[Leaked CSGO With CI]
+* <https://github.com/perilouswithadollarsign/cstrike15_src> ⭐ 1,646 | 🐛 5 | 🌐 C++ | 📅 2024-02-18 \[Leaked CSGO With CI]
 * <https://github.com/ProjectBorealis/PBCharacterMovement> ⭐ 1,492 | 🐛 2 | 🌐 C++ | 📅 2025-06-08 \[HL2-style, classic FPS movement for UE4 implemented in C++]
 * <https://github.com/Harrison1/unrealcpp> ⭐ 1,306 | 🐛 1 | 🌐 C++ | 📅 2024-11-29 \[UE4 C++ examples]
 * <https://github.com/scottcgi/Mojoc> ⭐ 1,286 | 🐛 2 | 🌐 C | 📅 2024-01-19 \[A cross-platform, open-source, pure C game engine for mobile game]
@@ -467,19 +467,19 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 * <https://github.com/assaultcube/AC> ⭐ 1,039 | 🐛 183 | 🌐 C | 📅 2026-02-20 \[FPS Game]
 * <https://github.com/huangkaoya/redalert2> ⭐ 909 | 🐛 3 | 🌐 TypeScript | 📅 2026-06-23 \[Red Alert 2 on Web]
 * <https://github.com/DruidMech/MultiplayerCourseBlasterGame> ⭐ 867 | 🐛 9 | 🌐 C++ | 📅 2026-02-18 \[UE5 FPS Game]
-* <https://github.com/dreamstalker/rehlds> ⭐ 848 | 🐛 310 | 🌐 C++ | 📅 2026-08-27 \[Reverse-engineered HLDS]
-* <https://github.com/gta-reversed/gta-reversed-modern> ⭐ 816 | 🐛 97 | 🌐 C++ | 📅 2026-08-24 \[Reimplementation of GTA:SA 1.0 US]
+* <https://github.com/dreamstalker/rehlds> ⭐ 848 | 🐛 305 | 🌐 C++ | 📅 2026-08-27 \[Reverse-engineered HLDS]
+* <https://github.com/gta-reversed/gta-reversed-modern> ⭐ 817 | 🐛 97 | 🌐 C++ | 📅 2026-08-24 \[Reimplementation of GTA:SA 1.0 US]
 * <https://github.com/swordjoinmagic/MoBaDemo> ⭐ 788 | 🐛 2 | 🌐 C# | 📅 2019-10-12 \[Unity MoBa]
-* <https://github.com/s1lentq/ReGameDLL_CS> ⭐ 778 | 🐛 292 | 🌐 C++ | 📅 2026-07-09 \[Reversed CS1.6]
+* <https://github.com/s1lentq/ReGameDLL_CS> ⭐ 778 | 🐛 283 | 🌐 C++ | 📅 2026-08-27 \[Reversed CS1.6]
 * <https://github.com/bradharding/doomretro> ⭐ 766 | 🐛 93 | 🌐 C | 📅 2026-08-26 \[DOOM]
-* <https://github.com/deathkiller/jazz2-native> ⭐ 695 | 🐛 8 | 🌐 C++ | 📅 2026-08-27 \[Remake of Jazz Jackrabbit 2]
+* <https://github.com/deathkiller/jazz2-native> ⭐ 696 | 🐛 8 | 🌐 C++ | 📅 2026-08-27 \[Remake of Jazz Jackrabbit 2]
 * <https://github.com/tomlooman/SimpleFPSTemplate> ⭐ 681 | 🐛 4 | 🌐 C++ | 📅 2023-08-28 \[UE4 FPS Demo]
 * <https://github.com/MarilynDafa/Bulllord-Engine> ⭐ 569 | 🐛 6 | 🌐 C | 📅 2020-12-17 \[lightspeed lightweight elegant game engine in pure c]
-* <https://github.com/Bigfoot71/r3d> ⭐ 512 | 🐛 6 | 🌐 C | 📅 2026-08-23 \[3D Extension Library for raylib]
+* <https://github.com/Bigfoot71/r3d> ⭐ 513 | 🐛 6 | 🌐 C | 📅 2026-08-23 \[3D Extension Library for raylib]
 * <https://github.com/pjasicek/OpenClaw> ⭐ 503 | 🐛 44 | 🌐 C++ | 📅 2022-10-24 \[Reimplementation of Captain Claw (1997) platformer]
-* <https://github.com/Suprcode/mir3-zircon> ⭐ 460 | 🐛 16 | 🌐 C# | 📅 2026-08-26 \[MIR3]
-* <https://github.com/Phobos-developers/Phobos> ⭐ 446 | 🐛 252 | 🌐 C++ | 📅 2026-08-27 \[Red Alert 2: Yuri's Revenge engine extension]
-* <https://github.com/Daivuk/PureDOOM> ⭐ 445 | 🐛 2 | 🌐 C++ | 📅 2026-06-23 \[DOOM]
+* <https://github.com/Suprcode/mir3-zircon> ⭐ 460 | 🐛 15 | 🌐 C# | 📅 2026-08-27 \[MIR3]
+* <https://github.com/Phobos-developers/Phobos> ⭐ 447 | 🐛 249 | 🌐 C++ | 📅 2026-08-27 \[Red Alert 2: Yuri's Revenge engine extension]
+* <https://github.com/Daivuk/PureDOOM> ⭐ 446 | 🐛 2 | 🌐 C++ | 📅 2026-06-23 \[DOOM]
 * <https://github.com/SwagSoftware/KisakCOD> ⭐ 428 | 🐛 24 | 🌐 C++ | 📅 2026-08-08 \[COD4 Open Source Reimplementation]
 * <https://github.com/Velaron/cs16-client> ⭐ 402 | 🐛 61 | 🌐 C++ | 📅 2026-08-24 \[Reversed CS1.6]
 * <https://github.com/CobraCodeDev/TP_2DSideScrollerBP> ⭐ 402 | 🐛 0 | 📅 2025-11-14 \[UE5 2D template]
@@ -487,7 +487,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 * <https://github.com/NotYetGames/WarriOrb> ⭐ 339 | 🐛 0 | 🌐 C++ | 📅 2021-05-29 \[a Dark-Souls like action platformer using UE4]
 * <https://github.com/Arctium/WoW-Launcher> ⭐ 338 | 🐛 0 | 🌐 C# | 📅 2026-06-19 \[wow launcher]
 * <https://github.com/playgameservices/cpp-android-basic-samples> ⚠️ Archived \[Sample games using the Google Play Games C++ SDK]
-* <https://github.com/dufernst/LegionCore-7.3.5> ⭐ 291 | 🐛 59 | 🌐 C++ | 📅 2024-08-01 \[wow]
+* <https://github.com/dufernst/LegionCore-7.3.5> ⭐ 292 | 🐛 59 | 🌐 C++ | 📅 2024-08-01 \[wow]
 * <https://github.com/Fewnity/Counter-Strike-Nintendo-DS> ⭐ 241 | 🐛 8 | 🌐 C | 📅 2026-05-02 \[Nintendo CS]
 * <https://github.com/SwagSoftware/KisakBlack> ⭐ 192 | 🐛 0 | 🌐 C++ | 📅 2026-08-02 \[COD:Black Ops Open Source Reimplementation]
 * <https://github.com/NSG650/NtDOOM> ⭐ 178 | 🐛 2 | 🌐 C++ | 📅 2023-05-27 \[Doom running in the NT kernel]
@@ -545,52 +545,52 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 > MCP server
 
-* <https://github.com/ahujasid/blender-mcp> ⭐ 26,373 | 🐛 18 | 🌐 Python | 📅 2026-08-26 \[Blender Model Context Protocol Integration]
+* <https://github.com/ahujasid/blender-mcp> ⭐ 26,384 | 🐛 19 | 🌐 Python | 📅 2026-08-26 \[Blender Model Context Protocol Integration]
 * <https://github.com/GLips/Figma-Context-MCP> ⭐ 15,723 | 🐛 24 | 🌐 TypeScript | 📅 2026-08-07 \[Cursor Talk To Figma MCP server]
-* <https://github.com/justinpbarnett/unity-mcp> ⭐ 13,692 | 🐛 94 | 🌐 C# | 📅 2026-08-07 \[MCP for unity]
-* <https://github.com/mrexodia/ida-pro-mcp> ⭐ 11,629 | 🐛 45 | 🌐 Python | 📅 2026-08-17 \[MCP for IDA pro]
+* <https://github.com/justinpbarnett/unity-mcp> ⭐ 13,699 | 🐛 95 | 🌐 C# | 📅 2026-08-07 \[MCP for unity]
+* <https://github.com/mrexodia/ida-pro-mcp> ⭐ 11,638 | 🐛 45 | 🌐 Python | 📅 2026-08-27 \[MCP for IDA pro]
 * <https://github.com/LaurieWired/GhidraMCP> ⭐ 9,874 | 🐛 82 | 🌐 Java | 📅 2025-06-23 \[MCP for Ghidra]
-* <https://github.com/droidrun/droidrun> ⭐ 9,136 | 🐛 29 | 🌐 Python | 📅 2026-08-25 \[MCP for Android]
+* <https://github.com/droidrun/droidrun> ⭐ 9,137 | 🐛 29 | 🌐 Python | 📅 2026-08-25 \[MCP for Android]
 * <https://github.com/chongdashu/unreal-mcp> ⭐ 2,066 | 🐛 41 | 🌐 C++ | 📅 2025-04-22 \[MCP for Unreal Engine]
 * <https://github.com/noopstudios/interactive-feedback-mcp> ⭐ 1,712 | 🐛 31 | 🌐 Python | 📅 2025-05-26 \[Interactive User Feedback MCP]
-* <https://github.com/svnscha/mcp-windbg> ⭐ 1,540 | 🐛 1 | 🌐 Python | 📅 2026-08-22 \[MCP for WinDBG]
+* <https://github.com/svnscha/mcp-windbg> ⭐ 1,540 | 🐛 1 | 🌐 Python | 📅 2026-08-27 \[MCP for WinDBG]
 * <https://github.com/regenrek/deepwiki-mcp> ⭐ 1,383 | 🐛 10 | 🌐 TypeScript | 📅 2026-03-20 \[MCP for deepwiki]
-* <https://github.com/miscusi-peek/cheatengine-mcp-bridge> ⭐ 1,316 | 🐛 5 | 🌐 Lua | 📅 2026-08-14 \[MCP for Cheat Engine]
-* <https://github.com/datalayer/jupyter-mcp-server> ⭐ 1,263 | 🐛 29 | 🌐 Python | 📅 2026-08-27 \[MCP for Jupyter]
-* <https://github.com/PortSwigger/mcp-server> ⭐ 1,110 | 🐛 52 | 🌐 Kotlin | 📅 2026-08-14 \[MCP for Burp Suite]
-* <https://github.com/TensorBlock/awesome-mcp-servers> ⭐ 825 | 🐛 11 | 🌐 TypeScript | 📅 2026-08-26 \[Awesome MCP]
+* <https://github.com/miscusi-peek/cheatengine-mcp-bridge> ⭐ 1,318 | 🐛 5 | 🌐 Lua | 📅 2026-08-14 \[MCP for Cheat Engine]
+* <https://github.com/datalayer/jupyter-mcp-server> ⭐ 1,263 | 🐛 30 | 🌐 Python | 📅 2026-08-27 \[MCP for Jupyter]
+* <https://github.com/PortSwigger/mcp-server> ⭐ 1,112 | 🐛 52 | 🌐 Kotlin | 📅 2026-08-14 \[MCP for Burp Suite]
+* <https://github.com/TensorBlock/awesome-mcp-servers> ⭐ 828 | 🐛 5 | 🌐 TypeScript | 📅 2026-08-27 \[Awesome MCP]
 * <https://github.com/ant4g0nist/lisa.py> ⭐ 758 | 🐛 2 | 🌐 Python | 📅 2025-03-29 \[MCP for LLDB]
-* <https://github.com/blacktop/ida-mcp-rs> ⭐ 754 | 🐛 8 | 🌐 Rust | 📅 2026-08-21 \[Headless IDA Pro MCP server]
-* <https://github.com/jtang613/GhidrAssistMCP> ⭐ 728 | 🐛 8 | 🌐 Java | 📅 2026-08-03 \[MCP for Ghidra]
-* <https://github.com/AgentSmithers/x64DbgMCPServer> ⭐ 699 | 🐛 4 | 🌐 C# | 📅 2026-06-16 \[MCP for x64Dbg]
+* <https://github.com/blacktop/ida-mcp-rs> ⭐ 756 | 🐛 8 | 🌐 Rust | 📅 2026-08-21 \[Headless IDA Pro MCP server]
+* <https://github.com/jtang613/GhidrAssistMCP> ⭐ 729 | 🐛 8 | 🌐 Java | 📅 2026-08-03 \[MCP for Ghidra]
+* <https://github.com/AgentSmithers/x64DbgMCPServer> ⭐ 701 | 🐛 4 | 🌐 C# | 📅 2026-06-16 \[MCP for x64Dbg]
 * <https://github.com/zinja-coder/apktool-mcp-server> ⭐ 640 | 🐛 3 | 🌐 Python | 📅 2026-07-02 \[A MCP Server for APK Tool (Part of Android Reverse Engineering MCP Suites)]
 * <https://github.com/kvick-games/UnrealMCP> ⭐ 604 | 🐛 15 | 🌐 C++ | 📅 2025-06-22 \[MCP for Unreal Engine]
 * <https://github.com/MxIris-Reverse-Engineering/ida-mcp-server> ⚠️ Archived \[MCP for IDA pro]
 * <https://github.com/fosdickio/binary_ninja_mcp> ⭐ 425 | 🐛 42 | 🌐 Python | 📅 2026-04-05 \[MCP for Binary\_Ninja]
 * <https://github.com/VedantRGosavi/UE5-MCP> ⭐ 424 | 🐛 8 | 📅 2025-06-02 \[MCP for Unreal Engine 5]
-* <https://github.com/MeroZemory/ida-multi-mcp> ⭐ 402 | 🐛 4 | 🌐 Python | 📅 2026-07-30 \[Multi-instance IDA Pro MCP: one endpoint for many GUI/idalib sessions; parallel routing; BCSD function similarity; Python]
-* <https://github.com/dnakov/radare2-mcp> ⭐ 297 | 🐛 10 | 🌐 C | 📅 2026-08-19 \[Radare2 MCP Server]
+* <https://github.com/MeroZemory/ida-multi-mcp> ⭐ 403 | 🐛 4 | 🌐 Python | 📅 2026-07-30 \[Multi-instance IDA Pro MCP: one endpoint for many GUI/idalib sessions; parallel routing; BCSD function similarity; Python]
+* <https://github.com/dnakov/radare2-mcp> ⭐ 298 | 🐛 10 | 🌐 C | 📅 2026-08-19 \[Radare2 MCP Server]
 * <https://github.com/saileaxh/iida-mcp> ⭐ 273 | 🐛 4 | 🌐 Python | 📅 2026-05-15 \[Faster IDA Pro MCP plugin — 77 tools, multi-instance routing, optional Windows kernel memory/module access via iida-mcp-ioctl driver]
 * <https://github.com/zhizhuodemao/android_proxy_mcp> ⭐ 222 | 🐛 1 | 🌐 Python | 📅 2026-02-09 \[Android Proxy MCP — HTTP/HTTPS packet capture for AI assistants, mitmdump + SQLite + natural language query]
 * <https://github.com/azw413/Glass> ⭐ 193 | 🐛 0 | 🌐 Rust | 📅 2026-08-22 \[Built-in MCP for mobile RE — CLI verbs (disasm, search, cfg-of, dex-callers, bin-search, insn-search, etc.) as MCP tools on APK/IPA/AArch64; `glass mcp`]
 * <https://github.com/taida957789/ida-mcp-server-plugin> ⭐ 188 | 🐛 3 | 🌐 Python | 📅 2025-05-26 \[MCP for IDA pro]
-* <https://github.com/IChooseYou/Reclass> ⭐ 182 | 🐛 0 | 🌐 C++ | 📅 2026-07-30 \[MCP for Reclass]
+* <https://github.com/IChooseYou/Reclass> ⭐ 183 | 🐛 0 | 🌐 C++ | 📅 2026-07-30 \[MCP for Reclass]
 * <https://github.com/axelmierczuk/tenrec> ⭐ 179 | 🐛 14 | 🌐 Python | 📅 2026-04-29 \[A headless, extendable, multi-session, IDA Pro MCP framework]
 * <https://github.com/signal-slot/mcp-gdb> ⭐ 159 | 🐛 4 | 🌐 JavaScript | 📅 2026-07-28 \[MCP for GDB]
-* <https://github.com/mrphrazer/ghidra-headless-mcp> ⭐ 154 | 🐛 1 | 🌐 Python | 📅 2026-08-06 \[ghidra-headless-mcp — headless Ghidra over MCP]
+* <https://github.com/mrphrazer/ghidra-headless-mcp> ⭐ 155 | 🐛 1 | 🌐 Python | 📅 2026-08-06 \[ghidra-headless-mcp — headless Ghidra over MCP]
 * <https://github.com/bkerler/ida_rpc> ⭐ 152 | 🐛 3 | 🌐 Python | 📅 2026-08-21 \[IDA Pro JSON-RPC daemon for LLM/agent-assisted RE: decompile, xrefs, types, patches; headless & GUI; ghidra-rpc-compatible CLI]
-* <https://github.com/bromoket/x64dbg_mcp> ⭐ 119 | 🐛 1 | 🌐 C++ | 📅 2026-06-08 \[MCP for x64Dbg with extensive tooling]
+* <https://github.com/bromoket/x64dbg_mcp> ⭐ 120 | 🐛 1 | 🌐 C++ | 📅 2026-06-08 \[MCP for x64Dbg with extensive tooling]
 * <https://github.com/cycraft-corp/BinaryAnalysisMCPs> ⭐ 117 | 🐛 3 | 🌐 Python | 📅 2025-08-26 \[Binary analysis MCPs collections]
 * <https://github.com/fdrechsler/mcp-server-idapro> ⭐ 100 | 🐛 1 | 🌐 Python | 📅 2025-03-26 \[MCP for IDA pro]
 * <https://github.com/Eruditi/CE-MCP-Plugin> ⭐ 93 | 🐛 1 | 🌐 C | 📅 2026-01-22 \[MCP for Cheat Engine]
-* <https://github.com/Invoke-RE/binja-lattice-mcp> ⭐ 65 | 🐛 1 | 🌐 Python | 📅 2026-07-01 \[MCP for Binary\_Ninja]
-* <https://github.com/HLND2T/CS2_VibeSignatures> ⭐ 64 | 🐛 40 | 🌐 Python | 📅 2026-08-27 \[Generate CS2 signatures via Agent SKILLS with ida-pro-mcp]
+* <https://github.com/Invoke-RE/binja-lattice-mcp> ⭐ 66 | 🐛 1 | 🌐 Python | 📅 2026-07-01 \[MCP for Binary\_Ninja]
+* <https://github.com/HLND2T/CS2_VibeSignatures> ⭐ 64 | 🐛 37 | 🌐 Python | 📅 2026-08-27 \[Generate CS2 signatures via Agent SKILLS with ida-pro-mcp]
 * <https://github.com/cellebrite-labs/ida-bridge> ⭐ 63 | 🐛 2 | 🌐 Python | 📅 2026-08-06 \[Agent bridge for IDA Pro 9+ — CLI runs IDAPython/SQL on live UI or headless idalib; supervisor lifecycle; bundled agent skill; macOS]
 * <https://github.com/Devolutions/windbg-tool> ⭐ 53 | 🐛 0 | 🌐 Rust | 📅 2026-08-26 \[Windows CLI + MCP for WinDbg/TTD: replay .run traces, dump triage, live probes; JSON for AI agents; Rust]
 * <https://github.com/illegal-instruction-co/processhacker-mcp> ⭐ 50 | 🐛 0 | 🌐 C++ | 📅 2026-02-21 \[MCP for runtime analysis and process hacking; ProcessHacker for AI agents, extensible with DLL plugins]
 * <https://github.com/rand-tech/pcm> ⚠️ Archived \[MCP for IDA pro]
 * <https://github.com/cnitlrt/headless-ida-mcp-server> ⭐ 43 | 🐛 2 | 🌐 Python | 📅 2025-04-04 \[MCP for IDA pro(headless)]
-* <https://github.com/n24q02m/better-godot-mcp> ⭐ 34 | 🐛 5 | 🌐 TypeScript | 📅 2026-08-26 \[Composite MCP server for Godot Engine AI-assisted game development]
+* <https://github.com/n24q02m/better-godot-mcp> ⭐ 35 | 🐛 5 | 🌐 TypeScript | 📅 2026-08-26 \[Composite MCP server for Godot Engine AI-assisted game development]
 * <https://github.com/un4ckn0wl3z/MemMCP> ⭐ 34 | 🐛 0 | 🌐 Python | 📅 2025-04-15 \[Cheat Engine-like but MCP]
 * <https://github.com/Iamgublin/ida-codex-mcp> ⭐ 27 | 🐛 0 | 🌐 Python | 📅 2026-06-12 \[IDA Codex MCP]
 * <https://github.com/jtang613/gdb-mcp> ⭐ 15 | 🐛 1 | 📅 2025-08-24 \[Lightweight MCP server for GDB automation (FastMCP, SSE, gdb-command proxy)]
@@ -608,15 +608,15 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 > MCP server security
 
-* <https://github.com/appsecco/vulnerable-mcp-servers-lab> ⭐ 276 | 🐛 1 | 🌐 JavaScript | 📅 2025-12-18 \[A collection of servers which are deliberately vulnerable to learn Pentesting MCP Servers]
+* <https://github.com/appsecco/vulnerable-mcp-servers-lab> ⭐ 277 | 🐛 1 | 🌐 JavaScript | 📅 2025-12-18 \[A collection of servers which are deliberately vulnerable to learn Pentesting MCP Servers]
 * <https://github.com/johnhalloran321/mcpSafetyScanner> ⭐ 178 | 🐛 2 | 🌐 Python | 📅 2025-04-10 \[MCPSafetyScanner - Automated MCP safety auditing and remediation using Agents]
 
 > AI Agents
 
-* <https://github.com/htdt/godogen> ⭐ 6,394 | 🐛 8 | 🌐 Python | 📅 2026-07-26 \[Autonomous game development for Godot, Bevy, and Babylon.js with Claude Code and Codex; plans, generates assets, screenshot-guided self-repair]
-* <https://github.com/0x0funky/agent-sprite-forge> ⭐ 3,925 | 🐛 13 | 🌐 Python | 📅 2026-07-12 \[Codex skills for game-ready 2D sprites, layered maps, and engine-ready prototypes (Godot/Unity)]
-* <https://github.com/leigest519/OpenGame> ⭐ 2,859 | 🐛 16 | 🌐 TypeScript | 📅 2026-08-22 \[Open agentic coding for web games end-to-end from prompts; Game Skill (template + debug); GameCoder-27B; OpenGame-Bench; qwen-code-based CLI]
-* <https://github.com/gamedev-skills/awesome-gamedev-agent-skills> ⭐ 656 | 🐛 1 | 🌐 Python | 📅 2026-08-24 \[66 version-pinned game-dev Agent Skills plus router for Godot/Unity/Unreal and other engines across Cursor/Claude/Codex]
+* <https://github.com/htdt/godogen> ⭐ 6,425 | 🐛 8 | 🌐 Python | 📅 2026-07-26 \[Autonomous game development for Godot, Bevy, and Babylon.js with Claude Code and Codex; plans, generates assets, screenshot-guided self-repair]
+* <https://github.com/0x0funky/agent-sprite-forge> ⭐ 3,930 | 🐛 13 | 🌐 Python | 📅 2026-07-12 \[Codex skills for game-ready 2D sprites, layered maps, and engine-ready prototypes (Godot/Unity)]
+* <https://github.com/leigest519/OpenGame> ⭐ 2,862 | 🐛 16 | 🌐 TypeScript | 📅 2026-08-22 \[Open agentic coding for web games end-to-end from prompts; Game Skill (template + debug); GameCoder-27B; OpenGame-Bench; qwen-code-based CLI]
+* <https://github.com/gamedev-skills/awesome-gamedev-agent-skills> ⭐ 667 | 🐛 1 | 🌐 Python | 📅 2026-08-24 \[66 version-pinned game-dev Agent Skills plus router for Godot/Unity/Unreal and other engines across Cursor/Claude/Codex]
 * <https://github.com/dreiachse-cyber/image-cockpit-for-codex-workflows> ⭐ 286 | 🐛 0 | 🌐 TypeScript | 📅 2026-07-28 \[Local cockpit for Codex imagegen workflows — pixel art, region-based editing, animation frames and sprite sheets via codex-handoff inbox/outbox; no direct OpenAI API calls]
 * <https://github.com/0xeb/windbg-copilot> ⭐ 107 | 🐛 0 | 🌐 C++ | 📅 2026-07-19 \[WinDbg Copilot - Agentic Debugging extension]
 * <https://github.com/MRCalderon3D/everything-game-dev-code> ⭐ 78 | 🐛 0 | 🌐 JavaScript | 📅 2026-08-20 \[Multi-engine AI agent scaffold for Unity/Unreal/Godot/HTML with Claude, Codex, Cursor, OpenCode, and Kiro harnesses]
@@ -624,10 +624,10 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 ## Game Assets
 
-* <https://github.com/KhronosGroup/glTF> ⭐ 7,822 | 🐛 330 | 🌐 HTML | 📅 2026-08-24 \[Runtime 3D Asset Delivery]
+* <https://github.com/KhronosGroup/glTF> ⭐ 7,823 | 🐛 330 | 🌐 HTML | 📅 2026-08-24 \[Runtime 3D Asset Delivery]
 * <https://github.com/syoyo/tinygltf> ⭐ 2,512 | 🐛 6 | 🌐 HTML | 📅 2026-08-02 \[Header only C++11 tiny glTF 2.0 library]
-* <https://github.com/Miziziziz/Retro3DGraphicsCollection> ⭐ 2,189 | 🐛 0 | 📅 2026-07-25
-* <https://github.com/blendi-remade/sprite-sheet-creator> ⭐ 1,706 | 🐛 3 | 🌐 TypeScript | 📅 2026-07-01 \[AI 2D pixel-art sprite sheets & parallax backgrounds; fal.ai; Next.js; walk/jump/attack/idle, sandbox]
+* <https://github.com/Miziziziz/Retro3DGraphicsCollection> ⭐ 2,190 | 🐛 0 | 📅 2026-07-25
+* <https://github.com/blendi-remade/sprite-sheet-creator> ⭐ 1,708 | 🐛 3 | 🌐 TypeScript | 📅 2026-07-01 \[AI 2D pixel-art sprite sheets & parallax backgrounds; fal.ai; Next.js; walk/jump/attack/idle, sandbox]
 * <https://github.com/atenfyr/UAssetGUI> ⭐ 1,040 | 🐛 15 | 🌐 C# | 📅 2026-08-14 \[Viewing and modifying UE4 game assets]
 * <https://github.com/atenfyr/UAssetAPI> ⭐ 482 | 🐛 4 | 🌐 C# | 📅 2026-08-20 \[A low-level .NET library for reading and writing Unreal Engine game assets]
 * <https://github.com/KyleBing/retro-game-console-icons> ⭐ 81 | 🐛 0 | 📅 2025-04-01 \[Retro game console icons in multiple PNG sizes; TrimUI/Miyoo themes]
@@ -639,20 +639,20 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 ## Game Hot Patch
 
 * <https://github.com/Tencent/xLua> ⭐ 10,176 | 🐛 288 | 🌐 C | 📅 2025-11-21
-* <https://github.com/focus-creative-games/hybridclr> ⭐ 7,953 | 🐛 0 | 🌐 C++ | 📅 2026-08-20
+* <https://github.com/focus-creative-games/hybridclr> ⭐ 7,954 | 🐛 2 | 🌐 C++ | 📅 2026-08-20
 * <https://github.com/Tencent/InjectFix> ⭐ 2,058 | 🐛 175 | 🌐 C# | 📅 2025-07-07
 
 ## Game Testing
 
-* <https://github.com/aristocratos/btop> ⭐ 34,257 | 🐛 532 | 🌐 C++ | 📅 2026-08-26 \[Performance Monitor]
-* <https://github.com/wolfpld/tracy> ⭐ 16,670 | 🐛 169 | 🌐 C++ | 📅 2026-08-25 \[C++ frame profiler]
-* <https://github.com/AirtestProject/Airtest> ⭐ 9,535 | 🐛 484 | 🌐 Python | 📅 2026-03-23 \[UI Automation Framework]
-* <https://github.com/gatling/gatling> ⭐ 6,953 | 🐛 19 | 🌐 Scala | 📅 2026-08-25 \[Server Testing]
+* <https://github.com/aristocratos/btop> ⭐ 34,261 | 🐛 532 | 🌐 C++ | 📅 2026-08-26 \[Performance Monitor]
+* <https://github.com/wolfpld/tracy> ⭐ 16,673 | 🐛 167 | 🌐 C++ | 📅 2026-08-27 \[C++ frame profiler]
+* <https://github.com/AirtestProject/Airtest> ⭐ 9,537 | 🐛 484 | 🌐 Python | 📅 2026-03-23 \[UI Automation Framework]
+* <https://github.com/gatling/gatling> ⭐ 6,953 | 🐛 20 | 🌐 Scala | 📅 2026-08-25 \[Server Testing]
 * <https://github.com/google/orbit> ⚠️ Archived \[C/C++ Performance Profiler]
-* <https://github.com/dendibakh/perf-ninja> ⭐ 3,827 | 🐛 13 | 🌐 C++ | 📅 2026-08-25 \[Performance Analysis]
-* <https://github.com/Celtoys/Remotery> ⭐ 3,313 | 🐛 38 | 🌐 C | 📅 2024-08-28 \[A realtime CPU/GPU profiler]
+* <https://github.com/dendibakh/perf-ninja> ⭐ 3,828 | 🐛 13 | 🌐 C++ | 📅 2026-08-25 \[Performance Analysis]
+* <https://github.com/Celtoys/Remotery> ⭐ 3,312 | 🐛 38 | 🌐 C | 📅 2024-08-28 \[A realtime CPU/GPU profiler]
 * <https://github.com/bombomby/optick> ⭐ 3,161 | 🐛 85 | 🌐 C# | 📅 2024-05-25 \[C++ Profiler For Games]
-* <https://github.com/GameTechDev/PresentMon> ⭐ 2,538 | 🐛 197 | 🌐 C++ | 📅 2026-08-26 \[Graphics Performance]
+* <https://github.com/GameTechDev/PresentMon> ⭐ 2,538 | 🐛 198 | 🌐 C++ | 📅 2026-08-27 \[Graphics Performance]
 * <https://github.com/DaedalicEntertainment/ue4-test-automation> ⭐ 236 | 🐛 15 | 🌐 C++ | 📅 2022-08-18 \[Facilitates setting up integration test suits with Unreal Engine 4 Gauntlet]
 * <https://github.com/DarknessFX/DFoundryFX> ⭐ 131 | 🐛 0 | 🌐 C++ | 📅 2026-06-19 \[UE Performance]
 * <https://github.com/milostosic/rprof> ⭐ 100 | 🐛 0 | 🌐 C | 📅 2026-05-31 \[CPU scope based profiling library]
@@ -666,10 +666,10 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 ## Game Tools
 
-* <https://github.com/Genymobile/scrcpy> ⭐ 148,366 | 🐛 2,883 | 🌐 C | 📅 2026-08-17 \[Display and control your Android device]
-* <https://github.com/PixiEditor/PixiEditor> ⭐ 8,001 | 🐛 263 | 🌐 C# | 📅 2026-08-27 \[PixiEditor is a Universal Editor for all your 2D needs]
-* <https://github.com/recastnavigation/recastnavigation> ⭐ 7,876 | 🐛 133 | 🌐 C++ | 📅 2026-02-27 \[Navigation-mesh Toolset for Games]
-* [Play your favorite games in a borderless window; no more time consuming alt-tabs](https://github.com/Codeusa/Borderless-Gaming) ⭐ 6,557 | 🐛 22 | 🌐 C# | 📅 2025-09-05
+* <https://github.com/Genymobile/scrcpy> ⭐ 148,391 | 🐛 2,883 | 🌐 C | 📅 2026-08-17 \[Display and control your Android device]
+* <https://github.com/PixiEditor/PixiEditor> ⭐ 8,002 | 🐛 266 | 🌐 C# | 📅 2026-08-27 \[PixiEditor is a Universal Editor for all your 2D needs]
+* <https://github.com/recastnavigation/recastnavigation> ⭐ 7,877 | 🐛 133 | 🌐 C++ | 📅 2026-02-27 \[Navigation-mesh Toolset for Games]
+* [Play your favorite games in a borderless window; no more time consuming alt-tabs](https://github.com/Codeusa/Borderless-Gaming) ⭐ 6,558 | 🐛 22 | 🌐 C# | 📅 2025-09-05
 * <https://github.com/ryanjon2040/Unreal-Binary-Builder> ⭐ 699 | 🐛 23 | 🌐 C# | 📅 2024-04-03 \[Build UE Source]
 * <https://github.com/inflation/goldberg_emulator> ⚠️ Archived \[Steam emulator]
 * <https://github.com/TensorWorks/UE-Clang-Format> ⭐ 159 | 🐛 0 | 📅 2024-08-20 \[UE Clang-Format configuration]
@@ -679,11 +679,11 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 ## Game Manager
 
-* <https://github.com/JosefNemec/Playnite> ⭐ 13,834 | 🐛 710 | 🌐 C# | 📅 2026-08-21
+* <https://github.com/JosefNemec/Playnite> ⭐ 13,835 | 🐛 710 | 🌐 C# | 📅 2026-08-21
 
 ## Game CI
 
-* <https://github.com/EpicGames/lore> ⭐ 8,492 | 🐛 108 | 🌐 Rust | 📅 2026-08-27 \[Epic Games open source VCS for games: content-addressed chunk storage, sparse workspaces, tamper-evident history, large binary assets; Rust; UEFN]
+* <https://github.com/EpicGames/lore> ⭐ 8,499 | 🐛 109 | 🌐 Rust | 📅 2026-08-27 \[Epic Games open source VCS for games: content-addressed chunk storage, sparse workspaces, tamper-evident history, large binary assets; Rust; UEFN]
 * <https://github.com/nikaera/Unity-GameCI-Sample> ⭐ 9 | 🐛 1 | 🌐 C# | 📅 2021-08-31 \[Unity]
 * <https://github.com/game-ci>
 
@@ -702,18 +702,18 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 > Hook
 
-* <https://github.com/ocornut/imgui/commit/923bd2fd217c1dc1e75fa92b0284d3817904988b> ⭐ 75,889 | 🐛 1,237 | 🌐 C++ | 📅 2026-08-23 \[DX11/12 ResizeBuffers]
+* <https://github.com/ocornut/imgui/commit/923bd2fd217c1dc1e75fa92b0284d3817904988b> ⭐ 75,891 | 🐛 1,237 | 🌐 C++ | 📅 2026-08-23 \[DX11/12 ResizeBuffers]
 * <https://github.com/jmpews/Dobby> ⭐ 4,815 | 🐛 98 | 🌐 C++ | 📅 2025-01-26 \[a lightweight, multi-platform, multi-architecture hook framework]
 * [Universal graphical hook for a D3D9-D3D12, OpenGL and Vulkan based games](https://github.com/Rebzzel/kiero) ⚠️ Archived
 * <https://github.com/justinstenning/Direct3DHook> ⭐ 589 | 🐛 24 | 🌐 C# | 📅 2022-12-19 \[Direct3D 9/10/11 API hooks for screen capture and in-game overlays]
-* <https://github.com/Sh0ckFR/Universal-Dear-ImGui-Hook> ⭐ 493 | 🐛 1 | 🌐 C++ | 📅 2026-02-19 \[An universal Dear ImGui Hook]
+* <https://github.com/Sh0ckFR/Universal-Dear-ImGui-Hook> ⭐ 492 | 🐛 1 | 🌐 C++ | 📅 2026-02-19 \[An universal Dear ImGui Hook]
 * <https://github.com/nefarius/HydraHook> ⭐ 344 | 🐛 2 | 🌐 C++ | 📅 2026-03-03 \[DirectX 9–12 API-hooking and overlay rendering framework for games]
 * <https://github.com/DrNseven/D3D12-Hook-ImGui> ⭐ 288 | 🐛 11 | 🌐 C++ | 📅 2026-01-13 \[DX12 Imgui]
 * <https://github.com/bruhmoment21/UniversalHookX> ⭐ 276 | 🐛 14 | 🌐 C++ | 📅 2024-07-31 \[DX/OpenGL/Vulkan]
-* <https://github.com/techiew/DirectXHook> ⭐ 244 | 🐛 4 | 🌐 C | 📅 2023-10-08 \[DirectX 11/12 Present hook with a simple in-game overlay framework]
-* <https://github.com/niemand-sec/DirectX11Hook> ⭐ 185 | 🐛 2 | 🌐 C++ | 📅 2019-01-19 \[DX11 Imgui]
+* <https://github.com/techiew/DirectXHook> ⭐ 243 | 🐛 4 | 🌐 C | 📅 2023-10-08 \[DirectX 11/12 Present hook with a simple in-game overlay framework]
+* <https://github.com/niemand-sec/DirectX11Hook> ⭐ 184 | 🐛 2 | 🌐 C++ | 📅 2019-01-19 \[DX11 Imgui]
 * <https://github.com/frostbone25/ShaderInjector> ⭐ 141 | 🐛 17 | 🌐 C++ | 📅 2026-08-26 \[D3D12 shader injector for FF7 Rebirth PC — intercepts rendering API calls to inject/replace pixel shaders at runtime; minhook + ImGui; adaptable to other D3D12 titles]
-* <https://github.com/rdbo/DX11-BaseHook> ⭐ 123 | 🐛 3 | 🌐 C++ | 📅 2021-02-14 \[DX11 Imgui]
+* <https://github.com/rdbo/DX11-BaseHook> ⭐ 122 | 🐛 3 | 🌐 C++ | 📅 2021-02-14 \[DX11 Imgui]
 * <https://github.com/kirchesz/kiero2> ⭐ 49 | 🐛 1 | 🌐 C++ | 📅 2026-06-12 \[kiero v2 — runtime locator for D3D9–D12, OpenGL, and Vulkan graphics API method addresses; BYO hooking library; CMake FetchContent; cross-platform OpenGL/Vulkan on Win/Linux/macOS]
 * <https://github.com/gogo9211/Discord-Overlay-Hook> ⭐ 7 | 🐛 0 | 🌐 C++ | 📅 2021-06-28 \[DX11]
 * <https://github.com/aufkrawall/capture-engine> ⭐ 6 | 🐛 0 | 🌐 C++ | 📅 2026-08-24 \[Windows game capture with injected D3D9–D12, Vulkan, OpenGL, and DXVK hooks, custom overlays, and frame pacing]
@@ -733,8 +733,8 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 > Compatibility
 
 * <https://github.com/CnCNet/cnc-ddraw> ⭐ 3,426 | 🐛 99 | 🌐 C | 📅 2025-07-03 \[Old Game]
-* <https://github.com/elishacloud/dxwrapper> ⭐ 1,972 | 🐛 105 | 🌐 C | 📅 2026-08-27 \[DirectX DLL wrapper for older games on Win10/11; Dd7to9/d3d8to9, DDrawCompat, ASI loader]
-* <https://github.com/xoxor4d/gta4-rtx> ⭐ 624 | 🐛 20 | 🌐 C++ | 📅 2026-08-18 \[GTA IV RTX Remix compatibility mod — adapts Complete Edition for NVIDIA RTX Remix path-traced remaster pipeline; complements FusionFix]
+* <https://github.com/elishacloud/dxwrapper> ⭐ 1,974 | 🐛 105 | 🌐 C | 📅 2026-08-27 \[DirectX DLL wrapper for older games on Win10/11; Dd7to9/d3d8to9, DDrawCompat, ASI loader]
+* <https://github.com/xoxor4d/gta4-rtx> ⭐ 625 | 🐛 20 | 🌐 C++ | 📅 2026-08-18 \[GTA IV RTX Remix compatibility mod — adapts Complete Edition for NVIDIA RTX Remix path-traced remaster pipeline; complements FusionFix]
 * <https://github.com/microsoft/D3D9On12> ⭐ 399 | 🐛 19 | 🌐 C++ | 📅 2026-08-21 \[The Direct3D9-On-12 mapping layer]
 * <https://github.com/samuelgr/Xidi> ⭐ 368 | 🐛 19 | 🌐 C++ | 📅 2026-03-29 \[DirectInput interface for XInput controllers]
 * <https://github.com/Daniel-Lobo/WineHooks> ⭐ 78 | 🐛 6 | 🌐 C++ | 📅 2026-02-16 \[Compatibility and enhancement framework for classic PC games]
@@ -751,7 +751,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 > Guide
 
-* <https://github.com/JoeyDeVries/LearnOpenGL> ⭐ 12,601 | 🐛 169 | 🌐 C++ | 📅 2024-08-06
+* <https://github.com/JoeyDeVries/LearnOpenGL> ⭐ 12,602 | 🐛 169 | 🌐 C++ | 📅 2024-08-06
 
 > Source
 
@@ -776,7 +776,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 > Hook
 
 * <https://github.com/Rebzzel/kiero> ⚠️ Archived \[X86/64 Windows]
-* <https://github.com/Sh0ckFR/Universal-Dear-ImGui-Hook> ⭐ 493 | 🐛 1 | 🌐 C++ | 📅 2026-02-19
+* <https://github.com/Sh0ckFR/Universal-Dear-ImGui-Hook> ⭐ 492 | 🐛 1 | 🌐 C++ | 📅 2026-02-19
 * <https://github.com/bruhmoment21/UniversalHookX> ⭐ 276 | 🐛 14 | 🌐 C++ | 📅 2024-07-31 \[X86/64 Windows]
 * <https://github.com/kirchesz/kiero2> ⭐ 49 | 🐛 1 | 🌐 C++ | 📅 2026-06-12 \[kiero v2 — locate Vulkan/D3D/OpenGL API method addresses at runtime; BYO hooking; Win/Linux/macOS]
 * <https://github.com/Halen84/ImGuiRDR2Hook> ⭐ 15 | 🐛 2 | 🌐 C++ | 📅 2026-06-08
@@ -787,29 +787,29 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 > Guide
 
-* <https://github.com/mytechnotalent/Reverse-Engineering> ⭐ 14,171 | 🐛 0 | 🌐 Assembly | 📅 2026-08-26
-* <https://github.com/wtsxDev/reverse-engineering> ⭐ 10,393 | 🐛 35 | 📅 2023-07-29
+* <https://github.com/mytechnotalent/Reverse-Engineering> ⭐ 14,175 | 🐛 0 | 🌐 Assembly | 📅 2026-08-27
+* <https://github.com/wtsxDev/reverse-engineering> ⭐ 10,394 | 🐛 35 | 📅 2023-07-29
 * <https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/Games.md> ⭐ 5,987 | 🐛 4 | 🌐 CSS | 📅 2025-10-20 \[Game Hacking]
-* <https://github.com/dsasmblr/game-hacking> ⭐ 5,568 | 🐛 11 | 📅 2024-06-20
+* <https://github.com/dsasmblr/game-hacking> ⭐ 5,567 | 🐛 11 | 📅 2024-06-20
 * <https://github.com/imadr/Unity-game-hacking> ⭐ 3,457 | 🐛 16 | 📅 2022-11-14 \[Unity]
-* <https://github.com/SinaKarvandi/Hypervisor-From-Scratch> ⭐ 2,658 | 🐛 5 | 🌐 C | 📅 2026-05-13 \[Hypervisor]
+* <https://github.com/SinaKarvandi/Hypervisor-From-Scratch> ⭐ 2,657 | 🐛 5 | 🌐 C | 📅 2026-05-13 \[Hypervisor]
 * <https://github.com/dsasmblr/hacking-online-games> ⭐ 1,870 | 🐛 6 | 📅 2023-02-12
-* <https://github.com/kovidomi/game-reversing> ⭐ 1,682 | 🐛 4 | 📅 2023-04-05
-* <https://github.com/mytechnotalent/Hacking-Windows> ⭐ 1,620 | 🐛 0 | 🌐 C | 📅 2026-08-26
-* <https://github.com/rdbo/libmem> ⭐ 1,237 | 🐛 59 | 🌐 C | 📅 2026-04-18 \[Cross-platform game hacking library (memory, hooking, injection) for C/C++/Rust/Python]
+* <https://github.com/kovidomi/game-reversing> ⭐ 1,681 | 🐛 4 | 📅 2023-04-05
+* <https://github.com/mytechnotalent/Hacking-Windows> ⭐ 1,620 | 🐛 0 | 🌐 C | 📅 2026-08-27
+* <https://github.com/rdbo/libmem> ⭐ 1,236 | 🐛 59 | 🌐 C | 📅 2026-04-18 \[Cross-platform game hacking library (memory, hooking, injection) for C/C++/Rust/Python]
 * <https://github.com/WangXuan95/Xilinx-FPGA-PCIe-XDMA-Tutorial> ⭐ 843 | 🐛 11 | 🌐 Batchfile | 📅 2023-09-14 \[DMA Tutorial]
 * <https://github.com/jbro129/android-modding> ⭐ 750 | 🐛 4 | 📅 2023-03-02 \[A collection of repositories related to Android game modding]
-* <https://github.com/GameHackingBook/GameHackingCode> ⭐ 733 | 🐛 19 | 🌐 C++ | 📅 2023-09-24 \[Example code for the No Starch Press Game Hacking book]
+* <https://github.com/GameHackingBook/GameHackingCode> ⭐ 732 | 🐛 19 | 🌐 C++ | 📅 2023-09-24 \[Example code for the No Starch Press Game Hacking book]
 * <https://github.com/enjoy-digital/litepcie> ⭐ 721 | 🐛 30 | 🌐 Python | 📅 2026-08-27 \[Small footprint and configurable PCIe core]
-* <https://github.com/gregkh/kernel-development> ⭐ 685 | 🐛 0 | 🌐 TeX | 📅 2026-07-28 \[Linux kernel development]
+* <https://github.com/gregkh/kernel-development> ⭐ 685 | 🐛 0 | 🌐 TeX | 📅 2026-08-27 \[Linux kernel development]
 * <https://github.com/NetKingJ/awesome-android-security> ⭐ 481 | 🐛 0 | 📅 2025-07-16 \[Android (Samsung) Security Research References]
 * <https://github.com/Solaree/pairipcore> ⭐ 448 | 🐛 3 | 📅 2025-08-03 \[Public researchings of the Google's Android apps protection]
-* <https://github.com/mytechnotalent/go-hacking> ⭐ 379 | 🐛 0 | 🌐 Go | 📅 2026-08-26 \[Free step-by-step Golang reverse-engineering course (x64/ARM64/ARM32) with PDF book and per-chapter labs]
+* <https://github.com/mytechnotalent/go-hacking> ⭐ 379 | 🐛 0 | 🌐 Go | 📅 2026-08-27 \[Free step-by-step Golang reverse-engineering course (x64/ARM64/ARM32) with PDF book and per-chapter labs]
 * <https://github.com/anhkgg/awesome-windbg-extensions> ⭐ 366 | 🐛 2 | 📅 2019-03-27 \[WinDbg]
 * <https://github.com/TimMisiak/WinDbgCookbook> ⭐ 263 | 🐛 0 | 🌐 JavaScript | 📅 2023-06-01 \[WinDbg]
-* <https://github.com/mytechnotalent/hacking-rust> ⭐ 238 | 🐛 0 | 🌐 Rust | 📅 2026-08-26 \[Free step-by-step Rust reverse-engineering course (x64/ARM64/ARM32) with PDF book and per-chapter labs]
+* <https://github.com/mytechnotalent/hacking-rust> ⭐ 238 | 🐛 0 | 🌐 Rust | 📅 2026-08-27 \[Free step-by-step Rust reverse-engineering course (x64/ARM64/ARM32) with PDF book and per-chapter labs]
 * <https://github.com/MatheuZSecurity/Rootkit> ⭐ 221 | 🐛 0 | 🌐 C | 📅 2025-10-22 \[Collection of codes focused on Linux rootkits]
-* <https://github.com/mytechnotalent/embedded-hacking> ⭐ 211 | 🐛 0 | 🌐 C | 📅 2026-08-26 \[Free embedded reverse-engineering course (RP2350/Pico 2) with GDB, Ghidra, OpenOCD, and hands-on firmware hacking labs]
+* <https://github.com/mytechnotalent/embedded-hacking> ⭐ 212 | 🐛 0 | 🌐 C | 📅 2026-08-27 \[Free embedded reverse-engineering course (RP2350/Pico 2) with GDB, Ghidra, OpenOCD, and hands-on firmware hacking labs]
 * <https://github.com/csgohacks/master-guide> ⭐ 159 | 🐛 9 | 📅 2023-06-19 \[CSGO Guide]
 * <https://github.com/shakevsky/keybuster> ⭐ 150 | 🐛 6 | 🌐 C | 📅 2022-08-04 \[Samsung TrustZone Keymaster TA research client — send unfiltered requests via libkeymaster\_helper; USENIX Security'22 supplemental; CVE-2021-25444/25490 PoC]
 * <https://github.com/TheZong/Game-Hacking> ⭐ 94 | 🐛 0 | 📅 2022-12-21
@@ -853,17 +853,17 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 > Debugging
 
-* <https://github.com/x64dbg/x64dbg> ⭐ 49,310 | 🐛 574 | 🌐 C++ | 📅 2026-08-23 \[A debugger for Windows x86/64]
+* <https://github.com/x64dbg/x64dbg> ⭐ 49,317 | 🐛 574 | 🌐 C++ | 📅 2026-08-23 \[A debugger for Windows x86/64]
 * <https://github.com/dnSpy/dnSpy> ⚠️ Archived \[For Unity]
-* <https://github.com/icsharpcode/ILSpy> ⭐ 25,959 | 🐛 185 | 🌐 C# | 📅 2026-08-27 \[For Unity]
-* <https://github.com/cheat-engine/cheat-engine> ⭐ 19,059 | 🐛 1,307 | 🌐 Pascal | 📅 2025-04-19
-* <https://github.com/HyperDbg/HyperDbg> ⭐ 4,013 | 🐛 28 | 🌐 C | 📅 2026-08-26 \[VT debuger]
-* <https://github.com/korcankaraokcu/PINCE> ⭐ 3,069 | 🐛 6 | 🌐 Python | 📅 2026-08-24 \[For Linux]
-* <https://github.com/eteran/edb-debugger> ⭐ 2,952 | 🐛 67 | 🌐 C++ | 📅 2026-08-14 \[For Linux]
-* <https://github.com/mrexodia/TitanHide> ⭐ 2,840 | 🐛 13 | 🌐 C | 📅 2026-07-18
+* <https://github.com/icsharpcode/ILSpy> ⭐ 25,962 | 🐛 186 | 🌐 C# | 📅 2026-08-27 \[For Unity]
+* <https://github.com/cheat-engine/cheat-engine> ⭐ 19,058 | 🐛 1,307 | 🌐 Pascal | 📅 2025-04-19
+* <https://github.com/HyperDbg/HyperDbg> ⭐ 4,014 | 🐛 28 | 🌐 C | 📅 2026-08-26 \[VT debuger]
+* <https://github.com/korcankaraokcu/PINCE> ⭐ 3,068 | 🐛 6 | 🌐 Python | 📅 2026-08-24 \[For Linux]
+* <https://github.com/eteran/edb-debugger> ⭐ 2,953 | 🐛 67 | 🌐 C++ | 📅 2026-08-14 \[For Linux]
+* <https://github.com/mrexodia/TitanHide> ⭐ 2,841 | 🐛 13 | 🌐 C | 📅 2026-07-18
 * <https://github.com/TASEmulators/BizHawk> ⭐ 2,738 | 🐛 799 | 🌐 C# | 📅 2026-08-18 \[Multi-system C# emulator with memory inspection, rerecording, and per-core debugging tools for retro game analysis]
-* <https://github.com/SinaKarvandi/Hypervisor-From-Scratch> ⭐ 2,658 | 🐛 5 | 🌐 C | 📅 2026-05-13 \[Hypervisor]
-* <https://github.com/ReClassNET/ReClass.NET> ⭐ 2,190 | 🐛 84 | 🌐 C# | 📅 2024-05-10
+* <https://github.com/SinaKarvandi/Hypervisor-From-Scratch> ⭐ 2,657 | 🐛 5 | 🌐 C | 📅 2026-05-13 \[Hypervisor]
+* <https://github.com/ReClassNET/ReClass.NET> ⭐ 2,189 | 🐛 84 | 🌐 C# | 📅 2024-05-10
 * <https://github.com/Air14/HyperHide> ⭐ 1,653 | 🐛 32 | 🌐 C++ | 📅 2024-07-08 \[VT debuger]
 * <https://github.com/Squalr/Squalr-Sharp> ⭐ 1,598 | 🐛 15 | 🌐 C# | 📅 2022-12-16 \[C# game memory editor with scanning, pointers, and assembly injection]
 * <https://github.com/SeeFlowerX/stackplz> ⭐ 1,447 | 🐛 23 | 🌐 C | 📅 2026-07-06 \[eBPF-based debugger for Android]
@@ -879,7 +879,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 * <https://github.com/marakew/syser> ⭐ 300 | 🐛 1 | 🌐 C++ | 📅 2025-03-09 \[A debugger for Windows x86/64]
 * <https://github.com/ri-char/pwatch> ⭐ 265 | 🐛 4 | 🌐 Rust | 📅 2024-07-06 \[HWBP on linux/android]
 * <https://github.com/x64dbg/DotX64Dbg> ⭐ 235 | 🐛 12 | 🌐 C++ | 📅 2024-04-12
-* <https://github.com/IChooseYou/Reclass> ⭐ 182 | 🐛 0 | 🌐 C++ | 📅 2026-07-30 \[Reclass MCP refactored]
+* <https://github.com/IChooseYou/Reclass> ⭐ 183 | 🐛 0 | 🌐 C++ | 📅 2026-07-30 \[Reclass MCP refactored]
 * <https://github.com/mandiant/dncil> ⭐ 180 | 🐛 6 | 🌐 Python | 📅 2026-08-24 \[For Unity]
 * <https://github.com/Satar07/edbgserver> ⭐ 169 | 🐛 1 | 🌐 Rust | 📅 2026-03-09 \[eBPF-powered debugger server for Linux and Android]
 * <https://github.com/Kharos102/IOCTLDump> ⭐ 149 | 🐛 0 | 🌐 C++ | 📅 2023-06-05 \[Monitor IRP]
@@ -939,7 +939,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 > Packet Capture\&Parse
 
 * <https://github.com/nmap/npcap> ⭐ 3,581 | 🐛 242 | 🌐 C | 📅 2026-05-28
-* <https://github.com/seladb/PcapPlusPlus> ⭐ 3,132 | 🐛 56 | 🌐 C++ | 📅 2026-08-27 \[Pcap]
+* <https://github.com/seladb/PcapPlusPlus> ⭐ 3,132 | 🐛 59 | 🌐 C++ | 📅 2026-08-27 \[Pcap]
 
 > SpeedHack
 
@@ -949,30 +949,30 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 > RE Tools
 
-* <https://github.com/Genymobile/scrcpy> ⭐ 148,366 | 🐛 2,883 | 🌐 C | 📅 2026-08-17  \[Display and control your Android device]
-* <https://github.com/WerWolv/ImHex> ⭐ 54,578 | 🐛 392 | 🌐 C++ | 📅 2026-08-26 \[A Hex Editor for Reverse Engineers]
-* <https://github.com/skylot/jadx> ⭐ 50,230 | 🐛 446 | 🌐 Java | 📅 2026-08-19 \[Dex to Java decompiler]
-* <https://github.com/barry-ran/QtScrcpy> ⭐ 31,674 | 🐛 622 | 🌐 C++ | 📅 2026-08-20 \[Display and control your Android device]
-* <https://github.com/iBotPeaches/Apktool> ⭐ 25,388 | 🐛 82 | 🌐 Java | 📅 2026-08-26 \[Apk]
+* <https://github.com/Genymobile/scrcpy> ⭐ 148,391 | 🐛 2,883 | 🌐 C | 📅 2026-08-17  \[Display and control your Android device]
+* <https://github.com/WerWolv/ImHex> ⭐ 54,584 | 🐛 394 | 🌐 C++ | 📅 2026-08-26 \[A Hex Editor for Reverse Engineers]
+* <https://github.com/skylot/jadx> ⭐ 50,236 | 🐛 446 | 🌐 Java | 📅 2026-08-19 \[Dex to Java decompiler]
+* <https://github.com/barry-ran/QtScrcpy> ⭐ 31,677 | 🐛 622 | 🌐 C++ | 📅 2026-08-20 \[Display and control your Android device]
+* <https://github.com/iBotPeaches/Apktool> ⭐ 25,392 | 🐛 81 | 🌐 Java | 📅 2026-08-26 \[Apk]
 * <https://github.com/google/android-classyshark> ⚠️ Archived \[Android and Java bytecode viewer]
-* <https://github.com/Col-E/Recaf> ⭐ 7,355 | 🐛 66 | 🌐 Java | 📅 2026-08-22 \[Java]
+* <https://github.com/Col-E/Recaf> ⭐ 7,357 | 🐛 66 | 🌐 Java | 📅 2026-08-22 \[Java]
 * <https://github.com/mentebinaria/retoolkit> ⭐ 5,278 | 🐛 5 | 🌐 Inno Setup | 📅 2026-08-20 \[Reverse Engineer's Toolkit]
 * <https://github.com/MlgmXyysd/Xiaomi-HyperOS-BootLoader-Bypass> ⭐ 4,738 | 🐛 161 | 🌐 PHP | 📅 2025-11-11 \[Xiaomi HyperOS BootLoader Bypass]
 * <https://github.com/JonathanSalwan/Triton> ⭐ 4,274 | 🐛 38 | 🌐 C++ | 📅 2026-07-28 \[Dynamic binary analysis library: symbolic execution, taint analysis, and SMT-backed RE automation]
-* <https://github.com/APKLab/APKLab> ⭐ 3,953 | 🐛 24 | 🌐 TypeScript | 📅 2026-07-16 \[Android Reverse-Engineering Workbench for VS Code]
-* <https://github.com/ax/apk.sh> ⭐ 3,822 | 🐛 9 | 🌐 Shell | 📅 2026-01-26 \[A Bash script that makes reverse engineering Android apps easier]
+* <https://github.com/APKLab/APKLab> ⭐ 3,951 | 🐛 24 | 🌐 TypeScript | 📅 2026-07-16 \[Android Reverse-Engineering Workbench for VS Code]
+* <https://github.com/ax/apk.sh> ⭐ 3,823 | 🐛 9 | 🌐 Shell | 📅 2026-01-26 \[A Bash script that makes reverse engineering Android apps easier]
 * <https://github.com/hasherezade/pe-bear> ⭐ 3,783 | 🐛 16 | 🌐 C++ | 📅 2026-06-10 \[PE Viewer]
-* <https://github.com/ssut/payload-dumper-go> ⭐ 3,483 | 🐛 1 | 🌐 Go | 📅 2026-08-20 \[Android OTA payload dumper]
-* <https://github.com/LaurieWired/Malimite> ⭐ 3,174 | 🐛 14 | 🌐 Java | 📅 2025-08-26 \[iOS and macOS Decompiler]
-* <https://github.com/PartialVolume/shredos.x86_64> ⭐ 3,129 | 🐛 79 | 🌐 Makefile | 📅 2026-08-27 \[Disk Eraser]
+* <https://github.com/ssut/payload-dumper-go> ⭐ 3,483 | 🐛 2 | 🌐 Go | 📅 2026-08-27 \[Android OTA payload dumper]
+* <https://github.com/LaurieWired/Malimite> ⭐ 3,175 | 🐛 14 | 🌐 Java | 📅 2025-08-26 \[iOS and macOS Decompiler]
+* <https://github.com/PartialVolume/shredos.x86_64> ⭐ 3,130 | 🐛 79 | 🌐 Makefile | 📅 2026-08-27 \[Disk Eraser]
 * <https://github.com/rednaga/APKiD> ⭐ 2,566 | 🐛 84 | 🌐 YARA | 📅 2026-07-27 \[PEiD for Android]
 * <https://github.com/marin-m/vmlinux-to-elf> ⭐ 1,806 | 🐛 14 | 🌐 Python | 📅 2026-06-05 \[vmlinux to elf]
 * <https://github.com/vm03/payload_dumper> ⭐ 1,779 | 🐛 29 | 🌐 Python | 📅 2025-04-18 \[Android OTA payload dumper]
 * <https://github.com/AndnixSH/APKToolGUI> ⭐ 1,370 | 🐛 1 | 🌐 C# | 📅 2026-06-04 \[GUI for apktool, signapk, zipalign and baksmali utilities]
 * <https://github.com/cfig/Android_boot_image_editor> ⭐ 1,321 | 🐛 25 | 🌐 Java | 📅 2026-08-06 \[A tool for reverse engineering Android ROM images]
-* <https://github.com/amruth-sn/kong> ⭐ 1,090 | 🐛 6 | 🌐 Python | 📅 2026-04-03 \[Kong - agentic reverse engineer, LLM-orchestrated binary RE via in-process Ghidra, call-graph analysis, agentic deobfuscation]
+* <https://github.com/amruth-sn/kong> ⭐ 1,092 | 🐛 6 | 🌐 Python | 📅 2026-04-03 \[Kong - agentic reverse engineer, LLM-orchestrated binary RE via in-process Ghidra, call-graph analysis, agentic deobfuscation]
 * <https://github.com/mandiant/GoReSym> ⭐ 1,069 | 🐛 8 | 🌐 Go | 📅 2026-08-08 \[Go symbol recovery tool]
-* <https://github.com/gcarmix/HexWalk> ⭐ 1,014 | 🐛 4 | 🌐 C++ | 📅 2026-08-27 \[Hex Viewer/Editor/Analyzer]
+* <https://github.com/gcarmix/HexWalk> ⭐ 1,016 | 🐛 5 | 🌐 C++ | 📅 2026-08-27 \[Hex Viewer/Editor/Analyzer]
 * <https://github.com/Fadi002/de4py> ⭐ 1,002 | 🐛 0 | 🌐 Python | 📅 2026-08-25 \[Toolkit for python reverse engineering]
 * <https://github.com/4d61726b/VirtualKD-Redux> ⭐ 985 | 🐛 1 | 🌐 C++ | 📅 2024-06-23 \[A revival and modernization of VirtualKD]
 * <https://github.com/cyberark/PipeViewer> ⭐ 749 | 🐛 2 | 🌐 C# | 📅 2024-11-15 \[Shows detailed information about named pipes in Windows]
@@ -986,9 +986,9 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 * <https://github.com/MxIris-Reverse-Engineering/RuntimeViewer> ⭐ 479 | 🐛 6 | 🌐 Swift | 📅 2026-08-27 \[Objective-C Runtime Viewer for macOS and iOS]
 * <https://github.com/StudentBlake/XCI-Explorer> ⭐ 451 | 🐛 21 | 🌐 C# | 📅 2024-03-08 \[XCI Explorer]
 * <https://github.com/poppopjmp/VMDragonSlayer> ⭐ 431 | 🐛 4 | 🌐 Python | 📅 2026-06-03 \[Advanced Virtual Machine Detection and Analysis Framework]
-* <https://github.com/guided-hacking/GH-Offset-Dumper> ⭐ 410 | 🐛 2 | 🌐 C++ | 📅 2025-05-19 \[Scans for signatures and netvars and dumps their relative offsets]
+* <https://github.com/guided-hacking/GH-Offset-Dumper> ⭐ 409 | 🐛 2 | 🌐 C++ | 📅 2025-05-19 \[Scans for signatures and netvars and dumps their relative offsets]
 * <https://github.com/nico/demumble> ⭐ 402 | 🐛 7 | 🌐 Python | 📅 2024-08-06 \[Itanium + MSVC symbol demangler; D/Rust/Swift; cross-platform replacement for c++filt / undname.exe]
-* <https://github.com/waryas/KACE> ⭐ 384 | 🐛 0 | 🌐 C | 📅 2022-08-18 \[Emulate Drivers in RING3 with self context mapping or unicorn]
+* <https://github.com/waryas/KACE> ⭐ 383 | 🐛 0 | 🌐 C | 📅 2022-08-18 \[Emulate Drivers in RING3 with self context mapping or unicorn]
 * <https://github.com/glmcdona/strings2> ⭐ 372 | 🐛 6 | 🌐 C++ | 📅 2022-05-30 \[strings2 - Extract strings from binary files and process memory]
 * <https://github.com/linuxboot/fiano> ⭐ 371 | 🐛 60 | 🌐 Go | 📅 2026-05-14 \[Go-based tools for modifying UEFI firmware]
 * <https://github.com/cansarigol/pdbr> ⭐ 349 | 🐛 1 | 🌐 Python | 📅 2026-08-24 \[pdb + Rich library]
@@ -1009,8 +1009,8 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 * <https://github.com/null-luo/btrace> ⭐ 206 | 🐛 1 | 🌐 C | 📅 2024-06-15 \[Android App Dynamic Behavior Tracking Tool using eBPF]
 * <https://github.com/VelocityRa/awesome-game-file-format-reversing> ⭐ 204 | 🐛 0 | 🌐 Python | 📅 2026-08-20 \[Curated docs/tools for reverse engineering video game file formats and assets]
 * <https://github.com/zodiacon/QuickAsm> ⭐ 200 | 🐛 0 | 🌐 C++ | 📅 2025-12-13 \[x86/x86 assembler and emulator]
+* <https://github.com/0xDbgMan/DrvEye> ⭐ 199 | 🐛 0 | 🌐 Python | 📅 2026-04-27 \[Static analysis and exploitation triage for Windows kernel drivers: discover IOCTLs, symbolic links, and certificate checks]
 * <https://github.com/user1342/Obfu-DE-Scate> ⭐ 198 | 🐛 1 | 🌐 Python | 📅 2024-04-13 \[Apk]
-* <https://github.com/0xDbgMan/DrvEye> ⭐ 198 | 🐛 0 | 🌐 Python | 📅 2026-04-27 \[Static analysis and exploitation triage for Windows kernel drivers: discover IOCTLs, symbolic links, and certificate checks]
 * <https://github.com/jd-opensource/arkdecompiler> ⭐ 198 | 🐛 1 | 🌐 C++ | 📅 2026-07-23 \[HarmonyOS NEXT decompilation tool]
 * <https://github.com/azw413/Glass> ⭐ 193 | 🐛 0 | 🌐 Rust | 📅 2026-08-22 \[Rust mobile-first disassembler for APK/DEX/smali and AArch64 .so/.dylib; CFG, xref, CLI/MCP automation]
 * <https://github.com/Guardsquare/flutter-re-demo> ⭐ 179 | 🐛 6 | 🌐 Python | 📅 2023-05-02 \[Flutter app RE experiments — IDA scripts for Dart function renaming from reFlutter/DWARF, VM memory mapping, object/xref recovery, and decompilation aids]
@@ -1026,7 +1026,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 * <https://github.com/michaelmsonne/SignToolGUI> ⭐ 111 | 🐛 5 | 🌐 C# | 📅 2025-12-16 \[signtool GUI]
 * <https://github.com/leeqwind/PESignAnalyzer> ⭐ 103 | 🐛 0 | 🌐 C++ | 📅 2026-08-14 \[A Simple PE File Signature information Extracting Tool]
 * <https://github.com/VoidSec/ioctlpus> ⭐ 99 | 🐛 5 | 🌐 C# | 📅 2021-12-20 \[Be used to make DeviceIoControl requests with arbitrary inputs]
-* <https://github.com/ssnob/hidden_syscall_monitoring> ⭐ 90 | 🐛 0 | 🌐 C++ | 📅 2025-01-13 \[monitors hidden syscalls called from call of duty anticheat]
+* <https://github.com/ssnob/hidden_syscall_monitoring> ⭐ 89 | 🐛 0 | 🌐 C++ | 📅 2025-01-13 \[monitors hidden syscalls called from call of duty anticheat]
 * <https://github.com/skylot/raung> ⭐ 86 | 🐛 1 | 🌐 Java | 📅 2024-08-17 \[Assembler/disassembler for java bytecode]
 * <https://github.com/CheckPointSW/Nodejs-Tracer> ⭐ 82 | 🐛 1 | 🌐 JavaScript | 📅 2026-01-01 \[Simple Node.jstracer that logs calls to analyze heavily obfuscated Node.js malware]
 * <https://github.com/Static-Analyzer-Factory/static-analyzer-factory> ⭐ 72 | 🐛 1 | 🌐 Rust | 📅 2026-08-25 \[Rust-powered static analysis framework for C/C++ via LLVM IR graphs (pointer/value-flow/taint/IFDS) with Python SDK, CLI, and SARIF export]
@@ -1043,7 +1043,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 * <https://github.com/jonny-jhnson/EtwWatcher> ⭐ 40 | 🐛 0 | 🌐 JavaScript | 📅 2026-08-13 \[Browse and diff ETW provider snapshots across Windows builds; backed by ETWInspector]
 * <https://github.com/BataBo/ACEPatcher> ⭐ 38 | 🐛 1 | 🌐 C# | 📅 2022-06-05 \[.NET Patcher]
 * <https://github.com/WenzWenzWenz/DelphiReSym> ⭐ 35 | 🐛 5 | 🌐 Python | 📅 2026-01-17 \[A Delphi symbol name recovery tool for reverse engineers]
-* <https://github.com/smallworld-re/smallworld> ⭐ 33 | 🐛 17 | 🌐 Python | 📅 2026-08-26 \[Environment for streamlined binary harnessing for dynamic analysis]
+* <https://github.com/smallworld-re/smallworld> ⭐ 33 | 🐛 17 | 🌐 Python | 📅 2026-08-27 \[Environment for streamlined binary harnessing for dynamic analysis]
 * <https://github.com/RomanRybachek/ioctl_helper> ⭐ 23 | 🐛 0 | 🌐 C++ | 📅 2024-05-31 \[GUI tool for sending IOCTL to windows drivers]
 * <https://github.com/t0asts/DIE-engine-web> ⭐ 22 | 🐛 0 | 🌐 TypeScript | 📅 2026-08-18 \[Detect It Easy in the browser — WASM-based file format, packer, and compiler detection]
 * <https://github.com/SV-Foster/UnSign> ⭐ 22 | 🐛 2 | 🌐 C | 📅 2025-10-19 \[Remove all digital signatures from PE/COFF executable]
@@ -1097,9 +1097,9 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 > Fix VMP
 
-* <https://github.com/can1357/NoVmp> ⭐ 2,185 | 🐛 10 | 🌐 C++ | 📅 2021-08-08 \[Static VMProtect x64 3.x devirtualizer powered by VTIL]
-* <https://github.com/JonathanSalwan/VMProtect-devirtualization> ⭐ 1,497 | 🐛 0 | 🌐 Roff | 📅 2022-06-11 \[Experimental VMProtect 3.x pure-function deobfuscation via symbolic execution and LLVM]
-* <https://github.com/NaC-L/Mergen> ⭐ 891 | 🐛 13 | 🌐 C++ | 📅 2026-05-08
+* <https://github.com/can1357/NoVmp> ⭐ 2,186 | 🐛 10 | 🌐 C++ | 📅 2021-08-08 \[Static VMProtect x64 3.x devirtualizer powered by VTIL]
+* <https://github.com/JonathanSalwan/VMProtect-devirtualization> ⭐ 1,498 | 🐛 0 | 🌐 Roff | 📅 2022-06-11 \[Experimental VMProtect 3.x pure-function deobfuscation via symbolic execution and LLVM]
+* <https://github.com/NaC-L/Mergen> ⭐ 892 | 🐛 13 | 🌐 C++ | 📅 2026-05-08
 * <https://github.com/void-stack/VMUnprotect> ⭐ 503 | 🐛 7 | 🌐 C# | 📅 2023-04-16 \[Dynamically log/manipulate VMProtect-virtualized .NET methods via Harmony]
 * <https://github.com/void-stack/VMUnprotect.Dumper> ⭐ 461 | 🐛 3 | 🌐 C# | 📅 2022-08-30 \[Dynamically untamper/unpack VMProtect-protected .NET assemblies]
 * <https://github.com/wallds/NoVmpy> ⚠️ Archived
@@ -1113,7 +1113,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 * <https://github.com/gmh5225/VMP-Vmp3_64bit_disasm-prerelease-> ⭐ 10 | 🐛 0 | 🌐 LLVM | 📅 2022-07-12
 * <https://github.com/milk-analyzer/vmpunpack> ⭐ 8 | 🐛 0 | 🌐 Python | 📅 2026-08-10 \[Generic x64 VMProtect/packer unpacker that drives samples through patched sogen emulation to OEP, dumps memory, and rebuilds PEs for IDA/Ghidra]
 * <https://github.com/sexyiam/VMPLift> ⭐ 4 | 🐛 0 | 🌐 C++ | 📅 2026-08-26 \[Emulation-first VMProtect 3.8–3.10+ x64 handler walker and lifter for VIP tracing, devirtualization, and closed-form recovery in IDA/Ghidra workflows]
-* <https://github.com/Lucyferek-nunu/vmp-unpacker> ⭐ 2 | 🐛 0 | 🌐 C++ | 📅 2026-08-14 \[C++ dynamic VMProtect unpacker with anti-debug bypass, OEP discovery, and IAT repair]
+* <https://github.com/Lucyferek-nunu/vmp-unpacker> ⭐ 3 | 🐛 0 | 🌐 C++ | 📅 2026-08-14 \[C++ dynamic VMProtect unpacker with anti-debug bypass, OEP discovery, and IAT repair]
 * <https://github.com/gmh5225/VMProtect> ⭐ 0 | 🐛 0 | 📅 2022-02-22
 * <https://github.com/gmh5225/Vmp3_utils> ⭐ 0 | 🐛 0 | 📅 2022-06-20
 * <https://github.com/tomhamidi97-arch/vmp-devirtualization-lab> ⭐ 0 | 🐛 0 | 📅 2026-08-16 \[Educational guide and lab notes on Android native-library VMProtect internals, dispatcher/handler recovery, and devirtualization workflows]
@@ -1122,7 +1122,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 > Fix Themida
 
 * <https://github.com/ergrelet/unlicense> ⭐ 1,452 | 🐛 57 | 🌐 Python | 📅 2023-08-19 \[Dynamic unpacker and import fixer for Themida/WinLicense 2.x and 3.x]
-* <https://github.com/Hendi48/Magicmida> ⭐ 698 | 🐛 18 | 🌐 Pascal | 📅 2026-05-14 \[Themida auto-unpacker for 32/64-bit apps with dump and section restore helpers]
+* <https://github.com/Hendi48/Magicmida> ⭐ 697 | 🐛 18 | 🌐 Pascal | 📅 2026-05-14 \[Themida auto-unpacker for 32/64-bit apps with dump and section restore helpers]
 * <https://github.com/ergrelet/themida-unmutate> ⭐ 390 | 🐛 2 | 🌐 Python | 📅 2024-07-29
 * <https://github.com/bobalkkagi/bobalkkagi> ⭐ 208 | 🐛 11 | 🌐 Python | 📅 2023-03-14 \[Themida 3.x unpacking/unwrapping via API-hook emulation (Tiger red64)]
 * <https://github.com/stuxnet147/Themida-Research> ⭐ 109 | 🐛 0 | 📅 2025-02-28 \[Themida 3.x research]
@@ -1133,7 +1133,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 > Fix OLLVM
 
 * <https://github.com/obpo-project/obpo-plugin> ⚠️ Archived
-* <https://github.com/w00tzenheimer/d810-ng> ⭐ 289 | 🐛 14 | 🌐 Python | 📅 2026-08-26 \[D-810ng (Next Generation) is an evolution of d810 to deobfuscate code at decompilation time]
+* <https://github.com/w00tzenheimer/d810-ng> ⭐ 290 | 🐛 14 | 🌐 Python | 📅 2026-08-27 \[D-810ng (Next Generation) is an evolution of d810 to deobfuscate code at decompilation time]
 * <https://github.com/cdong1012/ollvm-unflattener> ⭐ 275 | 🐛 1 | 🌐 Python | 📅 2025-04-16 \[unflattener]
 * <https://github.com/guheng-re/unflat> ⭐ 203 | 🐛 1 | 🌐 Python | 📅 2026-03-04 \[unflattener]
 * <https://github.com/IIIImmmyyy/AntiOllvm> ⭐ 190 | 🐛 2 | 🌐 C# | 📅 2025-01-08 \[AntiOllvm Fla with Fake Runtime]
@@ -1144,11 +1144,11 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 > Dynamic Binary Instrumentation
 
-* <https://github.com/momo5502/sogen> ⭐ 3,554 | 🐛 24 | 🌐 C++ | 📅 2026-08-26 \[Windows User Space Emulator]
+* <https://github.com/momo5502/sogen> ⭐ 3,555 | 🐛 24 | 🌐 C++ | 📅 2026-08-26 \[Windows User Space Emulator]
 * <https://github.com/DynamoRIO/drmemory> ⭐ 2,744 | 🐛 1,047 | 🌐 C | 📅 2025-12-13
 * <https://github.com/googleprojectzero/TinyInst> ⭐ 1,353 | 🐛 11 | 🌐 C++ | 📅 2026-08-25
 * <https://github.com/crmulliner/adbi> ⭐ 1,266 | 🐛 23 | 🌐 C | 📅 2017-06-23 \[For Android]
-* <https://github.com/GJDuck/e9patch> ⭐ 1,137 | 🐛 9 | 🌐 C | 📅 2026-06-28 \[E9Patch is a powerful static binary rewriting tool for x86\_64 Linux ELF binaries]
+* <https://github.com/GJDuck/e9patch> ⭐ 1,138 | 🐛 9 | 🌐 C | 📅 2026-06-28 \[E9Patch is a powerful static binary rewriting tool for x86\_64 Linux ELF binaries]
 * <https://github.com/hzqst/unicorn_pe> ⚠️ Archived
 * <https://github.com/beehive-lab/mambo> ⭐ 398 | 🐛 12 | 🌐 C | 📅 2025-01-21 \[ARM]
 * <https://github.com/HexRaysSA/rax> ⭐ 214 | 🐛 18 | 🌐 Rust | 📅 2026-08-22 \[Self-checking CPU emulator: x86-64/AArch64/Hexagon/RISC-V; instruction-level diff vs KVM/QEMU oracles; boots Linux, SDE trace, GDB stub for IDA, SMIR JIT; Rust, MIT]
@@ -1175,7 +1175,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 > PatchGuard-related
 
-* <https://github.com/Mattiwatti/EfiGuard> ⭐ 2,523 | 🐛 20 | 🌐 C++ | 📅 2026-06-16 \[EFI]
+* <https://github.com/Mattiwatti/EfiGuard> ⭐ 2,522 | 🐛 20 | 🌐 C++ | 📅 2026-06-16 \[EFI]
 * <https://github.com/9176324/Shark> ⭐ 1,043 | 🐛 7 | 🌐 C | 📅 2022-04-21
 * <https://github.com/hfiref0x/UPGDSED> ⚠️ Archived \[File]
 * <https://github.com/AdamOron/PatchGuardBypass> ⭐ 268 | 🐛 1 | 🌐 C++ | 📅 2023-04-09
@@ -1205,20 +1205,20 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 > Windows Kernel Explorer
 
-* <https://github.com/winsiderss/systeminformer> ⭐ 15,703 | 🐛 282 | 🌐 C | 📅 2026-08-26 \[The original name is "Process Hacker"]
+* <https://github.com/winsiderss/systeminformer> ⭐ 15,704 | 🐛 282 | 🌐 C | 📅 2026-08-26 \[The original name is "Process Hacker"]
 * <https://github.com/intel/pcm> ⭐ 3,319 | 🐛 69 | 🌐 C++ | 📅 2026-08-11 \[Processor Counter Monitor]
-* <https://github.com/hfiref0x/KDU> ⭐ 2,704 | 🐛 0 | 🌐 C | 📅 2026-08-18 \[Kernel Driver Utility Tool]
+* <https://github.com/hfiref0x/KDU> ⭐ 2,703 | 🐛 0 | 🌐 C | 📅 2026-08-18 \[Kernel Driver Utility Tool]
 * <https://github.com/everdox/InfinityHook> ⭐ 2,673 | 🐛 9 | 🌐 C++ | 📅 2023-05-09 \[ETW Hook]
 * <https://github.com/googleprojectzero/winafl> ⭐ 2,604 | 🐛 170 | 🌐 C | 📅 2026-03-13 \[Intel PT Fuzzer]
 * <https://github.com/EquiFox/KsDumper> ⭐ 1,056 | 🐛 18 | 🌐 C# | 📅 2023-11-06 \[Dumping processes using the power of kernel space]
 * <https://github.com/jthuraisamy/TelemetrySourcerer> ⭐ 853 | 🐛 3 | 🌐 C++ | 📅 2021-03-11 \[Enumerate and disable callbacks/ETW]
-* <https://github.com/noahware/hyper-reV> ⭐ 745 | 🐛 1 | 🌐 C++ | 📅 2026-07-24 \[memory introspection and reverse engineering hypervisor powered by leveraging Hyper-V]
+* <https://github.com/noahware/hyper-reV> ⭐ 746 | 🐛 1 | 🌐 C++ | 📅 2026-07-24 \[memory introspection and reverse engineering hypervisor powered by leveraging Hyper-V]
 * <https://github.com/br-sn/CheekyBlinder> ⭐ 591 | 🐛 5 | 🌐 C++ | 📅 2023-01-24 \[Enumerating and removing kernel callbacks using signed vulnerable drivers]
 * <https://github.com/mastercodeon314/KsDumper-11> ⭐ 584 | 🐛 4 | 🌐 C# | 📅 2025-01-24 \[Classic and legendary KsDumper]
 * <https://github.com/BeneficialCode/WinArk> ⭐ 570 | 🐛 5 | 🌐 C++ | 📅 2026-07-25 \[Tool]
 * <https://github.com/FiYHer/InfinityHookPro> ⭐ 563 | 🐛 5 | 🌐 C++ | 📅 2023-02-07 \[ETW Hook Ex]
 * <https://github.com/intelpt/WindowsIntelPT> ⭐ 484 | 🐛 11 | 🌐 C++ | 📅 2018-04-17 \[Intel PT]
-* <https://github.com/ergrelet/windiff> ⭐ 390 | 🐛 0 | 🌐 Rust | 📅 2026-08-25 \[Web/CLI tool to browse and diff Windows PE symbols, types, and syscalls across OS versions]
+* <https://github.com/ergrelet/windiff> ⭐ 390 | 🐛 0 | 🌐 Rust | 📅 2026-08-27 \[Web/CLI tool to browse and diff Windows PE symbols, types, and syscalls across OS versions]
 * <https://github.com/Oxygen1a1/InfinityHook_latest> ⭐ 354 | 🐛 0 | 🌐 C++ | 📅 2026-04-26 \[ETW Hook WIN11]
 * <https://github.com/progmboy/openprocmon> ⭐ 330 | 🐛 0 | 🌐 Rust | 📅 2026-08-27 \[open source process monitor]
 * <https://github.com/0xcpu/ExecutiveCallbackObjects> ⭐ 314 | 🐛 1 | 🌐 C | 📅 2020-02-22 \[Callback]
@@ -1244,14 +1244,14 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 * <https://github.com/IcEy-999/Ntoskrnl_Viewer> ⭐ 107 | 🐛 0 | 🌐 C++ | 📅 2022-09-01 \[Ntoskrnl Viewer]
 * <https://github.com/allogic/KDBG> ⭐ 96 | 🐛 0 | 🌐 C++ | 📅 2022-09-12 \[Tool]
 * <https://github.com/jlgreathouse/AMD_IBS_Toolkit> ⭐ 95 | 🐛 2 | 🌐 C | 📅 2021-04-29 \[AMD Sampling]
-* <https://github.com/zer0condition/NTMemory> ⭐ 90 | 🐛 0 | 🌐 C++ | 📅 2026-03-16 \[Usermode NT Explorer - Query kernel addresses, translate virtual to physical addresses, inspect the PFN database, and more.]
+* <https://github.com/zer0condition/NTMemory> ⭐ 91 | 🐛 0 | 🌐 C++ | 📅 2026-03-16 \[Usermode NT Explorer - Query kernel addresses, translate virtual to physical addresses, inspect the PFN database, and more.]
 * <https://github.com/AyinSama/Anti-AntiDebuggerDriver> ⭐ 89 | 🐛 1 | 🌐 C++ | 📅 2022-10-29 \[ETW Hook]
 * <https://github.com/preludeorg/ThreatIntelligenceConsumer> ⭐ 83 | 🐛 0 | 🌐 C++ | 📅 2026-01-19 \[Consuming from the Threat-Intelligence ETW provider without a driver or PPL privilege]
 * <https://github.com/am0nsec/wkpe> ⭐ 83 | 🐛 0 | 🌐 C++ | 📅 2022-09-18 \[Enumerate VAD]
 * <https://github.com/libiht/libiht> ⭐ 81 | 🐛 3 | 🌐 C | 📅 2025-10-17 \[Intel Hardware Trace Library]
 * <https://github.com/synacktiv/windows_kernel_shadow_stack> ⭐ 78 | 🐛 0 | 🌐 C | 📅 2025-06-02 \[Shadow Stack]
+* <https://github.com/ReverseWarrior/IUM-Debugger> ⭐ 73 | 🐛 0 | 🌐 C# | 📅 2026-05-14 \[Hyper-V host tool via LiveCloudKd hvmm.sys: patch guest securekernel debug check in live RAM so WinDbg in the guest can attach to VTL1 IUM trustlets]
 * <https://github.com/kernullist/kn-live-dbg> ⭐ 72 | 🐛 0 | 🌐 C++ | 📅 2026-08-27 \[Windows kernel live debugging — driver exposes memory primitives, user-mode TUI handles symbols, types, and UX (LiveKD-style)]
-* <https://github.com/ReverseWarrior/IUM-Debugger> ⭐ 72 | 🐛 0 | 🌐 C# | 📅 2026-05-14 \[Hyper-V host tool via LiveCloudKd hvmm.sys: patch guest securekernel debug check in live RAM so WinDbg in the guest can attach to VTL1 IUM trustlets]
 * <https://github.com/brew02/BudgetEPT> ⭐ 69 | 🐛 0 | 🌐 C | 📅 2024-10-19 \[Create stealthy, inline, EPT-like hooks using SMAP and SMEP]
 * <https://github.com/KelvinMsft/PerfMon> ⭐ 66 | 🐛 0 | 🌐 C++ | 📅 2020-10-29 \[PMI Callback]
 * <https://github.com/gmh5225/ntoskrnl_file_collection> ⭐ 64 | 🐛 2 | 📅 2024-01-10 \[Various versions of ntoskrnl files]
@@ -1282,8 +1282,8 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 * <https://github.com/gmh5225/NMI-nmi_callback> ⭐ 5 | 🐛 0 | 📅 2022-06-27 \[Triggering NMI]
 * <https://github.com/gmh5225/win32k_file_collection2> ⭐ 5 | 🐛 0 | 📅 2024-01-10 \[Win32k Version]
 * <https://github.com/gmh5225/Kernel_Anti-Cheat> ⭐ 4 | 🐛 0 | 📅 2023-08-03 \[NMI]
+* <https://github.com/zer0condition/gexec> ⭐ 4 | 🐛 0 | 🌐 C++ | 📅 2026-08-18 \[Register-machine bytecode interpreter for Windows kernel drivers with gasm assembler, gvmlift PE lifter, and embeddable host API for kernel memory/MSR/physical access]
 * <https://github.com/CristiNacu/ingsoc> ⭐ 3 | 🐛 1 | 🌐 C | 📅 2022-06-21 \[Intel PT]
-* <https://github.com/zer0condition/gexec> ⭐ 3 | 🐛 0 | 🌐 C++ | 📅 2026-08-18 \[Register-machine bytecode interpreter for Windows kernel drivers with gasm assembler, gvmlift PE lifter, and embeddable host API for kernel memory/MSR/physical access]
 * <https://github.com/gmh5225/AcDrv> ⭐ 2 | 🐛 0 | 📅 2024-04-18 \[ETW Hook]
 * <https://github.com/gmh5225/ETWHOOK-InfinityHookClass> ⭐ 2 | 🐛 0 | 📅 2022-09-13 \[ETW Hook Ex]
 * <https://github.com/gmh5225/win32k_file_collection> ⚠️ Archived \[Various versions of win32k files]
@@ -1312,28 +1312,28 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 > Magisk
 
-* <https://github.com/Dr-TSNG/ZygiskOnKernelSU> ⭐ 10,432 | 🐛 1 | 🌐 C | 📅 2026-08-27 \[Run Zygisk on KernelSU]
-* <https://github.com/PerformanC/ReZygisk> ⭐ 3,858 | 🐛 11 | 🌐 C | 📅 2026-08-22 \[Transparent implementation of Zygisk]
+* <https://github.com/Dr-TSNG/ZygiskOnKernelSU> ⭐ 10,437 | 🐛 1 | 🌐 C | 📅 2026-08-27 \[Run Zygisk on KernelSU]
+* <https://github.com/PerformanC/ReZygisk> ⭐ 3,859 | 🐛 11 | 🌐 C | 📅 2026-08-22 \[Transparent implementation of Zygisk]
 * <https://github.com/Fox2Code/FoxMagiskModuleManager> ⚠️ Archived \[A module manager for Magisk]
-* <https://github.com/ys1231/MoveCertificate> ⭐ 1,948 | 🐛 5 | 🌐 TypeScript | 📅 2026-08-18 \[A Magisk/KernelSU/APatch module for moving user certificates to system certificates. Supports Android 7-15]
+* <https://github.com/ys1231/MoveCertificate> ⭐ 1,949 | 🐛 5 | 🌐 TypeScript | 📅 2026-08-18 \[A Magisk/KernelSU/APatch module for moving user certificates to system certificates. Supports Android 7-15]
 * <https://github.com/newbit1/rootAVD> ⚠️ Archived \[root AVD]
-* <https://github.com/MhmRdd/NoHello> ⭐ 1,351 | 🐛 21 | 🌐 C++ | 📅 2025-06-28 \[A Zygisk module to hide root]
-* <https://github.com/lico-n/ZygiskFrida> ⭐ 1,066 | 🐛 15 | 🌐 C++ | 📅 2025-10-18 \[Injects frida gadget using zygisk]
+* <https://github.com/MhmRdd/NoHello> ⭐ 1,350 | 🐛 21 | 🌐 C++ | 📅 2025-06-28 \[A Zygisk module to hide root]
+* <https://github.com/lico-n/ZygiskFrida> ⭐ 1,068 | 🐛 15 | 🌐 C++ | 📅 2025-10-18 \[Injects frida gadget using zygisk]
 * <https://github.com/canyie/Riru-MomoHider> ⚠️ Archived
 * <https://github.com/jiqiu2022/Zygisk-MyInjector> ⭐ 657 | 🐛 8 | 🌐 Java | 📅 2025-12-26 \[Zygisk Injector]
 * <https://github.com/MMRLApp/WebUI-X-Portable> ⭐ 632 | 🐛 6 | 🌐 Kotlin | 📅 2026-08-18 \[Portable Android app providing the MMRL WebUI X interface for browsing, installing, and managing Magisk/APatch/KernelSU modules]
-* <https://github.com/anasfanani/Magisk-Tailscaled> ⭐ 508 | 🐛 12 | 🌐 Shell | 📅 2025-11-04 \[Magisk module for running Tailscale]
+* <https://github.com/anasfanani/Magisk-Tailscaled> ⭐ 509 | 🐛 12 | 🌐 Shell | 📅 2025-11-04 \[Magisk module for running Tailscale]
 * <https://github.com/j-hc/FlagSecurePatcher> ⚠️ Archived \[Disable flag secure and screenshot listeners]
-* <https://github.com/Exo1i/MagiskHluda> ⭐ 429 | 🐛 4 | 🌐 Shell | 📅 2026-02-04 \[Run a more undetectable frida server on boot using magisk]
+* <https://github.com/Exo1i/MagiskHluda> ⭐ 430 | 🐛 4 | 🌐 Shell | 📅 2026-02-04 \[Run a more undetectable frida server on boot using magisk]
 * <https://github.com/Admirepowered/Zygisk_mod> ⚠️ Archived \[Standalone implementation of Zygisk]
 * <https://github.com/ookiineko/magiskboot_build> ⚠️ Archived \[Boot Image Modification Tool]
-* <https://github.com/svoboda18/magiskboot> ⭐ 186 | 🐛 2 | 🌐 C++ | 📅 2023-06-22 \[Boot Image Modification Tool]
+* <https://github.com/svoboda18/magiskboot> ⭐ 187 | 🐛 2 | 🌐 C++ | 📅 2023-06-22 \[Boot Image Modification Tool]
 * <https://github.com/ri-char/zygisk-dump-dex> ⭐ 156 | 🐛 1 | 🌐 Rust | 📅 2025-12-12 \[A zygisk module that hooks `libdexfile.so` to dump dex]
 * <https://github.com/hackcatml/zygisk-memdump> ⭐ 104 | 🐛 1 | 🌐 C | 📅 2024-10-09 \[A zygisk module that dumps so file from process memory]
 * <https://github.com/PShocker/Zygisk-MagiskHide> ⭐ 83 | 🐛 0 | 🌐 C++ | 📅 2022-08-01
 * <https://github.com/xiaoxindada/magiskboot_ndk_on_linux> ⭐ 73 | 🐛 0 | 🌐 Rust | 📅 2026-08-27 \[Boot Image Modification Tool]
 * <https://github.com/xgl34222220-ops/BaiZe> ⭐ 32 | 🐛 12 | 🌐 Kotlin | 📅 2026-08-23 \[Magisk/KernelSU/APatch module for graded cache, log, APK residue, and deep junk cleanup on rooted Android]
-* <https://github.com/jiayuxuan123/RescueX> ⭐ 27 | 🐛 0 | 🌐 Shell | 📅 2026-08-24 \[Magisk/KernelSU/APatch auto-rescue module with boot watchdog, module snapshots, and WebUI recovery]
+* <https://github.com/jiayuxuan123/RescueX> ⭐ 29 | 🐛 0 | 🌐 Shell | 📅 2026-08-24 \[Magisk/KernelSU/APatch auto-rescue module with boot watchdog, module snapshots, and WebUI recovery]
 * <https://github.com/longpoxin/hideroot> ⭐ 21 | 🐛 0 | 🌐 C | 📅 2018-10-21
 * <https://github.com/the-dise/EasyPixel> ⚠️ Archived \[Magisk module that disguises a device under Google Pixel]
 * <https://github.com/mrx7014/SpoofingCollection> ⭐ 14 | 🐛 2 | 🌐 Java | 📅 2026-08-19 \[Magisk and LSPosed module collection for spoofing Android device fingerprints (manufacturer, model, build props)]
@@ -1345,41 +1345,41 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 > Xposed
 
-* <https://github.com/salvogiangri/KnoxPatch> ⭐ 1,495 | 🐛 5 | 🌐 Kotlin | 📅 2026-08-25 \[LSPosed module to restore Samsung Knox-gated apps and features on rooted Galaxy devices]
+* <https://github.com/salvogiangri/KnoxPatch> ⭐ 1,496 | 🐛 5 | 🌐 Kotlin | 📅 2026-08-25 \[LSPosed module to restore Samsung Knox-gated apps and features on rooted Galaxy devices]
 * <https://github.com/wchunlin1006/LocusMimic> ⭐ 78 | 🐛 9 | 📅 2026-08-21 \[LSPosed/Xposed Android GPS spoof module with map picker, saved locations, and app/system/mock-provider modes]
 * <https://github.com/NPC2000/AppPealing-new> ⭐ 15 | 🐛 0 | 📅 2024-09-23 \[An Xposed module that disables Inka AppSealing, a popular anti-cheat and anti-root solution]
-* <https://github.com/cxOrz/AnyWhere> ⭐ 8 | 🐛 0 | 🌐 Java | 📅 2026-08-26 \[Android mock-location app with map picker, joystick movement, and LSPosed module to hide mock-provider detection]
+* <https://github.com/cxOrz/AnyWhere> ⭐ 10 | 🐛 0 | 🌐 Java | 📅 2026-08-26 \[Android mock-location app with map picker, joystick movement, and LSPosed module to hide mock-provider detection]
 * <https://github.com/Jordan231111/lsposed-universal-template> ⭐ 0 | 🐛 1 | 🌐 Java | 📅 2026-08-20 \[LSPosed/LSPatch module template with Unity/Unreal/Godot engine detection, native pattern scan and memory helpers, and runtime overlay toggles]
 * <https://github.com/mabbcoll13/xposed-module-kit> \[Xposed/LSPosed module scaffold with hook templates and root-detection bypass example]
 
 > Frida
 
-* <https://github.com/firerpa/lamda> ⭐ 8,247 | 🐛 40 | 🌐 Python | 📅 2026-08-16 \[Android full-stack device control with built-in Frida, MITM, UI automation, and reverse-engineering APIs]
-* <https://github.com/Ylarod/Florida> ⭐ 2,179 | 🐛 14 | 📅 2026-08-05 \[anti-detection version of frida-server]
-* <https://github.com/0xdea/frida-scripts> ⭐ 1,653 | 🐛 2 | 🌐 JavaScript | 📅 2026-08-02 \[Some scripts]
-* <https://github.com/ChiChou/bagbak> ⭐ 1,494 | 🐛 3 | 🌐 TypeScript | 📅 2026-07-24 \[iOS Frida app decrypt / dump to IPA; extensions; jailbreak; bagbak\@5 needs frida\@17; deprecated]
-* <https://github.com/ChiChou/grapefruit> ⭐ 1,380 | 🐛 12 | 🌐 TypeScript | 📅 2026-08-11 \[Runtime mobile instrumentation toolkit for iOS/Android, web UI]
-* <https://github.com/suifei/fridare> ⭐ 894 | 🐛 0 | 🌐 Go | 📅 2026-08-14 \[Powerful Frida repackaging tool for iOS and Android. Easily modify Frida servers to enhance stealth and bypass detection]
-* <https://github.com/CrackerCat/strongR-frida-android> ⭐ 707 | 🐛 0 | 📅 2025-04-14
+* <https://github.com/firerpa/lamda> ⭐ 8,249 | 🐛 40 | 🌐 Python | 📅 2026-08-16 \[Android full-stack device control with built-in Frida, MITM, UI automation, and reverse-engineering APIs]
+* <https://github.com/Ylarod/Florida> ⭐ 2,180 | 🐛 14 | 📅 2026-08-05 \[anti-detection version of frida-server]
+* <https://github.com/0xdea/frida-scripts> ⭐ 1,654 | 🐛 2 | 🌐 JavaScript | 📅 2026-08-02 \[Some scripts]
+* <https://github.com/ChiChou/bagbak> ⭐ 1,495 | 🐛 3 | 🌐 TypeScript | 📅 2026-07-24 \[iOS Frida app decrypt / dump to IPA; extensions; jailbreak; bagbak\@5 needs frida\@17; deprecated]
+* <https://github.com/ChiChou/grapefruit> ⭐ 1,379 | 🐛 12 | 🌐 TypeScript | 📅 2026-08-11 \[Runtime mobile instrumentation toolkit for iOS/Android, web UI]
+* <https://github.com/suifei/fridare> ⭐ 895 | 🐛 0 | 🌐 Go | 📅 2026-08-14 \[Powerful Frida repackaging tool for iOS and Android. Easily modify Frida servers to enhance stealth and bypass detection]
+* <https://github.com/CrackerCat/strongR-frida-android> ⭐ 708 | 🐛 0 | 📅 2025-04-14
 * <https://github.com/smartdone/Frida-Scripts> ⚠️ Archived \[Some scripts]
-* <https://github.com/Abbbbbi/Frida-Seccomp> ⭐ 658 | 🐛 8 | 🌐 JavaScript | 📅 2024-05-14 \[Frida-Seccomp]
-* <https://github.com/noobpk/frida-android-hook> ⭐ 648 | 🐛 5 | 🌐 JavaScript | 📅 2024-11-15 \[Trace classes/functions/and modify the return values]
-* <https://github.com/ChiChou/vscode-frida> ⭐ 594 | 🐛 0 | 🌐 TypeScript | 📅 2026-06-29 \[Unofficial Frida extension for VSCode]
-* <https://github.com/apkunpacker/AntiFrida_Bypass> ⭐ 552 | 🐛 8 | 🌐 JavaScript | 📅 2024-09-12 \[Bypass Some AntiFrida Checks]
-* <https://github.com/Exo1i/MagiskHluda> ⭐ 429 | 🐛 4 | 🌐 Shell | 📅 2026-02-04 \[Run a more undetectable frida server on boot using magisk]
-* <https://github.com/kkkbbb/rustFrida> ⭐ 408 | 🐛 19 | 🌐 C | 📅 2026-07-31 \[Frida-like Android ARM64 hook — QuickJS, Java/native/stealth hook, QBDI; pairs with wxshadow (mkpms)]
-* <https://github.com/TheQmaks/phantom-frida> ⭐ 369 | 🐛 5 | 🌐 Python | 📅 2026-08-25 \[Build anti-detection Frida server from source]
+* <https://github.com/Abbbbbi/Frida-Seccomp> ⭐ 659 | 🐛 8 | 🌐 JavaScript | 📅 2024-05-14 \[Frida-Seccomp]
+* <https://github.com/noobpk/frida-android-hook> ⭐ 649 | 🐛 5 | 🌐 JavaScript | 📅 2024-11-15 \[Trace classes/functions/and modify the return values]
+* <https://github.com/ChiChou/vscode-frida> ⭐ 595 | 🐛 0 | 🌐 TypeScript | 📅 2026-06-29 \[Unofficial Frida extension for VSCode]
+* <https://github.com/apkunpacker/AntiFrida_Bypass> ⭐ 553 | 🐛 8 | 🌐 JavaScript | 📅 2024-09-12 \[Bypass Some AntiFrida Checks]
+* <https://github.com/Exo1i/MagiskHluda> ⭐ 430 | 🐛 4 | 🌐 Shell | 📅 2026-02-04 \[Run a more undetectable frida server on boot using magisk]
+* <https://github.com/kkkbbb/rustFrida> ⭐ 410 | 🐛 19 | 🌐 C | 📅 2026-07-31 \[Frida-like Android ARM64 hook — QuickJS, Java/native/stealth hook, QBDI; pairs with wxshadow (mkpms)]
+* <https://github.com/TheQmaks/phantom-frida> ⭐ 371 | 🐛 5 | 🌐 Python | 📅 2026-08-25 \[Build anti-detection Frida server from source]
 * <https://github.com/0xCD4/SSL-bypass> ⭐ 316 | 🐛 2 | 🌐 JavaScript | 📅 2026-02-08 \[Root Detection & SSL Bypass Script]
-* <https://github.com/SeeFlowerX/frida-smali-trace> ⭐ 211 | 🐛 3 | 🌐 TypeScript | 📅 2022-05-22 \[Smali trace]
-* <https://github.com/AsenOsen/frida-stealth> ⭐ 139 | 🐛 1 | 📅 2024-08-07 \[Stealth patch for Frida, stealth knowledge collection]
-* <https://github.com/dreamland-blog/KSU-Rust-Frida> ⭐ 71 | 🐛 1 | 🌐 Shell | 📅 2026-07-06 \[Android ARM64 dynamic instrumentation module workflow for KernelSU/Magisk: single-binary engine, attach/spawn/watch-so, HTTP RPC control plane, and multi-mode stealth (normal/wxshadow/recomp)]
-* <https://github.com/hackcatml/frida-watchpoint-tutorial> ⭐ 64 | 🐛 0 | 🌐 JavaScript | 📅 2024-10-13 \[Frida's setHardwareWatchpoint tutorial]
-* <https://github.com/rednaga/frida-stack> ⭐ 61 | 🐛 0 | 🌐 TypeScript | 📅 2026-02-20 \[Getting better stacks and backtraces in Frida]
-* <https://github.com/aimardcr/FridaDetectionBypass> ⭐ 61 | 🐛 0 | 🌐 C | 📅 2025-02-14 \[Debugger Detection Bypass]
-* <https://github.com/quarkslab/android-hardware-attestation-demo> ⭐ 43 | 🐛 0 | 🌐 Python | 📅 2026-08-05 \[End-to-end PoC bypassing backend hardware Key Attestation by Frida-hooking KeystoreAttestation.generateAttestedKey and relaying the backend nonce to a clean, bootloader-locked device that returns a genuine TEE/StrongBox chain — no TEE tampering or forged certs]
+* <https://github.com/SeeFlowerX/frida-smali-trace> ⭐ 212 | 🐛 3 | 🌐 TypeScript | 📅 2022-05-22 \[Smali trace]
+* <https://github.com/AsenOsen/frida-stealth> ⭐ 140 | 🐛 1 | 📅 2024-08-07 \[Stealth patch for Frida, stealth knowledge collection]
+* <https://github.com/dreamland-blog/KSU-Rust-Frida> ⭐ 72 | 🐛 1 | 🌐 Shell | 📅 2026-07-06 \[Android ARM64 dynamic instrumentation module workflow for KernelSU/Magisk: single-binary engine, attach/spawn/watch-so, HTTP RPC control plane, and multi-mode stealth (normal/wxshadow/recomp)]
+* <https://github.com/hackcatml/frida-watchpoint-tutorial> ⭐ 65 | 🐛 0 | 🌐 JavaScript | 📅 2024-10-13 \[Frida's setHardwareWatchpoint tutorial]
+* <https://github.com/rednaga/frida-stack> ⭐ 62 | 🐛 0 | 🌐 TypeScript | 📅 2026-02-20 \[Getting better stacks and backtraces in Frida]
+* <https://github.com/aimardcr/FridaDetectionBypass> ⭐ 62 | 🐛 0 | 🌐 C | 📅 2025-02-14 \[Debugger Detection Bypass]
+* <https://github.com/quarkslab/android-hardware-attestation-demo> ⭐ 44 | 🐛 0 | 🌐 Python | 📅 2026-08-05 \[End-to-end PoC bypassing backend hardware Key Attestation by Frida-hooking KeystoreAttestation.generateAttestedKey and relaying the backend nonce to a clean, bootloader-locked device that returns a genuine TEE/StrongBox chain — no TEE tampering or forged certs]
 * <https://github.com/miticollo/xpc-tracer> ⭐ 35 | 🐛 0 | 🌐 TypeScript | 📅 2023-05-28 \[A tracer based on frida for XPC messages in iOS and macOS]
 * <https://github.com/astra1dev/MalumMenu-Android> ⭐ 34 | 🐛 7 | 🌐 TypeScript | 📅 2026-08-26 \[Among Us Android cheat menu using Frida and frida-il2cpp-bridge]
-* <https://github.com/jcalabres/hook-updater> ⭐ 28 | 🐛 0 | 🌐 Python | 📅 2023-09-03 \[Update Frida hooks automatically]
+* <https://github.com/jcalabres/hook-updater> ⭐ 29 | 🐛 0 | 🌐 Python | 📅 2023-09-03 \[Update Frida hooks automatically]
 * <https://github.com/hackcatml/frida-findJNINativeMethods> ⭐ 24 | 🐛 1 | 🌐 JavaScript | 📅 2024-10-26 \[Find JNI native methods while the app is running]
 * <https://github.com/VarshaWanjari0/Auto-Android-App-Modding-Tool> ⭐ 19 | 🐛 0 | 🌐 Python | 📅 2026-08-10 \[Termux-based Android APK modding toolkit for Frida Gadget and native .so injection, patching, rebuild, align, and sign workflows]
 * <https://github.com/piotrbania/frida_usb_dump> ⭐ 16 | 🐛 0 | 🌐 JavaScript | 📅 2024-09-29 \[Frida script that allows to sniff & dump USB traffic on macOS]
@@ -1407,22 +1407,22 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 > Android Terminal Emulator
 
-* <https://github.com/termux/termux-app> ⭐ 59,856 | 🐛 598 | 🌐 Java | 📅 2026-08-24
+* <https://github.com/termux/termux-app> ⭐ 59,870 | 🐛 598 | 🌐 Java | 📅 2026-08-24
 * <https://github.com/jackpal/Android-Terminal-Emulator> ⚠️ Archived
-* <https://github.com/DP-Hridayan/aShellYou> ⭐ 2,233 | 🐛 37 | 🌐 Kotlin | 📅 2026-08-27 \[Material You Android ADB/root/shell utility (Shizuku, OTG, wireless debugging)]
+* <https://github.com/DP-Hridayan/aShellYou> ⭐ 2,234 | 🐛 36 | 🌐 Kotlin | 📅 2026-08-27 \[Material You Android ADB/root/shell utility (Shizuku, OTG, wireless debugging)]
 * <https://github.com/NeoTerrm/NeoTerm> ⭐ 691 | 🐛 32 | 🌐 Java | 📅 2024-03-09
 * <https://github.com/gmh5225/neotty> ⭐ 1 | 🐛 0 | 📅 2024-02-01
 
 > Android File Explorer
 
-* <https://github.com/skylot/jadx> ⭐ 50,230 | 🐛 446 | 🌐 Java | 📅 2026-08-19 \[Dex to Java decompiler]
-* <https://github.com/iBotPeaches/Apktool> ⭐ 25,388 | 🐛 82 | 🌐 Java | 📅 2026-08-26 \[A tool for reverse engineering Android apk files]
-* <https://github.com/pxb1988/dex2jar> ⭐ 13,135 | 🐛 379 | 🌐 Java | 📅 2024-07-21
-* <https://github.com/MuntashirAkon/AppManager> ⭐ 8,832 | 🐛 207 | 🌐 Java | 📅 2026-08-26 \[A full-featured package manager and viewer]
-* <https://github.com/APKLab/APKLab> ⭐ 3,953 | 🐛 24 | 🌐 TypeScript | 📅 2026-07-16 \[Android Reverse-Engineering Workbench for VS Code]
+* <https://github.com/skylot/jadx> ⭐ 50,236 | 🐛 446 | 🌐 Java | 📅 2026-08-19 \[Dex to Java decompiler]
+* <https://github.com/iBotPeaches/Apktool> ⭐ 25,392 | 🐛 81 | 🌐 Java | 📅 2026-08-26 \[A tool for reverse engineering Android apk files]
+* <https://github.com/pxb1988/dex2jar> ⭐ 13,136 | 🐛 379 | 🌐 Java | 📅 2024-07-21
+* <https://github.com/MuntashirAkon/AppManager> ⭐ 8,833 | 🐛 207 | 🌐 Java | 📅 2026-08-26 \[A full-featured package manager and viewer]
+* <https://github.com/APKLab/APKLab> ⭐ 3,951 | 🐛 24 | 🌐 TypeScript | 📅 2026-07-16 \[Android Reverse-Engineering Workbench for VS Code]
 * <https://github.com/rednaga/APKiD> ⭐ 2,566 | 🐛 84 | 🌐 YARA | 📅 2026-07-27 \[PEiD for Android]
 * <https://github.com/AndnixSH/APKToolGUI> ⭐ 1,370 | 🐛 1 | 🌐 C# | 📅 2026-06-04 \[GUI for apktool, signapk, zipalign and baksmali utilities]
-* <https://github.com/neocanable/garlic> ⭐ 772 | 🐛 17 | 🌐 C | 📅 2026-08-20 \[Fast APK/DEX/JAR Java decompiler (C)]
+* <https://github.com/neocanable/garlic> ⭐ 773 | 🐛 17 | 🌐 C | 📅 2026-08-27 \[Fast APK/DEX/JAR Java decompiler (C)]
 * <https://github.com/loerting/dalvikus> ⭐ 268 | 🐛 4 | 🌐 Java | 📅 2026-02-16 \[Android reverse-engineering tool / smali editor]
 * <https://github.com/Raival-e/File-Explorer> ⚠️ Archived \[An Android file explorer]
 * <https://github.com/obfusk/apksigcopier> ⚠️ Archived \[apksigcopier - copy/extract/patch android apk signatures & compare apks]
@@ -1433,7 +1433,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 * <https://github.com/pgp/XFiles> ⭐ 112 | 🐛 0 | 🌐 Java | 📅 2025-09-12 \[A general-purpose file explorer for (rooted) Android]
 * <https://github.com/LuckyPray/DexKit-Android> ⚠️ Archived \[dex deobfuscator]
 * <https://github.com/SysAdminDoc/FileExplorer> ⭐ 13 | 🐛 0 | 🌐 Kotlin | 📅 2026-08-12 \[Full-featured rooted Android file manager (Kotlin/Compose) with dual-pane tabs, SAF, USB OTG, APK analyzer, and root module browser]
-* <https://github.com/d4rken-org/butler> ⭐ 12 | 🐛 7 | 🌐 Kotlin | 📅 2026-08-27 \[Open-source Android file explorer with root and Shizuku support, app manager, APK export, and regex search]
+* <https://github.com/d4rken-org/butler> ⭐ 12 | 🐛 4 | 🌐 Kotlin | 📅 2026-08-27 \[Open-source Android file explorer with root and Shizuku support, app manager, APK export, and regex search]
 * <https://github.com/gmh5225/AdbFileManager> ⭐ 0 | 🐛 0 | 🌐 C# | 📅 2024-03-03 \[File manager using ADB protocol]
 
 > Android Memory Explorer
@@ -1471,18 +1471,18 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 > Android Kernel CVE
 
-* <https://github.com/BuSung-dev/Root-My-Galaxy> ⭐ 935 | 🐛 395 | 🌐 Kotlin | 📅 2026-08-24 \[Samsung Galaxy KernelSU installer — CVE-2026-43499]
+* <https://github.com/BuSung-dev/Root-My-Galaxy> ⭐ 936 | 🐛 397 | 🌐 Kotlin | 📅 2026-08-24 \[Samsung Galaxy KernelSU installer — CVE-2026-43499]
 * <https://github.com/polygraphene/DirtyPipe-Android> ⭐ 851 | 🐛 16 | 🌐 C | 📅 2022-06-16 \[Root for Pixel 6]
-* <https://github.com/jiayy/android_vuln_poc-exp> ⭐ 798 | 🐛 5 | 🌐 C | 📅 2025-04-25 \[List]
+* <https://github.com/jiayy/android_vuln_poc-exp> ⭐ 797 | 🐛 5 | 🌐 C | 📅 2025-04-25 \[List]
 * <https://github.com/ScottyBauer/Android_Kernel_CVE_POCs> ⭐ 683 | 🐛 3 | 🌐 C | 📅 2020-12-15 \[List]
 * <https://github.com/0x36/Pixel_GPU_Exploit> ⭐ 562 | 🐛 12 | 🌐 C++ | 📅 2024-04-23 \[Root for Pixel7/8 Pro with Android 14]
-* <https://github.com/YuKongA/ghostlock-app> ⭐ 507 | 🐛 29 | 🌐 C | 📅 2026-08-25 \[GhostLock One-Tap Execution App - CVE-2026-43499]
+* <https://github.com/YuKongA/ghostlock-app> ⭐ 511 | 🐛 28 | 🌐 C | 📅 2026-08-27 \[GhostLock One-Tap Execution App - CVE-2026-43499]
 * <https://github.com/tangsilian/android-vuln> ⭐ 496 | 🐛 0 | 🌐 C | 📅 2019-04-27 \[List]
 * <https://github.com/tiann/DirtyPipeRoot> ⚠️ Archived \[Root for Pixel 6]
 * <https://github.com/zhuowei/cheese> ⭐ 271 | 🐛 7 | 🌐 C | 📅 2025-08-16 \[CVE-2025-21479]
 * <https://github.com/bluefrostsecurity/CVE-2020-0041> ⭐ 257 | 🐛 5 | 🌐 C | 📅 2020-04-08 \[Root for Pixel 3]
 * <https://github.com/x-spy/CVE-2026-43499-popsicle> ⭐ 236 | 🐛 3 | 🌐 C | 📅 2026-07-15 \[CVE-2026-43499]
-* <https://github.com/alex193a/Root-My-Pixel> ⭐ 222 | 🐛 21 | 🌐 Kotlin | 📅 2026-08-24 \[Jailbreak supported Google Pixel phones with CVE-2026-43499]
+* <https://github.com/alex193a/Root-My-Pixel> ⭐ 224 | 🐛 21 | 🌐 Kotlin | 📅 2026-08-24 \[Jailbreak supported Google Pixel phones with CVE-2026-43499]
 * <https://github.com/Markakd/bad_io_uring> ⭐ 213 | 🐛 6 | 🌐 Python | 📅 2024-10-17 \[Root for Pixel 6]
 * <https://github.com/farazsth98/poc-CVE-2025-38352> ⭐ 114 | 🐛 0 | 🌐 C | 📅 2026-01-05 \[CVE-2025-38352]
 * <https://github.com/j4nn/CVE-2020-0041> ⭐ 62 | 🐛 0 | 🌐 C | 📅 2024-12-14 \[Root for Pixel 3]
@@ -1499,7 +1499,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 > Android Key Attestation
 
-* <https://github.com/quarkslab/android-hardware-attestation-demo> ⭐ 43 | 🐛 0 | 🌐 Python | 📅 2026-08-05 \[End-to-end PoC bypassing backend hardware Key Attestation by Frida-hooking KeystoreAttestation.generateAttestedKey and relaying the backend nonce to a clean, bootloader-locked device that returns a genuine TEE/StrongBox chain — no TEE tampering or forged certs]
+* <https://github.com/quarkslab/android-hardware-attestation-demo> ⭐ 44 | 🐛 0 | 🌐 Python | 📅 2026-08-05 \[End-to-end PoC bypassing backend hardware Key Attestation by Frida-hooking KeystoreAttestation.generateAttestedKey and relaying the backend nonce to a clean, bootloader-locked device that returns a genuine TEE/StrongBox chain — no TEE tampering or forged certs]
 
 > IoT / Smart devices
 
@@ -1513,7 +1513,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 * <https://github.com/cfig/Android_boot_image_editor> ⭐ 1,321 | 🐛 25 | 🌐 Java | 📅 2026-08-06 \[Android ROM tool]
 * <https://github.com/musabcel/android_rom_list> ⭐ 620 | 🐛 1 | 📅 2026-01-26 \[List]
 * <https://github.com/Akipe/awesome-android-aosp> ⭐ 336 | 🐛 2 | 📅 2024-02-12 \[Guide]
-* <https://github.com/Zenlua/Tool-Tree> ⭐ 173 | 🐛 0 | 🌐 Kotlin | 📅 2026-08-27 \[Android ROM/APK unpack-repack toolkit for root and non-root ARM64 devices]
+* <https://github.com/Zenlua/Tool-Tree> ⭐ 174 | 🐛 0 | 🌐 Kotlin | 📅 2026-08-27 \[Android ROM/APK unpack-repack toolkit for root and non-root ARM64 devices]
 * <https://github.com/Ctapchuk/android_bootable_recovery-OFRP> ⭐ 1 | 🐛 0 | 🌐 C++ | 📅 2025-04-09 \[OrangeFox Recovery]
 * <https://xdaforums.com> \[Guide]
 * <https://developer.android.com/studio/run/win-usb> \[Google USB Driver]
@@ -1561,18 +1561,18 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 > Android Root
 
-* <https://github.com/topjohnwu/Magisk> ⭐ 62,466 | 🐛 38 | 🌐 Kotlin | 📅 2026-08-27
-* <https://github.com/tiann/KernelSU> ⭐ 18,021 | 🐛 62 | 🌐 Kotlin | 📅 2026-08-27
-* <https://github.com/bmax121/APatch> ⭐ 7,863 | 🐛 42 | 🌐 Kotlin | 📅 2026-08-25
-* <https://github.com/fynks/awesome-android-root> ⭐ 4,407 | 🐛 1 | 🌐 Python | 📅 2026-08-26 \[Awesome Android Root]
-* <https://github.com/abcz316/SKRoot-linuxKernelRoot> ⭐ 3,903 | 🐛 52 | 🌐 C++ | 📅 2026-08-25
-* <https://github.com/BuSung-dev/Root-My-Galaxy> ⭐ 935 | 🐛 395 | 🌐 Kotlin | 📅 2026-08-24 \[One-click KernelSU installer for supported Samsung Galaxy firmware via CVE-2026-43499]
-* <https://github.com/eltavine/Duck-Detector-Refactoring> ⭐ 895 | 🐛 5 | 🌐 Kotlin | 📅 2026-08-27 \[DuckDetector refactor: Android local device-integrity inspector for root tampering, runtime hooking, mount anomalies, attestation trust, and virtualization evidence]
+* <https://github.com/topjohnwu/Magisk> ⭐ 62,463 | 🐛 38 | 🌐 Kotlin | 📅 2026-08-27
+* <https://github.com/tiann/KernelSU> ⭐ 18,030 | 🐛 61 | 🌐 Kotlin | 📅 2026-08-27
+* <https://github.com/bmax121/APatch> ⭐ 7,865 | 🐛 43 | 🌐 Kotlin | 📅 2026-08-27
+* <https://github.com/fynks/awesome-android-root> ⭐ 4,409 | 🐛 1 | 🌐 Python | 📅 2026-08-26 \[Awesome Android Root]
+* <https://github.com/abcz316/SKRoot-linuxKernelRoot> ⭐ 3,905 | 🐛 52 | 🌐 C++ | 📅 2026-08-25
+* <https://github.com/BuSung-dev/Root-My-Galaxy> ⭐ 936 | 🐛 397 | 🌐 Kotlin | 📅 2026-08-24 \[One-click KernelSU installer for supported Samsung Galaxy firmware via CVE-2026-43499]
+* <https://github.com/eltavine/Duck-Detector-Refactoring> ⭐ 897 | 🐛 5 | 🌐 Kotlin | 📅 2026-08-27 \[DuckDetector refactor: Android local device-integrity inspector for root tampering, runtime hooking, mount anomalies, attestation trust, and virtualization evidence]
 * <https://github.com/0x36/Pixel_GPU_Exploit> ⭐ 562 | 🐛 12 | 🌐 C++ | 📅 2024-04-23
-* <https://github.com/Nai64/Nai64Patches> ⭐ 440 | 🐛 22 | 🌐 Kotlin | 📅 2026-08-27 \[Curated Morphe patch source for Android games — root/integrity bypass, license checks, Play Integrity spoof, and SSL pinning]
+* <https://github.com/Nai64/Nai64Patches> ⭐ 447 | 🐛 20 | 🌐 Kotlin | 📅 2026-08-27 \[Curated Morphe patch source for Android games — root/integrity bypass, license checks, Play Integrity spoof, and SSL pinning]
 * <https://github.com/lzghzr/APatch_kpm> ⭐ 425 | 🐛 1 | 🌐 C | 📅 2026-06-06 \[APatch modules]
 * <https://github.com/0xCD4/SSL-bypass> ⭐ 316 | 🐛 2 | 🌐 JavaScript | 📅 2026-02-08 \[Root Detection & SSL Bypass Script]
-* <https://github.com/quarkslab/android-hardware-attestation-demo> ⭐ 43 | 🐛 0 | 🌐 Python | 📅 2026-08-05 \[Bypass backend hardware Key Attestation on rooted/unlocked-bootloader devices by Frida-relaying the backend challenge to a clean attestation oracle — genuine TEE/StrongBox chain, no forgery]
+* <https://github.com/quarkslab/android-hardware-attestation-demo> ⭐ 44 | 🐛 0 | 🌐 Python | 📅 2026-08-05 \[Bypass backend hardware Key Attestation on rooted/unlocked-bootloader devices by Frida-relaying the backend challenge to a clean attestation oracle — genuine TEE/StrongBox chain, no forgery]
 * <https://github.com/rathorekrishna401-NeuroVoid/ApexSU> ⭐ 8 | 🐛 6 | 🌐 Kotlin | 📅 2026-08-26 \[Hardened KernelSU fork with Rust userspace, stealth hardening, and reduced attack surface for Android 12+]
 * <https://github.com/gmh5225/KernelSU-4.4> ⭐ 2 | 🐛 0 | 📅 2024-04-28 \[Adapted for Linux Kernel 4.4 + Google GCC 4.9]
 * <https://github.com/AtawurRahmanTanvir/NEXUS> ⭐ 1 | 🐛 0 | 🌐 Kotlin | 📅 2026-08-17 \[Root-required Kotlin/Compose Android utility for device identity spoofing, environment sanitization, kernel memory purge, and telemetry/log cleanup]
@@ -1622,7 +1622,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 > Android Network Explorer
 
-* <https://github.com/emanuele-f/PCAPdroid> ⭐ 4,607 | 🐛 44 | 🌐 Java | 📅 2026-08-26
+* <https://github.com/emanuele-f/PCAPdroid> ⭐ 4,608 | 🐛 44 | 🌐 Java | 📅 2026-08-26
 * <https://github.com/zhizhuodemao/android_proxy_mcp> ⭐ 222 | 🐛 1 | 🌐 Python | 📅 2026-02-09 \[Android Proxy MCP — MCP-based HTTP/HTTPS capture & analysis for AI]
 * <https://github.com/damanoreshkan-beep/rtl8852au-userspace> ⭐ 1 | 🐛 0 | 🌐 C | 📅 2026-08-25 \[No-root userspace RTL8852AU Wi-Fi driver for Android with libusb monitor mode, channel hopping, and 802.11 frame injection]
 
@@ -1637,21 +1637,21 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 > IOS jailbreak
 
-* <https://github.com/opa334/TrollStore> ⭐ 22,074 | 🐛 48 | 🌐 Objective-C | 📅 2026-04-01 \[jailed app]
+* <https://github.com/opa334/TrollStore> ⭐ 22,075 | 🐛 48 | 🌐 Objective-C | 📅 2026-04-01 \[jailed app]
 * <https://github.com/palera1n/palera1n> ⭐ 6,476 | 🐛 35 | 🌐 C | 📅 2026-08-07
-* <https://github.com/opa334/Dopamine> ⭐ 6,458 | 🐛 80 | 🌐 C | 📅 2026-08-22 \[iOS 15 and 16]
-* <https://github.com/rooootdev/lara> ⭐ 1,469 | 🐛 55 | 🌐 Swift | 📅 2026-07-15 \[WIP darksword kexploit implementation; iOS 17.1.1-26.0.1 tested; includes font overwrite, app bypass, file manager, and DirtyZero2 experiments]
+* <https://github.com/opa334/Dopamine> ⭐ 6,464 | 🐛 80 | 🌐 C | 📅 2026-08-22 \[iOS 15 and 16]
+* <https://github.com/rooootdev/lara> ⭐ 1,471 | 🐛 56 | 🌐 Swift | 📅 2026-07-15 \[WIP darksword kexploit implementation; iOS 17.1.1-26.0.1 tested; includes font overwrite, app bypass, file manager, and DirtyZero2 experiments]
 * <https://github.com/roothide/Dopamine2-roothide> ⭐ 1,468 | 🐛 68 | 🌐 C | 📅 2026-07-16 \[iOS 15 and 16]
-* <https://github.com/jjolano/shadow> ⭐ 1,047 | 🐛 30 | 🌐 Objective-C | 📅 2026-08-25
-* <https://github.com/felix-pb/kfd> ⭐ 1,012 | 🐛 1 | 🌐 C | 📅 2024-01-21 \[iOS 15 and 16]
+* <https://github.com/jjolano/shadow> ⭐ 1,048 | 🐛 30 | 🌐 Objective-C | 📅 2026-08-25
+* <https://github.com/felix-pb/kfd> ⭐ 1,011 | 🐛 1 | 🌐 C | 📅 2024-01-21 \[iOS 15 and 16]
 * <https://github.com/khanhduytran0/coruna> ⭐ 685 | 🐛 42 | 🌐 JavaScript | 📅 2026-06-18 \[Leaked iOS exploit toolkit — WebKit chains for multiple iOS versions, partially deobfuscated]
-* <https://github.com/jailbreakdotparty/dirtyZero> ⭐ 418 | 🐛 0 | 🌐 Swift | 📅 2026-06-30 \[CVE-2025-24203]
-* <https://github.com/KpwnZ/Def1nit3lyN0tAJa1lbr3akTool> ⭐ 412 | 🐛 12 | 🌐 C | 📅 2024-02-18 \[iOS 15.7 and iOS 16.5]
+* <https://github.com/jailbreakdotparty/dirtyZero> ⭐ 419 | 🐛 0 | 🌐 Swift | 📅 2026-06-30 \[CVE-2025-24203]
 * <https://github.com/paradiseduo/IPAPatch> ⭐ 412 | 🐛 0 | 🌐 Objective-C | 📅 2025-03-18 \[Patch iOS Apps without Jailbreak]
+* <https://github.com/KpwnZ/Def1nit3lyN0tAJa1lbr3akTool> ⭐ 411 | 🐛 12 | 🌐 C | 📅 2024-02-18 \[iOS 15.7 and iOS 16.5]
 * <https://github.com/0x36/weightBufs> ⭐ 306 | 🐛 3 | 🌐 Objective-C | 📅 2022-11-20 \[ANE kernel r/w exploit for iOS 15 and macOS 12]
-* <https://github.com/34306/usbliter8-fun> ⭐ 223 | 🐛 0 | 🌐 Python | 📅 2026-07-26 \[iOS 27.0 beta CFW jailbreak via usbliter8 SecureROM exploit; iPhone 11 Pro only; RP2350 PWN DFU; destructive (breaks SEP/WiFi/baseband/Apple services)]
+* <https://github.com/34306/usbliter8-fun> ⭐ 224 | 🐛 0 | 🌐 Python | 📅 2026-07-26 \[iOS 27.0 beta CFW jailbreak via usbliter8 SecureROM exploit; iPhone 11 Pro only; RP2350 PWN DFU; destructive (breaks SEP/WiFi/baseband/Apple services)]
 * <https://github.com/forcequitOS/bad_query> ⭐ 216 | 🐛 1 | 🌐 C | 📅 2026-08-11 \[Experimental iOS 26.0–26.6.1 / 27.0 beta 4 sandbox-escape PoC demonstrating access to selected app, daemon, plug-in, App Group, and system-container paths]
-* <https://github.com/34306/mdc0> ⭐ 189 | 🐛 5 | 🌐 Swift | 📅 2025-05-12 \[CVE-2025-24203]
+* <https://github.com/34306/mdc0> ⭐ 190 | 🐛 5 | 🌐 Swift | 📅 2025-05-12 \[CVE-2025-24203]
 * <https://github.com/wh1te4ever/darksword-kexploit-fun> ⭐ 138 | 🐛 1 | 🌐 Objective-C | 📅 2026-04-08 \[DarkSword kernel r/w exploit playground; iOS/iPadOS 17.0-26.0.1 except A19/M5; sandbox escape, process control/crash, SSV root FS overwrite, UID/GID/sticky bits, disable ASLR via launchd P\_DISABLE\_ASLR]
 * <https://github.com/wh1te4ever/xnu_1day_practice> ⭐ 128 | 🐛 0 | 🌐 C | 📅 2026-08-13 \[XNU 1-day exploit practice collection — PoCs for CVE-2019 through CVE-2025 (e.g. 30883, 24153, 24257, 43510, 43520) plus Coruna/PEGruber research]
 * <https://github.com/Kc57/iHide> ⭐ 116 | 🐛 20 | 🌐 Logos | 📅 2022-02-19
@@ -1659,15 +1659,15 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 * <https://github.com/staturnzz/momentarius> ⭐ 95 | 🐛 0 | 🌐 C | 📅 2026-08-07 \[A12/A13 Apple Page Protection Layer (PPL) bypass; C; by staturnzz and Clarity]
 * <https://github.com/crazymind90/CVE-2026-XNU-AIO-KEVENT-UAF> ⭐ 28 | 🐛 0 | 🌐 Objective-C | 📅 2026-03-21 \[XNU kern\_aio.c AIO+kevent UAF; sandbox app, no entitlements; panic/double-free; iOS 26.2, patched 26.3]
 * <https://github.com/wh1te4ever/humptylock> ⭐ 8 | 🐛 0 | 🌐 C | 📅 2026-08-13 \[iOS 14.0–14.4.2 kernel r/w exploit app from Coruna Pendulum PE; pipe/lockf/OOL-port primitives; tested iPhone 6s–11 Pro]
-* <https://github.com/zeroxjf/lightsaber> ⚠️ Archived \[iOS 18.4-18.6.2 userland exploit chain with JS injection into SpringBoard and other processes. Derived from DarkSword]
+* <https://github.com/zeroxjf/lightsaber> ⭐ 7 | 🐛 7 | 🌐 JavaScript | 📅 2026-08-27 \[iOS 18.4-18.6.2 userland exploit chain with JS injection into SpringBoard and other processes. Derived from DarkSword]
 * <https://github.com/gmh5225/IOS-jailbreak--Fugu15> ⭐ 1 | 🐛 0 | 📅 2022-11-01
 * <https://github.com/checkra1n>
 * <https://github.com/Nirad-Maharaj/Disable-Call-Recording-BookRestore-> \[iOS file-exploit based tool to disable call-recording notifications without jailbreak]
 
 > IOS Network / Location
 
-* <https://github.com/Yu9191/wloc> ⭐ 9,713 | 🐛 82 | 🌐 JavaScript | 📅 2026-08-21 \[Spoof Apple WiFi/cell network location (gs-loc WLOC) — MITM protobuf patch via Surge/Quantumult X/Loon/Stash/Shadowrocket; online picker + Shortcuts; GCJ-02→WGS84; no jailbreak; indoor/WiFi positioning only]
-* <https://github.com/mekos2772/ios-location-spoofer> ⭐ 3,562 | 🐛 23 | 🌐 JavaScript | 📅 2026-08-20 \[iOS network location spoofer without jailbreak — MITM Apple map lookup responses; patch WiFi BSSID + CellTower coords; Surge/Shadowrocket/Loon/Stash/QX modules; motion state spoof; location-picker web UI]
+* <https://github.com/Yu9191/wloc> ⭐ 9,721 | 🐛 82 | 🌐 JavaScript | 📅 2026-08-21 \[Spoof Apple WiFi/cell network location (gs-loc WLOC) — MITM protobuf patch via Surge/Quantumult X/Loon/Stash/Shadowrocket; online picker + Shortcuts; GCJ-02→WGS84; no jailbreak; indoor/WiFi positioning only]
+* <https://github.com/mekos2772/ios-location-spoofer> ⭐ 3,567 | 🐛 23 | 🌐 JavaScript | 📅 2026-08-20 \[iOS network location spoofer without jailbreak — MITM Apple map lookup responses; patch WiFi BSSID + CellTower coords; Surge/Shadowrocket/Loon/Stash/QX modules; motion state spoof; location-picker web UI]
 
 > IOS Memory Explorer
 
@@ -1679,7 +1679,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 > IOS File Explorer
 
-* <https://github.com/LaurieWired/Malimite> ⭐ 3,174 | 🐛 14 | 🌐 Java | 📅 2025-08-26 \[Malimite is an iOS and macOS decompiler designed to help researchers analyze and decode IPA files and Application Bundles]
+* <https://github.com/LaurieWired/Malimite> ⭐ 3,175 | 🐛 14 | 🌐 Java | 📅 2025-08-26 \[Malimite is an iOS and macOS decompiler designed to help researchers analyze and decode IPA files and Application Bundles]
 * <https://github.com/azw413/Glass> ⭐ 193 | 🐛 0 | 🌐 Rust | 📅 2026-08-22 \[IPA/Mach-O: fat slice selection, Info.plist, Frameworks disassembly, CFG, xref; AArch64 native RE in the same bundle workflow as Android]
 * <https://github.com/DerekSelander/dynadump> ⭐ 79 | 🐛 0 | 🌐 Objective-C | 📅 2024-12-20 \[A runtime ObjC class-dump]
 
@@ -1690,23 +1690,23 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 > Virtual Environments
 
-* <https://github.com/utmapp/UTM> ⭐ 35,151 | 🐛 1,105 | 🌐 Swift | 📅 2026-08-05 \[Virtual machines for iOS and macOS]
-* <https://github.com/mandiant/flare-vm> ⭐ 8,969 | 🐛 28 | 🌐 PowerShell | 📅 2026-06-23
+* <https://github.com/utmapp/UTM> ⭐ 35,159 | 🐛 1,105 | 🌐 Swift | 📅 2026-08-05 \[Virtual machines for iOS and macOS]
+* <https://github.com/mandiant/flare-vm> ⭐ 8,968 | 🐛 28 | 🌐 PowerShell | 📅 2026-06-23
 * <https://github.com/FBlackBox/BlackBox> ⭐ 2,611 | 🐛 85 | 📅 2024-04-12 \[Android]
-* <https://github.com/hzqst/VmwareHardenedLoader> ⭐ 2,337 | 🐛 9 | 🌐 C++ | 📅 2026-08-25
+* <https://github.com/hzqst/VmwareHardenedLoader> ⭐ 2,338 | 🐛 9 | 🌐 C++ | 📅 2026-08-25
 * <https://github.com/ServenScorpion/VirtualApp> ⭐ 1,540 | 🐛 14 | 🌐 Java | 📅 2026-07-17 \[Android]
 * <https://github.com/d4rksystem/VMwareCloak> ⭐ 449 | 🐛 3 | 🌐 PowerShell | 📅 2025-01-25
 
 > Decompiler
 
-* <https://github.com/Col-E/Recaf> ⭐ 7,355 | 🐛 66 | 🌐 Java | 📅 2026-08-22 \[Java]
-* <https://github.com/radareorg/iaito> ⭐ 1,691 | 🐛 4 | 🌐 C++ | 📅 2026-08-26 \[Official radare2 GUI (Qt5/6), focused on reverse engineering workflow]
+* <https://github.com/Col-E/Recaf> ⭐ 7,357 | 🐛 66 | 🌐 Java | 📅 2026-08-22 \[Java]
+* <https://github.com/radareorg/iaito> ⭐ 1,691 | 🐛 4 | 🌐 C++ | 📅 2026-08-27 \[Official radare2 GUI (Qt5/6), focused on reverse engineering workflow]
 * <https://github.com/sefcom/oxidizer> ⭐ 526 | 🐛 12 | 🌐 Python | 📅 2026-05-29 \[Rust decompiler on angr — high-fidelity pseudocode from stripped binaries, enum/match/? recovery, Rust 1.39–1.93]
-* <https://github.com/Noelo-Lab/kuna> ⭐ 386 | 🐛 9 | 🌐 Rust | 📅 2026-08-25 \[Agent-first decompiler in Rust, originally ported from Ghidra; CLI, WASM, and Ghidra integration; tunable for LLM-driven autonomous refinement]
+* <https://github.com/Noelo-Lab/kuna> ⭐ 386 | 🐛 13 | 🌐 Rust | 📅 2026-08-27 \[Agent-first decompiler in Rust, originally ported from Ghidra; CLI, WASM, and Ghidra integration; tunable for LLM-driven autonomous refinement]
 * <https://github.com/Hexorg/Ouroboros> ⭐ 257 | 🐛 2 | 🌐 Rust | 📅 2025-12-02 \[A Symbolic-Execution Decompiler written in Rust]
 * <https://github.com/Sidenai/hyperion-disassembler> ⭐ 208 | 🐛 0 | 🌐 C++ | 📅 2026-06-23 \[Native multi-arch disassembler & decompiler — PE/ELF/Mach-O/.NET, x86/x64/ARM64/MIPS/PPC, RTTI recovery, SSA decompiler, Lua scripting, packer detection]
 * <https://github.com/azw413/Glass> ⭐ 193 | 🐛 0 | 🌐 Rust | 📅 2026-08-22 \[Rust, GPL-3.0] Mobile-first GPU disassembler (gpui) for APK/DEX/smali and AArch64 ELF/Mach-O (Android/iOS); CFG, xref, bin/insn search, annotations, in-place patch export; CLI + MCP; free IDA alternative]
-* <https://github.com/Noelo-Lab/decbench> ⭐ 116 | 🐛 8 | 🌐 Python | 📅 2026-08-26 \[DecBench — benchmark for exact decompilation: structural CFG (GED), type recovery, recompilation bytematch; angr/Ghidra/IDA/Binja + LLMs; <https://decbench.com>]
+* <https://github.com/Noelo-Lab/decbench> ⭐ 116 | 🐛 8 | 🌐 Python | 📅 2026-08-27 \[DecBench — benchmark for exact decompilation: structural CFG (GED), type recovery, recompilation bytematch; angr/Ghidra/IDA/Binja + LLMs; <https://decbench.com>]
 * <https://github.com/QuesmaOrg/BinaryAudit> ⭐ 99 | 🐛 2 | 🌐 Shell | 📅 2026-07-14 \[BinaryAudit — open-source Harbor benchmark for AI agents finding injected backdoors in stripped binaries (Ghidra/Radare2); lighttpd/dnsmasq/Dropbear/Sozu/Caddy]
 * <https://github.com/adam-040/Enigma> ⭐ 58 | 🐛 0 | 🌐 C++ | 📅 2026-08-22 \[C++ reimplementation of Ghidra analytical core (SoftwareModeling + Utility): no JVM, SLEIGH + native Capstone pipelines, embeddable for AI/agents]
 * <https://github.com/NeverSight/NeverD> ⭐ 46 | 🐛 6 | 🌐 C++ | 📅 2026-08-27 \[The AI-friendly binary analysis & decompilation engine — 1:1 lift, built on LLVM]
@@ -1733,16 +1733,16 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 > IDA Plugins
 
-* <https://github.com/mrexodia/ida-pro-mcp> ⭐ 11,629 | 🐛 45 | 🌐 Python | 📅 2026-08-17 \[MCP for IDA pro]
-* <https://github.com/joxeankoret/diaphora> ⭐ 4,373 | 🐛 36 | 🌐 Python | 📅 2026-08-18 \[diff]
+* <https://github.com/mrexodia/ida-pro-mcp> ⭐ 11,638 | 🐛 45 | 🌐 Python | 📅 2026-08-27 \[MCP for IDA pro]
+* <https://github.com/joxeankoret/diaphora> ⭐ 4,374 | 🐛 36 | 🌐 Python | 📅 2026-08-18 \[diff]
 * <https://github.com/JusticeRage/Gepetto> ⭐ 3,461 | 🐛 15 | 🌐 Python | 📅 2026-08-15 \[ChatGPT]
-* <https://github.com/P4nda0s/IDA-NO-MCP> ⭐ 1,950 | 🐛 6 | 🌐 Python | 📅 2026-07-26 \[IDA plugin + Rust/idalib CLI: export Hex-Rays decompilation, disasm fallback, strings/imports/exports/memory as files for AI IDEs without MCP]
+* <https://github.com/P4nda0s/IDA-NO-MCP> ⭐ 1,951 | 🐛 6 | 🌐 Python | 📅 2026-07-26 \[IDA plugin + Rust/idalib CLI: export Hex-Rays decompilation, disasm fallback, strings/imports/exports/memory as files for AI IDEs without MCP]
 * <https://github.com/KasperskyLab/hrtng> ⭐ 1,916 | 🐛 0 | 🌐 C++ | 📅 2026-08-10 \[IDA Pro plugin for decryption, deobfuscation, patching, and Hex-Rays transforms]
-* <https://github.com/fr0gger/awesome-ida-x64-olly-plugin> ⭐ 1,586 | 🐛 2 | 📅 2026-02-20 \[Curated list of IDA, x64dbg, Ghidra, GDB, and OllyDbg plugins]
+* <https://github.com/fr0gger/awesome-ida-x64-olly-plugin> ⭐ 1,587 | 🐛 2 | 📅 2026-02-20 \[Curated list of IDA, x64dbg, Ghidra, GDB, and OllyDbg plugins]
 * <https://github.com/WPeace-HcH/WPeChatGPT> ⭐ 1,418 | 🐛 6 | 🌐 Python | 📅 2026-05-27 \[ChatGPT]
 * <https://github.com/RolfRolles/HexRaysDeob> ⭐ 806 | 🐛 1 | 🌐 C++ | 📅 2021-02-22 \[Hex-Rays Microcode]
 * <https://github.com/a1ext/auto_re> ⭐ 787 | 🐛 2 | 🌐 Python | 📅 2026-08-19 \[IDA PRO auto-renaming plugin with tagging support]
-* <https://github.com/blacktop/ida-mcp-rs> ⭐ 754 | 🐛 8 | 🌐 Rust | 📅 2026-08-21 \[Headless IDA Pro MCP server]
+* <https://github.com/blacktop/ida-mcp-rs> ⭐ 756 | 🐛 8 | 🌐 Rust | 📅 2026-08-21 \[Headless IDA Pro MCP server]
 * <https://github.com/jtang613/IDAssist> ⭐ 718 | 🐛 0 | 🌐 Python | 📅 2026-06-28 \[AI-powered RE plugin for IDA Pro: LLM function explanation, semantic knowledge graph, RAG, MCP integration]
 * <https://github.com/mahaloz/DAILA> ⭐ 706 | 🐛 8 | 🌐 Python | 📅 2026-07-14 \[ChatGPT]
 * <https://github.com/HexRaysSA/goomba> ⭐ 690 | 🐛 2 | 🌐 C++ | 📅 2025-11-10 \[Simplify MBA]
@@ -1756,7 +1756,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 * <https://github.com/aliyunav/Finger> ⭐ 489 | 🐛 7 | 🌐 Python | 📅 2024-04-08 \[Recognizing Function By Cloud]
 * <https://github.com/poppopjmp/VMDragonSlayer> ⭐ 431 | 🐛 4 | 🌐 Python | 📅 2026-06-03 \[Advanced Virtual Machine Detection and Analysis Framework]
 * <https://github.com/cseagle/blc> ⭐ 429 | 🐛 3 | 🌐 C++ | 📅 2024-06-05 \[Integrate Ghidra's decompiler]
-* <https://github.com/MeroZemory/ida-multi-mcp> ⭐ 402 | 🐛 4 | 🌐 Python | 📅 2026-07-30 \[Multi-instance IDA Pro MCP: one endpoint for many GUI/idalib sessions; parallel routing; BCSD function similarity; Python]
+* <https://github.com/MeroZemory/ida-multi-mcp> ⭐ 403 | 🐛 4 | 🌐 Python | 📅 2026-07-30 \[Multi-instance IDA Pro MCP: one endpoint for many GUI/idalib sessions; parallel routing; BCSD function similarity; Python]
 * <https://github.com/allthingsida/idasql> ⭐ 391 | 🐛 4 | 🌐 C++ | 📅 2026-07-26 \[Interface with IDA in SQL via live virtual tables]
 * <https://github.com/senator715/IDA-Fusion> ⭐ 382 | 🐛 8 | 🌐 C++ | 📅 2024-10-16 \[Fast Signature scanner & creator]
 * <https://github.com/ke0z/VulChatGPT> ⭐ 372 | 🐛 0 | 🌐 Python | 📅 2025-11-10 \[ChatGPT]
@@ -1767,7 +1767,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 * <https://github.com/crytic/ida-evm> ⭐ 330 | 🐛 8 | 🌐 Python | 📅 2024-01-19 \[IDA Processor Module for the Ethereum Virtual Machine (EVM)]
 * <https://github.com/snare/ida-efiutils> ⭐ 309 | 🐛 4 | 🌐 C | 📅 2019-05-23 \[EFI binaries]
 * <https://github.com/Accenture/protobuf-finder> ⭐ 307 | 🐛 3 | 🌐 Python | 📅 2026-02-05 \[Protobuf]
-* <https://github.com/w00tzenheimer/d810-ng> ⭐ 289 | 🐛 14 | 🌐 Python | 📅 2026-08-26 \[D-810ng (Next Generation) is an evolution of d810 to deobfuscate code at decompilation time]
+* <https://github.com/w00tzenheimer/d810-ng> ⭐ 290 | 🐛 14 | 🌐 Python | 📅 2026-08-27 \[D-810ng (Next Generation) is an evolution of d810 to deobfuscate code at decompilation time]
 * <https://github.com/thalium/symless> ⭐ 283 | 🐛 18 | 🌐 Python | 📅 2026-01-15 \[IDA Pro plugin that helps reconstruct structures]
 * <https://github.com/saileaxh/iida-mcp> ⭐ 273 | 🐛 4 | 🌐 Python | 📅 2026-05-15 \[Faster IDA Pro MCP plugin — 77 tools, multi-instance routing, optional Windows kernel memory/module access via iida-mcp-ioctl driver]
 * <https://github.com/19h/chernobog> ⭐ 273 | 🐛 0 | 🌐 C++ | 📅 2026-08-17 \[A Hex-Rays IDA Pro plugin for deobfuscating binaries protected with the Hikari LLVM obfuscator]
@@ -1776,7 +1776,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 * <https://github.com/patois/genmc> ⭐ 247 | 🐛 0 | 🌐 Python | 📅 2022-11-13 \[Display Hex-Rays Microcode]
 * <https://github.com/Antelcat/ida_copilot> ⭐ 235 | 🐛 8 | 🌐 Python | 📅 2023-11-02 \[ChatGPT Agent analyses your IDA pseudocode]
 * <https://github.com/airbus-cert/comida> ⭐ 233 | 🐛 2 | 🌐 Python | 📅 2025-10-10 \[An IDA Plugin that help analyzing module that use COM]
-* <https://github.com/cellebrite-labs/FunctionInliner> ⭐ 228 | 🐛 0 | 🌐 C | 📅 2024-12-31 \[An IDA plugin that eases reversing of binaries that have been code-size-optimized with function outlining]
+* <https://github.com/cellebrite-labs/FunctionInliner> ⭐ 229 | 🐛 0 | 🌐 C | 📅 2024-12-31 \[An IDA plugin that eases reversing of binaries that have been code-size-optimized with function outlining]
 * <https://github.com/mahmoudimus/ida-sigmaker> ⭐ 215 | 🐛 4 | 🌐 Python | 📅 2026-08-13 \[Zero-dependency IDA Pro 9+ cross-platform signature maker with optional SIMD speedups]
 * <https://github.com/emoose/idaxex> ⭐ 213 | 🐛 7 | 🌐 C++ | 📅 2026-08-11 \[Xbox360/Xenon loader plugin for IDA 9]
 * <https://github.com/guheng-re/unflat> ⭐ 203 | 🐛 1 | 🌐 Python | 📅 2026-03-04 \[unflattener]
@@ -1805,7 +1805,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 * <https://github.com/0xdea/rhabdomancer> ⭐ 133 | 🐛 0 | 🌐 Rust | 📅 2026-08-25 \[IDA Pro headless plugin: locate calls to potentially insecure API functions; tiered badness, bookmarks, backtrace audit paths; idalib/Rust]
 * <https://github.com/sonyps5201314/pdb> ⭐ 126 | 🐛 0 | 🌐 C++ | 📅 2026-07-20 \[PDB plugin with enhance and bugfix]
 * <https://github.com/0xdea/augur> ⭐ 119 | 🐛 0 | 🌐 Rust | 📅 2026-08-25 \[Augur is a blazing fast IDA Pro headless plugin that extracts strings and related pseudo-code from a binary file]
-* <https://github.com/HexRaysSA/ida-claude-code-plugins> ⭐ 118 | 🐛 2 | 🌐 Python | 📅 2026-08-20 \[IDA Claude Code Plugins]
+* <https://github.com/HexRaysSA/ida-claude-code-plugins> ⭐ 118 | 🐛 2 | 🌐 Python | 📅 2026-08-27 \[IDA Claude Code Plugins]
 * <https://github.com/cycraft-corp/BinaryAnalysisMCPs> ⭐ 117 | 🐛 3 | 🌐 Python | 📅 2025-08-26 \[Binary analysis MCPs collections]
 * <https://github.com/giladreich/ida_migrator> ⭐ 112 | 🐛 4 | 🌐 Python | 📅 2021-05-28 \[Migrate Database]
 * <https://github.com/synacktiv/dotNIET> ⭐ 112 | 🐛 1 | 🌐 Python | 📅 2021-06-30 \[Import .NET Symbol]
@@ -1874,8 +1874,8 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 * <https://github.com/ElvisBlue/emotet-deobfuscator> ⭐ 18 | 🐛 0 | 🌐 Python | 📅 2022-04-26 \[IDA plugin to deobfuscate emotet CFF]
 * <https://github.com/dNop90/dOffset> ⭐ 18 | 🐛 0 | 🌐 Python | 📅 2026-04-11 \[IDA Pro and Cheat Engine to get the offset of the current module]
 * <https://github.com/Duntss/IDA-ZVM-Disassembler> ⭐ 18 | 🐛 0 | 🌐 Python | 📅 2026-05-13 \[Zeus VM bytecode processor + loader for IDA Pro, from OALabs ZVM]
+* <https://github.com/CKCat/d810> ⭐ 17 | 🐛 0 | 🌐 Python | 📅 2021-11-18 \[Deobfuscate code at decompilation time by modifying IDA Pro microcode]
 * <https://github.com/milankovo/ida-search> ⭐ 17 | 🐛 0 | 🌐 Python | 📅 2026-04-21 \[An IDA Pro 9.x plugin that brings 010 Editor-style type-aware binary search to IDA]
-* <https://github.com/CKCat/d810> ⭐ 16 | 🐛 0 | 🌐 Python | 📅 2021-11-18 \[Deobfuscate code at decompilation time by modifying IDA Pro microcode]
 * <https://github.com/GAMMACASE/PltPatcher> ⭐ 16 | 🐛 1 | 🌐 Python | 📅 2026-08-05 \[Patches PLT sections when IDA fails to do so]
 * <https://github.com/crifan/AutoRename> ⭐ 15 | 🐛 0 | 🌐 Python | 📅 2025-01-16 \[Auto rename symbol]
 * <https://github.com/dyussekeyev/ida-spotlight> ⭐ 15 | 🐛 0 | 🌐 Python | 📅 2026-01-06 \[Workflow-centric function triage and prioritization plugin for IDA Pro]
@@ -1982,12 +1982,12 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 * <https://github.com/WhatTheFuzz/binaryninja-openai> ⭐ 77 | 🐛 5 | 🌐 Python | 📅 2024-04-17 \[Integrates OpenAI]
 * <https://github.com/Vector35/OpaquePredicatePatcher> ⭐ 69 | 🐛 2 | 🌐 Python | 📅 2026-07-20 \[Opaque Predicate Patcher]
 * <https://github.com/ergrelet/triton-bn> ⭐ 66 | 🐛 0 | 🌐 C++ | 📅 2024-07-17 \[Triton]
-* <https://github.com/Invoke-RE/binja-lattice-mcp> ⭐ 65 | 🐛 1 | 🌐 Python | 📅 2026-07-01 \[MCP for Binary\_Ninja]
+* <https://github.com/Invoke-RE/binja-lattice-mcp> ⭐ 66 | 🐛 1 | 🌐 Python | 📅 2026-07-01 \[MCP for Binary\_Ninja]
 * <https://github.com/seekbytes/ptxNinja> ⭐ 62 | 🐛 1 | 🌐 Rust | 📅 2026-03-06 \[Binary Ninja plugin for reverse engineering PTX — CUDA GPU virtual ISA]
 * <https://github.com/Vector35/official-plugins> ⭐ 56 | 🐛 1 | 🌐 Python | 📅 2026-08-25
 * <https://github.com/Vector35/workflow_objc> ⚠️ Archived \[Objective-C]
 * <https://github.com/zhuzhu-Top/deobf> ⭐ 53 | 🐛 1 | 🌐 Python | 📅 2024-09-05 \[libtprt.so]
-* <https://github.com/ScriptWare-Software/native-predicate-solver> ⭐ 52 | 🐛 0 | 🌐 C++ | 📅 2026-08-26 \[Binary Ninja plugin for removing opaque predicates]
+* <https://github.com/ScriptWare-Software/native-predicate-solver> ⭐ 52 | 🐛 0 | 🌐 C++ | 📅 2026-08-27 \[Binary Ninja plugin for removing opaque predicates]
 * <https://github.com/dayzerosec/AMD-SP-Loader> ⭐ 43 | 🐛 0 | 🌐 Python | 📅 2023-01-29 \[AMD-SP or PSP firmware]
 * <https://github.com/skr0x1c0/binja_kc> ⭐ 39 | 🐛 0 | 🌐 C++ | 📅 2025-03-23 \[Plugin for loading MachO kernelcache and dSYM files]
 * <https://github.com/yellowbyte/opaque-predicates-detective> ⭐ 32 | 🐛 0 | 🌐 Python | 📅 2021-04-10
@@ -2006,16 +2006,16 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 > Ghidra Plugins
 
 * <https://github.com/LaurieWired/GhidraMCP> ⭐ 9,874 | 🐛 82 | 🌐 Java | 📅 2025-06-23 \[MCP for Ghidra]
-* <https://github.com/bethington/ghidra-mcp> ⭐ 3,552 | 🐛 26 | 🌐 Java | 📅 2026-08-21 \[Ghidra MCP server/plugin with 200+ tools for AI-assisted reverse engineering]
+* <https://github.com/bethington/ghidra-mcp> ⭐ 3,572 | 🐛 26 | 🌐 Java | 📅 2026-08-21 \[Ghidra MCP server/plugin with 200+ tools for AI-assisted reverse engineering]
 * <https://github.com/AllsafeCyberSecurity/awesome-ghidra> ⭐ 1,427 | 🐛 3 | 📅 2026-06-18 \[List]
 * <https://github.com/clearbluejar/ghidriff> ⭐ 803 | 🐛 34 | 🌐 Python | 📅 2026-05-11 \[Python Command-Line Ghidra Binary Diffing Engine]
-* <https://github.com/jtang613/GhidrAssistMCP> ⭐ 728 | 🐛 8 | 🌐 Java | 📅 2026-08-03 \[An MCP extension for Ghidra]
-* <https://github.com/jtang613/GhidrAssist> ⭐ 711 | 🐛 2 | 🌐 Java | 📅 2026-05-29 \[An LLM extension for Ghidra to enable AI assistance in RE]
+* <https://github.com/jtang613/GhidrAssistMCP> ⭐ 729 | 🐛 8 | 🌐 Java | 📅 2026-08-03 \[An MCP extension for Ghidra]
+* <https://github.com/jtang613/GhidrAssist> ⭐ 712 | 🐛 2 | 🌐 Java | 📅 2026-05-29 \[An LLM extension for Ghidra to enable AI assistance in RE]
 * <https://github.com/astrelsky/Ghidra-Cpp-Class-Analyzer> ⚠️ Archived \[C++ Class and Run Time Type Information Analyzer]
 * <https://github.com/Nalen98/AngryGhidra> ⭐ 624 | 🐛 1 | 🌐 Java | 📅 2024-07-29 \[Use angr in Ghidra]
 * <https://github.com/poppopjmp/VMDragonSlayer> ⭐ 431 | 🐛 4 | 🌐 Python | 📅 2026-06-03 \[Advanced Virtual Machine Detection and Analysis Framework]
 * <https://github.com/moyix/gpt-wpre> ⭐ 409 | 🐛 0 | 🌐 Python | 📅 2022-12-31 \[ChatGPT]
-* <https://github.com/evyatar9/GptHidra> ⭐ 403 | 🐛 0 | 🌐 Python | 📅 2023-09-16 \[ChatGPT]
+* <https://github.com/evyatar9/GptHidra> ⭐ 404 | 🐛 0 | 🌐 Python | 📅 2023-09-16 \[ChatGPT]
 * <https://github.com/DSecurity/efiSeek> ⭐ 403 | 🐛 12 | 🌐 Java | 📅 2024-06-02 \[Ghidra analyzer for UEFI firmware]
 * <https://github.com/DMaroo/GhidRust> ⭐ 378 | 🐛 1 | 🌐 Java | 📅 2024-05-18 \[Rust decompiler]
 * <https://github.com/justfoxing/ghidra_bridge> ⭐ 362 | 🐛 13 | 🌐 Python | 📅 2023-01-30 \[Python 3 bridge to Ghidra's Python scripting]
@@ -2027,7 +2027,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 * <https://github.com/hyuunnn/Hyara> ⭐ 248 | 🐛 9 | 🌐 Python | 📅 2024-10-18 \[Yara]
 * <https://github.com/RevEngAI/plugin-ghidra> ⭐ 188 | 🐛 1 | 🌐 Java | 📅 2026-08-25 \[RevEng.AI Ghidra plugin for binary similarity, function renaming, and AI-assisted reverse engineering]
 * <https://github.com/0xeb/libghidra> ⭐ 172 | 🐛 0 | 🌐 C++ | 📅 2026-08-12 \[Typed API for Ghidra program databases from C++/Python/Rust; functions, types, memory, decompiler; LibGhidraHost HTTP extension or offline Sleigh backend]
-* <https://github.com/CENSUS/ghidra-frida-hook-gen> ⭐ 133 | 🐛 0 | 🌐 Java | 📅 2026-08-14
+* <https://github.com/CENSUS/ghidra-frida-hook-gen> ⭐ 134 | 🐛 0 | 🌐 Java | 📅 2026-08-14
 * <https://github.com/advanced-threat-research/GhidraScripts> ⭐ 130 | 🐛 0 | 🌐 Java | 📅 2025-07-01 \[Some scripts]
 * <https://github.com/ant4g0nist/pyre> ⭐ 123 | 🐛 1 | 🌐 TypeScript | 📅 2026-05-04 \[Ghidra decompiler in your browser]
 * <https://github.com/astrelsky/GhidraOrbis> ⭐ 88 | 🐛 0 | 🌐 Java | 📅 2026-06-24 \[Orbis OS specific software and file formats]
@@ -2079,7 +2079,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 > X64DBG Plugins
 
-* <https://github.com/x64dbg/x64dbg/wiki/Plugins> ⭐ 49,310 | 🐛 574 | 🌐 C++ | 📅 2026-08-23
+* <https://github.com/x64dbg/x64dbg/wiki/Plugins> ⭐ 49,317 | 🐛 574 | 🌐 C++ | 📅 2026-08-23
 * <https://github.com/horsicq/x64dbg-Plugin-Manager> ⭐ 951 | 🐛 12 | 🌐 C++ | 📅 2026-08-18
 * <https://github.com/horsicq/x64dbg-Plugin-Manager> ⭐ 951 | 🐛 12 | 🌐 C++ | 📅 2026-08-18 \[Plugin manager for x64dbg]
 * <https://github.com/VenTaz/Themidie> ⭐ 582 | 🐛 0 | 🌐 C | 📅 2021-05-07
@@ -2087,8 +2087,8 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 * <https://github.com/codecat/ClawSearch> ⭐ 332 | 🐛 7 | 🌐 C | 📅 2022-10-08 \[x64dbg memory scanner plugin inspired by Cheat Engine]
 * <https://github.com/horsicq/stringsx64dbg> ⭐ 246 | 🐛 5 | 🌐 C | 📅 2026-08-01 \[Strings plugin for x64dbg]
 * <https://github.com/Kwansy98/x64dbgCallFinder> ⭐ 221 | 🐛 2 | 🌐 C | 📅 2024-05-01 \[Call Finder]
+* <https://github.com/m417z/Multiline-Ultimate-Assembler> ⭐ 175 | 🐛 8 | 🌐 C | 📅 2026-06-11
 * <https://github.com/horsicq/nfdx64dbg> ⭐ 174 | 🐛 3 | 🌐 C | 📅 2026-08-01 \[x64dbg plugin for Nauz File Detector (linker/compiler/tool detection)]
-* <https://github.com/m417z/Multiline-Ultimate-Assembler> ⭐ 174 | 🐛 8 | 🌐 C | 📅 2026-06-11
 * <https://github.com/Kwansy98/ApiBreakpoint> ⭐ 171 | 🐛 1 | 🌐 C | 📅 2023-01-13 \[Api Breakpoint]
 * <https://github.com/morsisko/xFindOut> ⭐ 126 | 🐛 3 | 🌐 C | 📅 2020-12-15
 * <https://github.com/cycraft-corp/BinaryAnalysisMCPs> ⭐ 117 | 🐛 3 | 🌐 Python | 📅 2025-08-26 \[Binary analysis MCPs collections]
@@ -2139,7 +2139,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 > Injection:Windows
 
-* <https://github.com/Broihon/GH-Injector-Library> ⭐ 1,378 | 🐛 4 | 🌐 C++ | 📅 2025-05-15 \[inject library and tool]
+* <https://github.com/Broihon/GH-Injector-Library> ⭐ 1,376 | 🐛 4 | 🌐 C++ | 📅 2025-05-15 \[inject library and tool]
 * <https://github.com/wbenny/injdrv> ⭐ 1,297 | 🐛 16 | 🌐 C | 📅 2024-05-01 \[APC]
 * <https://github.com/SafeBreach-Labs/PoolParty> ⭐ 1,284 | 🐛 2 | 🌐 C++ | 📅 2023-12-11 \[ThreadPool]
 * <https://github.com/3xpl01tc0d3r/ProcessInjection> ⭐ 1,259 | 🐛 0 | 🌐 C# | 📅 2025-08-07 \[Various process injection techniques]
@@ -2148,8 +2148,8 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 * <https://github.com/btbd/smap> ⭐ 831 | 🐛 3 | 🌐 C++ | 📅 2021-04-10 \[Scatter Manual Map]
 * <https://github.com/itaymigdal/awesome-injection> ⭐ 707 | 🐛 1 | 📅 2026-02-01 \[awesome injection]
 * <https://github.com/deepinstinct/Dirty-Vanity> ⭐ 678 | 🐛 1 | 🌐 C | 📅 2022-12-23 \[RtlCreateProcessReflection]
-* <https://github.com/Cr4sh/KernelForge> ⭐ 526 | 🐛 0 | 🌐 C++ | 📅 2021-05-18 \[Hijack ROP]
-* <https://github.com/TheCruZ/Simple-Manual-Map-Injector> ⭐ 517 | 🐛 4 | 🌐 C++ | 📅 2026-05-29 \[Manual Map]
+* <https://github.com/Cr4sh/KernelForge> ⭐ 525 | 🐛 0 | 🌐 C++ | 📅 2021-05-18 \[Hijack ROP]
+* <https://github.com/TheCruZ/Simple-Manual-Map-Injector> ⭐ 516 | 🐛 4 | 🌐 C++ | 📅 2026-05-29 \[Manual Map]
 * <https://github.com/danielkrupinski/MemJect> ⭐ 475 | 🐛 13 | 🌐 C | 📅 2019-12-21 \[Manual Map]
 * <https://github.com/alexkrnl/Kernel-dll-injector> ⭐ 423 | 🐛 1 | 🌐 C | 📅 2018-09-09 \[APC]
 * <https://github.com/charliewolfe/Stealthy-Kernelmode-Injector> ⚠️ Archived \[PTE/VAD Manipulation Manual Map]
@@ -2176,7 +2176,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 * <https://github.com/weak1337/ModExMap> ⭐ 25 | 🐛 1 | 🌐 C++ | 📅 2021-08-09 \[Extend Manual Map]
 * <https://github.com/Fahersto/code_injection> ⭐ 25 | 🐛 0 | 🌐 C++ | 📅 2022-03-12 \[Several code injection techniques]
 * <https://github.com/ExpLife0011/KeUserModeCallBack> ⭐ 23 | 🐛 0 | 🌐 C | 📅 2018-11-30 \[KeUserModeCallBack]
-* <https://github.com/xan105/Mini-Launcher> ⭐ 21 | 🐛 0 | 🌐 Go | 📅 2026-08-24 \[Application launcher with DLL Injection and Lua Scripting]
+* <https://github.com/xan105/Mini-Launcher> ⭐ 20 | 🐛 0 | 🌐 Go | 📅 2026-08-24 \[Application launcher with DLL Injection and Lua Scripting]
 * <https://github.com/M3351AN/ZhangBing-Injector> ⭐ 19 | 🐛 0 | 🌐 C++ | 📅 2026-01-08 \[DLL injector using WHQL-signed driver; credits kdmapper]
 * <https://github.com/5paceman/nightshade> ⭐ 13 | 🐛 0 | 🌐 C++ | 📅 2022-12-12 \[inject tool]
 * [KeUserModeCallBack Win10](https://github.com/Splitx12/eft/blob/834064aacaab7353173e36acc15933a3cf9289b3/eft/usercallback.h#L50) ⭐ 10 | 🐛 0 | 📅 2022-02-01
@@ -2218,25 +2218,25 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 > DLL Hijack
 
 * <https://github.com/anhkgg/SuperDllHijack> ⭐ 1,036 | 🐛 5 | 🌐 C++ | 📅 2021-11-10 \[A general DLL hijack technology]
-* <https://github.com/wietze/HijackLibs> ⭐ 934 | 🐛 4 | 📅 2026-08-21 \[Project for tracking publicly disclosed DLL Hijacking opportunities]
+* <https://github.com/wietze/HijackLibs> ⭐ 934 | 🐛 5 | 📅 2026-08-21 \[Project for tracking publicly disclosed DLL Hijacking opportunities]
 * <https://github.com/knight0x07/ImpulsiveDLLHijack> ⭐ 554 | 🐛 5 | 🌐 C# | 📅 2021-09-15 \[Hijacking researches]
-* <https://github.com/cyberark/DLLSpy> ⭐ 546 | 🐛 0 | 🌐 C++ | 📅 2019-08-06 \[DLL Hijacking Detection Tool]
+* <https://github.com/cyberark/DLLSpy> ⭐ 545 | 🐛 0 | 🌐 C++ | 📅 2019-08-06 \[DLL Hijacking Detection Tool]
 * <https://github.com/redteamsocietegenerale/DLLirant> ⭐ 502 | 🐛 0 | 🌐 C# | 📅 2022-11-29 \[Hijacking researches Tool]
-* [Project for identifying executables and DLLs vulnerable to relative path DLL hijacking](https://github.com/wietze/windows-dll-hijacking) ⭐ 498 | 🐛 1 | 🌐 Python | 📅 2024-05-13
+* [Project for identifying executables and DLLs vulnerable to relative path DLL hijacking](https://github.com/wietze/windows-dll-hijacking) ⭐ 497 | 🐛 1 | 🌐 Python | 📅 2024-05-13
 * <https://github.com/Sh0ckFR/DLLirant> ⚠️ Archived \[Hijacking researches]
 * <https://github.com/ctxis/DLLHSC> ⭐ 157 | 🐛 0 | 🌐 C++ | 📅 2020-06-30 \[DLL Hijack SCanner]
 * <https://github.com/gmh5225/DLL-Hijack-ExportDumper> ⭐ 0 | 🐛 0 | 📅 2022-08-16 \[Dump the export table of PE files]
 
 > Hook
 
-* <https://github.com/microsoft/Detours> ⭐ 6,364 | 🐛 92 | 🌐 C++ | 📅 2026-08-24
+* <https://github.com/microsoft/Detours> ⭐ 6,365 | 🐛 92 | 🌐 C++ | 📅 2026-08-24
 * <https://github.com/stevemk14ebr/PolyHook_2_0> ⭐ 1,890 | 🐛 12 | 🌐 C++ | 📅 2026-06-29
 * <https://github.com/bmax121/KernelPatch> ⭐ 1,498 | 🐛 48 | 🌐 C | 📅 2026-08-27 \[Hooking the Linux kernel]
 * <https://github.com/stevemk14ebr/PolyHook> ⚠️ Archived
 * <https://github.com/kubo/plthook> ⚠️ Archived \[PLT(Procedure Linkage Table) hook]
 * <https://github.com/Rprop/And64InlineHook> ⭐ 759 | 🐛 5 | 🌐 C++ | 📅 2022-07-11 \[Android ARMv8 inline hook framework]
 * <https://github.com/wbenny/DetoursNT> ⭐ 684 | 🐛 1 | 🌐 C++ | 📅 2025-11-25
-* <https://github.com/noobpk/frida-android-hook> ⭐ 648 | 🐛 5 | 🌐 JavaScript | 📅 2024-11-15 \[frida hook for android]
+* <https://github.com/noobpk/frida-android-hook> ⭐ 649 | 🐛 5 | 🌐 JavaScript | 📅 2024-11-15 \[frida hook for android]
 * <https://github.com/jsherman212/xnuspy> ⭐ 601 | 🐛 7 | 🌐 C | 📅 2021-10-06 \[an iOS kernel function hooking framework for checkra1n'able devices]
 * <https://github.com/SamuelTulach/LightHook> ⭐ 402 | 🐛 4 | 🌐 C++ | 📅 2026-01-03 \[cross-platform hook library]
 * <https://github.com/GToad/Android_Inline_Hook_ARM64> ⭐ 287 | 🐛 4 | 🌐 C | 📅 2018-10-03 \[Android ARMv8 inline hook framework]
@@ -2245,7 +2245,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 * <https://github.com/mrexodia/AppInitHook> ⭐ 189 | 🐛 0 | 🌐 C | 📅 2026-07-25 \[Global user-mode hooking framework via AppInit\_DLLs (MinHook-based)]
 * <https://github.com/3intermute/arm64_silent_syscall_hook> ⭐ 156 | 🐛 1 | 🌐 C | 📅 2024-04-22 \[ARM64 Patching exception handler]
 * <https://github.com/weak1337/SkipHook> ⭐ 137 | 🐛 0 | 🌐 C | 📅 2022-08-06 \[Skip Hook]
-* <https://github.com/regomne/ilhook-rs> ⭐ 103 | 🐛 4 | 🌐 Rust | 📅 2025-10-31 \[Rust x86]
+* <https://github.com/regomne/ilhook-rs> ⭐ 102 | 🐛 4 | 🌐 Rust | 📅 2025-10-31 \[Rust x86]
 * <https://github.com/WopsS/RenHook> ⭐ 96 | 🐛 0 | 🌐 C++ | 📅 2024-09-20
 * <https://github.com/BossKoopa/BWSR> ⭐ 79 | 🐛 2 | 🌐 C | 📅 2024-10-22 \[Arm64 inline hooking for iOS, Android, OSX, and Linux]
 * <https://github.com/nelfo/PGHooker> ⭐ 53 | 🐛 0 | 🌐 C++ | 📅 2022-07-25 \[Page Guard]
@@ -2262,7 +2262,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 > ROP Finder
 
-* <https://github.com/JonathanSalwan/ROPgadget> ⭐ 4,470 | 🐛 15 | 🌐 Python | 📅 2026-06-24 \[This tool lets you search your gadgets on your binaries to facilitate your ROP exploitation]
+* <https://github.com/JonathanSalwan/ROPgadget> ⭐ 4,469 | 🐛 15 | 🌐 Python | 📅 2026-06-24 \[This tool lets you search your gadgets on your binaries to facilitate your ROP exploitation]
 * <https://github.com/0vercl0k/rp> ⭐ 2,180 | 🐛 4 | 🌐 C++ | 📅 2025-09-14 \[rp++ is a fast C++ ROP gadget finder for PE/ELF/Mach-O x86/x64/ARM/ARM64 binaries]
 * <https://github.com/angr/angrop> ⭐ 852 | 🐛 9 | 🌐 Python | 📅 2026-07-14 \[angrop is a rop gadget finder and chain builder]
 * <https://github.com/Boyan-MILANOV/ropium> ⭐ 402 | 🐛 8 | 🌐 C++ | 📅 2023-01-15 \[ROPium is a tool that helps you building ROP exploits by finding and chaining gadgets together]
@@ -2280,21 +2280,21 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 > RPM
 
-* <https://github.com/DarthTon/Blackbone> ⭐ 5,480 | 🐛 111 | 🌐 C++ | 📅 2024-01-26
+* <https://github.com/DarthTon/Blackbone> ⭐ 5,479 | 🐛 111 | 🌐 C++ | 📅 2024-01-26
 * <https://github.com/HoShiMin/Kernel-Bridge> ⭐ 1,822 | 🐛 17 | 🌐 C++ | 📅 2023-11-12
 * <https://github.com/btbd/access> ⭐ 1,054 | 🐛 13 | 🌐 C | 📅 2021-04-10
 * <https://github.com/SamuelTulach/efi-memory> ⚠️ Archived \[EFI RPM]
-* <https://github.com/TheCruZ/EFI_Driver_Access> ⭐ 513 | 🐛 5 | 🌐 C | 📅 2023-01-08 \[EFI RPM]
-* <https://github.com/waryas/WaryasSWHE> ⭐ 389 | 🐛 1 | 🌐 C++ | 📅 2025-11-26 \[Usermode exploit to bypass any AC using a 0day shatter attack]
+* <https://github.com/TheCruZ/EFI_Driver_Access> ⭐ 512 | 🐛 5 | 🌐 C | 📅 2023-01-08 \[EFI RPM]
+* <https://github.com/waryas/WaryasSWHE> ⭐ 388 | 🐛 1 | 🌐 C++ | 📅 2025-11-26 \[Usermode exploit to bypass any AC using a 0day shatter attack]
 * <https://github.com/nbqofficial/norsefire> ⭐ 357 | 🐛 0 | 🌐 C++ | 📅 2020-09-01 \[Kernel-mode W/RPM/mouse\_event for Windows]
-* <https://github.com/waryas/UMPMLib> ⭐ 299 | 🐛 3 | 🌐 C++ | 📅 2023-09-05
-* <https://github.com/waryas/EUPMAccess> ⭐ 226 | 🐛 2 | 🌐 C++ | 📅 2017-11-24
+* <https://github.com/waryas/UMPMLib> ⭐ 298 | 🐛 3 | 🌐 C++ | 📅 2023-09-05
+* <https://github.com/waryas/EUPMAccess> ⭐ 225 | 🐛 2 | 🌐 C++ | 📅 2017-11-24
 * <https://github.com/gamozolabs/mempeek> ⭐ 224 | 🐛 0 | 🌐 Rust | 📅 2022-05-28 \[Linux]
 * <https://github.com/btbd/ddma> ⭐ 161 | 🐛 2 | 🌐 C | 📅 2021-04-28 \[Disk based DMA for ATA and SCSI]
 * <https://github.com/SamuelTulach/meme-rw> ⭐ 160 | 🐛 1 | 🌐 C++ | 📅 2022-07-31 \[kdmapper]
 * <https://github.com/juniorjacob/readwrite-kernel-stable> ⚠️ Archived
 * <https://github.com/Anonym0usWork1221/C-Android-Memory-Tool> ⭐ 87 | 🐛 1 | 🌐 C++ | 📅 2023-09-22 \[RPM for Android]
-* <https://github.com/ekknod/vm> ⭐ 73 | 🐛 1 | 🌐 C | 📅 2024-05-20 \[Minimal memory library for Windows/Linux]
+* <https://github.com/ekknod/vm> ⭐ 72 | 🐛 1 | 🌐 C | 📅 2024-05-20 \[Minimal memory library for Windows/Linux]
 * <https://github.com/ekknod/SubGetVariable> ⭐ 58 | 🐛 0 | 🌐 C | 📅 2024-02-28 \[EFI RPM]
 * <https://github.com/EBalloon/Remap> ⭐ 50 | 🐛 0 | 🌐 C++ | 📅 2022-02-21 \[Clone process]
 * <https://github.com/Poko-Apps/MemKernel> ⭐ 33 | 🐛 0 | 🌐 C | 📅 2024-12-24 \[RPM for Android]
@@ -2316,12 +2316,12 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 > DMA
 
 * <https://github.com/ufrisk/pcileech> ⭐ 7,900 | 🐛 9 | 🌐 C | 📅 2026-07-25
-* <https://github.com/ufrisk/pcileech-fpga> ⭐ 1,801 | 🐛 4 | 🌐 Verilog | 📅 2026-04-08 \[FPGA HDL/firmware modules for PCILeech DMA attack hardware]
-* <https://github.com/Silverr12/DMA-CFW-Guide> ⭐ 1,041 | 🐛 2 | 📅 2026-01-09 \[Guide to building custom/modified DMA attack firmware based on pcileech-fpga]
+* <https://github.com/ufrisk/pcileech-fpga> ⭐ 1,800 | 🐛 4 | 🌐 Verilog | 📅 2026-04-08 \[FPGA HDL/firmware modules for PCILeech DMA attack hardware]
+* <https://github.com/Silverr12/DMA-CFW-Guide> ⭐ 1,043 | 🐛 2 | 📅 2026-01-09 \[Guide to building custom/modified DMA attack firmware based on pcileech-fpga]
 * <https://github.com/Cr4sh/s6_pcie_microblaze> ⭐ 881 | 🐛 2 | 🌐 C | 📅 2026-03-07 \[PCIe DIY DMA toolkit for Xilinx SP605 with TLP control, UEFI/Hyper-V backdoor PoCs]
 * <https://github.com/ekknod/pcileech-wifi> ⭐ 785 | 🐛 2 | 🌐 Verilog | 📅 2024-05-28 \[pcileech-fpga with wireless card emulation]
 * <https://github.com/enjoy-digital/litepcie> ⭐ 721 | 🐛 30 | 🌐 Python | 📅 2026-08-27 \[Small footprint and configurable PCIe core]
-* <https://github.com/Metick/DMALibrary> ⭐ 710 | 🐛 10 | 🌐 C | 📅 2025-04-09 \[DMA library]
+* <https://github.com/Metick/DMALibrary> ⭐ 711 | 🐛 10 | 🌐 C | 📅 2025-04-09 \[DMA library]
 * <https://github.com/Rakeshmonkee/DMA> ⭐ 671 | 🐛 3 | 🌐 Python | 📅 2026-08-21 \[Guide]
 * <https://github.com/JPShag/DMA-FW-Guide-2.0> ⭐ 619 | 🐛 1 | 🌐 C | 📅 2026-07-17 \[Guide]
 * <https://github.com/Metick/CheatEngine-DMA> ⭐ 449 | 🐛 11 | 🌐 C | 📅 2024-08-28 \[CheatEngine DMA]
@@ -2339,7 +2339,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 * <https://github.com/kaijia2022/Cheat-Engine-DMA-Plugin> ⭐ 86 | 🐛 8 | 🌐 C | 📅 2024-08-29 \[CheatEngine DMA]
 * <https://github.com/mltpig/PCILeech-FPGA-DMA_VMD> ⭐ 75 | 🐛 3 | 🌐 Verilog | 📅 2025-05-14 \[PCILeech FPGA DMA VMD Controller Simulation Project]
 * <https://github.com/Trustings/DMA_PE_Dumper> ⭐ 74 | 🐛 0 | 🌐 C | 📅 2026-08-16 \[DMA PE (Portable Executable) Dumper with DTB patching capabilities]
-* <https://github.com/ekknod/vm> ⭐ 73 | 🐛 1 | 🌐 C | 📅 2024-05-20 \[Minimal memory library for Windows/Linux]
+* <https://github.com/ekknod/vm> ⭐ 72 | 🐛 1 | 🌐 C | 📅 2024-05-20 \[Minimal memory library for Windows/Linux]
 * <https://github.com/un4ckn0wl3z/DMACheatEngineLoader> ⭐ 28 | 🐛 1 | 📅 2025-04-08 \[CheatEngine DMA, not open-source]
 * <https://github.com/NoviceLevel/Pcileech-QuantumStealth-Max> ⭐ 27 | 🐛 2 | 🌐 Verilog | 📅 2025-08-07 \[Pcileech QuantumStealth Max firmware; Vivado for M2/Squirrel/100T/Captain 75T/Enigma X1/Immortal 75T]
 * <https://github.com/MGreif/PCILeech_DMA_Proxy> ⭐ 23 | 🐛 1 | 🌐 C++ | 📅 2025-06-29 \[A DLL with Loader that hooks common windows memory API functions and proxies them to the remote device via DMA]
@@ -2369,7 +2369,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 * <https://github.com/hiitiger/goverlay> ⭐ 915 | 🐛 33 | 🌐 C++ | 📅 2024-02-05 \[DirectX hook game overlay for Electron/Qt/CEF apps injected into games]
 * <https://github.com/SsageParuders/Android_Native_Surface> ⭐ 316 | 🐛 6 | 🌐 C++ | 📅 2022-10-04 \[Android Native Overlay]
-* <https://github.com/SamuelTulach/OverlayCord> ⭐ 222 | 🐛 3 | 🌐 C++ | 📅 2023-08-24 \[Discord]
+* <https://github.com/SamuelTulach/OverlayCord> ⭐ 221 | 🐛 3 | 🌐 C++ | 📅 2023-08-24 \[Discord]
 * <https://github.com/storycraft/asdf-overlay> ⭐ 178 | 🐛 8 | 🌐 Rust | 📅 2026-08-27 \[Rust overlay library with DirectX, OpenGL, and Vulkan hooking for in-game overlays]
 * <https://github.com/coltonon/D2DOverlay> ⭐ 158 | 🐛 3 | 🌐 C++ | 📅 2023-05-23
 * <https://github.com/J0xna/Kernel-Overlay-Hider> ⭐ 148 | 🐛 4 | 🌐 C++ | 📅 2024-01-24 \[Kernel Overlay Hider]
@@ -2445,11 +2445,11 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 > Vulnerable Driver
 
 * <https://github.com/hacksysteam/HackSysExtremeVulnerableDriver> ⭐ 3,083 | 🐛 14 | 🌐 C | 📅 2025-02-24 \[Guide]
-* <https://github.com/TheCruZ/kdmapper> ⭐ 3,069 | 🐛 1 | 🌐 C++ | 📅 2026-08-23 \[iqvw64e.sys]
-* <https://github.com/magicsword-io/LOLDrivers> ⭐ 1,763 | 🐛 23 | 🌐 YARA | 📅 2026-08-12 \[Living Off The Land Drivers]
+* <https://github.com/TheCruZ/kdmapper> ⭐ 3,070 | 🐛 1 | 🌐 C++ | 📅 2026-08-23 \[iqvw64e.sys]
+* <https://github.com/magicsword-io/LOLDrivers> ⭐ 1,764 | 🐛 25 | 🌐 YARA | 📅 2026-08-27 \[Living Off The Land Drivers]
 * <https://github.com/namazso/physmem_drivers> ⭐ 478 | 🐛 0 | 🌐 PowerShell | 📅 2022-06-15 \[Vulnerable Driver List]
 * <https://github.com/andreisss/KslDump> ⭐ 401 | 🐛 0 | 🌐 Python | 📅 2026-04-13 \[PPL LSASS dump via Defender KslD.sys — legacy on-disk driver, IOCTL 0x222044 + MmCopyMemory read]
-* <https://github.com/1337kenzo/gdrv-loader-updated> ⭐ 373 | 🐛 8 | 🌐 C | 📅 2026-03-16 \[gdrv.sys Win11]
+* <https://github.com/1337kenzo/gdrv-loader-updated> ⭐ 372 | 🐛 8 | 🌐 C | 📅 2026-03-16 \[gdrv.sys Win11]
 * <https://github.com/xM0kht4r/VEN0m-Ransomware> ⭐ 368 | 🐛 2 | 🌐 Rust | 📅 2026-02-24 \[IMFForceDelete.sys]
 * <https://github.com/kkent030315/evil-mhyprot-cli> ⭐ 356 | 🐛 3 | 🌐 C++ | 📅 2021-07-03 \[Mhyprot2.sys]
 * <https://github.com/xM0kht4r/AV-EDR-Killer> ⭐ 298 | 🐛 1 | 🌐 Rust | 📅 2026-01-21 \[wsftprm.sys]
@@ -2482,7 +2482,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 * <https://github.com/backengineering/VDM> ⚠️ Archived \[gdrv enhance]
 * <https://github.com/Bad-Jubies/Exploits> ⭐ 44 | 🐛 0 | 🌐 C++ | 📅 2026-07-30 \[AmdPowerProfiler.sys]
 * <https://github.com/Muz1K1zuM/PoisonKiller_bof> ⭐ 40 | 🐛 0 | 🌐 C | 📅 2026-04-06 \[PoisonX.sys]
-* <https://github.com/shareef12/cpuz> ⭐ 33 | 🐛 1 | 🌐 C++ | 📅 2019-02-17 \[CPU-Z]
+* <https://github.com/shareef12/cpuz> ⭐ 34 | 🐛 1 | 🌐 C++ | 📅 2019-02-17 \[CPU-Z]
 * <https://github.com/nu1lptr0/CVE-2025-21333> ⭐ 23 | 🐛 0 | 🌐 C++ | 📅 2026-05-05 \[LPE due to integer truncation in vskrnlintvsp.sys]
 * <https://github.com/holi4m/gdrv-loader-v2> ⭐ 22 | 🐛 0 | 🌐 C | 📅 2022-09-25 \[gdrv.sys]
 * <https://github.com/MrAle98/ATDCM64a-LPE> ⭐ 22 | 🐛 0 | 🌐 C++ | 📅 2025-01-15 \[[atdcm64a.sys](https://security.humanativaspa.it/exploiting-amd-atdcm64a.sys-arbitrary-pointer-dereference-part-1/)]
@@ -2587,12 +2587,12 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 > Driver Communication
 
 * <https://github.com/btbd/access> ⭐ 1,054 | 🐛 13 | 🌐 C | 📅 2021-04-10 \[NtConvertBetweenAuxiliaryCounterAndPerformanceCounter]
-* <https://github.com/adrianyy/rw_socket_driver> ⭐ 666 | 🐛 4 | 🌐 C | 📅 2019-02-22 \[Socket]
-* <https://github.com/adspro15/km-um-communication> ⭐ 410 | 🐛 0 | 📅 2019-09-18
+* <https://github.com/adrianyy/rw_socket_driver> ⭐ 667 | 🐛 4 | 🌐 C | 📅 2019-02-22 \[Socket]
+* <https://github.com/adspro15/km-um-communication> ⭐ 409 | 🐛 0 | 📅 2019-09-18
 * <https://github.com/paradoxwastaken/Poseidon> ⭐ 390 | 🐛 0 | 🌐 C++ | 📅 2026-04-30 \[NtConvertBetweenAuxiliaryCounterAndPerformanceCounter]
 * <https://github.com/namazso/PawnIO> ⭐ 367 | 🐛 0 | 🌐 Pawn | 📅 2026-08-14 \[Windows kernel driver that loads Pawn modules for physical/virtual memory I/O, MSR/PCI access, and IOCTL-based user-mode communication]
 * <https://github.com/ryan-weil/ReadWriteDriver> ⚠️ Archived \[NtUserSetSysColors]
-* <https://github.com/Chase1803/UCMiraka-ValorantExternal> ⭐ 306 | 🐛 0 | 🌐 C++ | 📅 2026-03-16 \[NtUserGetPointerProprietaryId]
+* <https://github.com/Chase1803/UCMiraka-ValorantExternal> ⭐ 305 | 🐛 0 | 🌐 C++ | 📅 2026-03-16 \[NtUserGetPointerProprietaryId]
 * <https://github.com/NullTerminatorr/NullHook> ⭐ 233 | 🐛 0 | 🌐 C++ | 📅 2022-12-16 \[NtDxgkGetTrackedWorkloadStatistics]
 * <https://github.com/Spuckwaffel/Kernel-Thread-Driver> ⭐ 178 | 🐛 0 | 🌐 C++ | 📅 2022-01-31 \[Thread]
 * <https://github.com/Astronaut00/DoubleDataPointer> ⭐ 171 | 🐛 3 | 🌐 C++ | 📅 2022-05-08 \[Double Data Pointer]
@@ -2601,7 +2601,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 * <https://github.com/J0xna/Kernel-Overlay-Hider> ⭐ 148 | 🐛 4 | 🌐 C++ | 📅 2024-01-24 \[NtMITPostWindowEventMessage]
 * <https://github.com/KiFilterFiberContext/windows-software-policy> ⭐ 143 | 🐛 1 | 🌐 C | 📅 2022-08-23 \[clip]
 * <https://github.com/Sinclairq/DataCommunication> ⚠️ Archived \[NtCompareSigningLevels]
-* <https://github.com/zer0condition/GoodmansKernel> ⭐ 97 | 🐛 0 | 🌐 C | 📅 2026-08-18 \[Signed WDM driver embedding wasm3 to load unsigned WASM kernel modules with nt/hal FFI, IOCTL control, InfinityHook, and HVCI-compliant execution]
+* <https://github.com/zer0condition/GoodmansKernel> ⭐ 100 | 🐛 0 | 🌐 C | 📅 2026-08-18 \[Signed WDM driver embedding wasm3 to load unsigned WASM kernel modules with nt/hal FFI, IOCTL control, InfinityHook, and HVCI-compliant execution]
 * <https://github.com/UCFoxi/Shared-FlushFileBuffers-Communication> ⭐ 96 | 🐛 0 | 🌐 C++ | 📅 2021-06-27 \[FlushFileBuffers]
 * <https://github.com/EBalloon/MapPage> ⭐ 70 | 🐛 0 | 🌐 C++ | 📅 2022-05-20 \[NtUserGetObjectInformation]
 * <https://github.com/zoand/BOOM> ⭐ 68 | 🐛 0 | 🌐 C++ | 📅 2020-12-02 \[Hijack Beep.sys]
@@ -2653,15 +2653,15 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 > EFI Driver
 
 * <https://github.com/tandasat/MiniVisorPkg> ⭐ 747 | 🐛 4 | 🌐 C | 📅 2024-08-15
-* <https://github.com/btbd/umap> ⭐ 603 | 🐛 7 | 🌐 C | 📅 2024-01-01 \[EFI Manual Map]
+* <https://github.com/btbd/umap> ⭐ 602 | 🐛 7 | 🌐 C | 📅 2024-01-01 \[EFI Manual Map]
 * <https://github.com/SamuelTulach/efi-memory> ⚠️ Archived \[RPM]
-* <https://github.com/ajkhoury/UEFI-Bootkit> ⭐ 529 | 🐛 0 | 🌐 C | 📅 2019-08-29
-* <https://github.com/TheCruZ/EFI_Driver_Access> ⭐ 513 | 🐛 5 | 🌐 C | 📅 2023-01-08 \[RPM]
+* <https://github.com/ajkhoury/UEFI-Bootkit> ⭐ 528 | 🐛 0 | 🌐 C | 📅 2019-08-29
+* <https://github.com/TheCruZ/EFI_Driver_Access> ⭐ 512 | 🐛 5 | 🌐 C | 📅 2023-01-08 \[RPM]
 * <https://github.com/Cr4sh/SmmBackdoorNg> ⭐ 378 | 🐛 0 | 🌐 C | 📅 2023-11-03 \[UEFI backdoor]
 * <https://github.com/SamuelTulach/negativespoofer> ⚠️ Archived \[HWID]
 * <https://github.com/SamuelTulach/rainbow> ⚠️ Archived \[HWID]
-* <https://github.com/xtremegamer1/xigmapper> ⭐ 324 | 🐛 5 | 🌐 C | 📅 2024-01-18 \[EFI Manual Map]
-* <https://github.com/Oliver-1-1/SmmInfect> ⭐ 298 | 🐛 5 | 🌐 C | 📅 2025-09-02 \[SMM Driver]
+* <https://github.com/xtremegamer1/xigmapper> ⭐ 323 | 🐛 5 | 🌐 C | 📅 2024-01-18 \[EFI Manual Map]
+* <https://github.com/Oliver-1-1/SmmInfect> ⭐ 297 | 🐛 5 | 🌐 C | 📅 2025-09-02 \[SMM Driver]
 * <https://github.com/iss4cf0ng/OpenPetya> ⭐ 264 | 🐛 2 | 🌐 C | 📅 2026-06-18 \[PoC MBR bootkit inspired by Petya ransomware; custom MBR/stage-2; Real→Protected Mode; NTFS MFT Salsa20 encryption; Assembly/C/C++]
 * <https://github.com/ekknod/smm> ⭐ 203 | 🐛 1 | 🌐 C | 📅 2024-10-12 \[Smm cheat]
 * <https://github.com/NoInitRD/Memory-Dump-UEFI> ⭐ 201 | 🐛 1 | 🌐 C | 📅 2025-10-22 \[A UEFI application for dumping the contents of RAM]
@@ -2692,23 +2692,23 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 > QEMU/KVM/PVE/VBOX
 
-* <https://github.com/quickemu-project/quickemu> ⭐ 15,726 | 🐛 68 | 🌐 Shell | 📅 2026-08-14 \[Quickly create and run optimized QEMU VMs for Windows/macOS/Linux]
+* <https://github.com/quickemu-project/quickemu> ⭐ 15,729 | 🐛 68 | 🌐 Shell | 📅 2026-08-14 \[Quickly create and run optimized QEMU VMs for Windows/macOS/Linux]
 * <https://github.com/tteck/Proxmox> ⚠️ Archived \[PVE Helper Scripts]
 * <https://github.com/panda-re/panda> ⭐ 2,778 | 🐛 97 | 🌐 C | 📅 2026-07-29 \[Platform for Architecture-Neutral Dynamic Analysis]
 * <https://github.com/zhaodice/qemu-anti-detection> ⭐ 1,627 | 🐛 65 | 📅 2026-04-18 \[Hidden QEMU]
-* <https://github.com/airbus-seclab/qemu_blog> ⭐ 1,530 | 🐛 0 | 📅 2023-11-03 \[Guide]
+* <https://github.com/airbus-seclab/qemu_blog> ⭐ 1,531 | 🐛 0 | 📅 2023-11-03 \[Guide]
 * <https://github.com/alephsecurity/xnu-qemu-arm64> ⭐ 1,460 | 🐛 20 | 🌐 C | 📅 2021-09-16 \[xnu]
 * <https://github.com/VirtualBox/virtualbox> ⭐ 1,368 | 🐛 417 | 🌐 C | 📅 2026-08-25 \[VirtualBox Git mirror]
 * <https://github.com/cyberus-technology/virtualbox-kvm> ⭐ 1,115 | 🐛 7 | 📅 2026-02-01 \[VirtualBox with KVM Backend]
 * <https://github.com/xqemu/xqemu> ⭐ 668 | 🐛 122 | 🌐 C | 📅 2023-02-08 \[Play original Xbox games]
-* <https://github.com/zhaodice/proxmox-ve-anti-detection> ⭐ 518 | 🐛 20 | 📅 2024-03-06 \[Hidden PVE]
+* <https://github.com/zhaodice/proxmox-ve-anti-detection> ⭐ 517 | 🐛 20 | 📅 2024-03-06 \[Hidden PVE]
 * <https://github.com/quic/gunyah-hypervisor> ⭐ 499 | 🐛 16 | 🌐 C | 📅 2026-06-01 \[Type-1 hypervisor for ARM64]
 * <https://github.com/MisterY52/apex_dma_kvm_pub> ⭐ 462 | 🐛 10 | 🌐 C++ | 📅 2024-12-07
 * <https://github.com/tenclass/mvisor> ⭐ 418 | 🐛 33 | 🌐 C++ | 📅 2025-09-04 \[C++ remake]
-* <https://github.com/david942j/kvm-kernel-example> ⭐ 386 | 🐛 1 | 🌐 C | 📅 2023-09-03 \[Guide]
+* <https://github.com/david942j/kvm-kernel-example> ⭐ 387 | 🐛 1 | 🌐 C | 📅 2023-09-03 \[Guide]
 * <https://github.com/ktock/qemu-wasm> ⭐ 357 | 🐛 11 | 🌐 C | 📅 2026-02-06 \[QEMU on browser]
 * <https://github.com/BigAnteater/KVM-GPU-Passthrough> ⭐ 328 | 🐛 24 | 🌐 Shell | 📅 2024-01-02 \[GPU Passthrough]
-* <https://github.com/WCharacter/RDTSC-KVM-Handler> ⭐ 281 | 🐛 11 | 🌐 C | 📅 2024-07-07 \[Bypass RDTSC]
+* <https://github.com/WCharacter/RDTSC-KVM-Handler> ⭐ 282 | 🐛 11 | 🌐 C | 📅 2024-07-07 \[Bypass RDTSC]
 * <https://github.com/cs1ime/blacksun-framework> ⭐ 261 | 🐛 7 | 🌐 C++ | 📅 2023-09-01 \[Framework for game cheat development]
 * <https://github.com/doomedraven/Tools/blob/master/Virtualization/kvm-qemu.sh> ⭐ 226 | 🐛 1 | 🌐 Python | 📅 2024-02-05 \[QEMU Script]
 * <https://github.com/HexRaysSA/rax> ⭐ 214 | 🐛 18 | 🌐 Rust | 📅 2026-08-22 \[Self-checking CPU emulator: x86-64/AArch64/Hexagon/RISC-V; differential-verified vs KVM/QEMU; boots Linux, GDB stub; Hex-Rays, Rust, MIT]
@@ -2736,7 +2736,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 > Wine
 
-* <https://github.com/ValveSoftware/Proton> ⭐ 32,663 | 🐛 5,176 | 🌐 C++ | 📅 2026-08-27 \[Steam]
+* <https://github.com/ValveSoftware/Proton> ⭐ 32,666 | 🐛 5,178 | 🌐 C++ | 📅 2026-08-27 \[Steam]
 * <https://github.com/dazi2011/crossover-patcher> ⭐ 5 | 🐛 0 | 🌐 Swift | 📅 2026-08-03 \[Experimental CrossOver patcher to improve compatibility with Windows games protected by anti-cheat]
 * <https://github.com/pgarba/ptrace_read_teb> ⭐ 3 | 🐛 0 | 🌐 C++ | 📅 2025-07-02 \[use ptrace to read the TEB of a process on Linux]
 * <https://github.com/CDJuaum/RunEXE> ⭐ 0 | 🐛 0 | 🌐 Python | 📅 2026-08-25 \[Python PE analyzer and Wine launcher that flags kernel anti-cheat/DRM blockers and auto-provisions prefixes and dependencies before running Windows games on Linux]
@@ -2752,7 +2752,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 > Spoof Stack
 
-* <https://github.com/mgeeky/ThreadStackSpoofer> ⭐ 1,242 | 🐛 0 | 🌐 C++ | 📅 2022-06-17
+* <https://github.com/mgeeky/ThreadStackSpoofer> ⭐ 1,243 | 🐛 0 | 🌐 C++ | 📅 2022-06-17
 * <https://github.com/klezVirus/SilentMoonwalk> ⭐ 990 | 🐛 1 | 🌐 C++ | 📅 2024-07-20 \[a TRUE call stack spoofer]
 * <https://github.com/WithSecureLabs/CallStackSpoofer> ⭐ 596 | 🐛 1 | 🌐 C++ | 📅 2025-04-08
 * <https://github.com/Barracudach/CallStack-Spoofer> ⭐ 580 | 🐛 1 | 🌐 C++ | 📅 2022-11-12
@@ -2761,7 +2761,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 * <https://github.com/susMdT/LoudSunRun> ⭐ 269 | 🐛 1 | 🌐 C | 📅 2024-10-16 \[Stack Spoofing with Synthetic frames based on the work of namazso, SilentMoonWalk, and VulcanRaven]
 * <https://github.com/fortra/hw-call-stack> ⭐ 205 | 🐛 0 | 🌐 C | 📅 2024-06-06 \[HWBP]
 * <https://github.com/danielkrupinski/x86RetSpoof> ⭐ 178 | 🐛 1 | 🌐 C++ | 📅 2023-02-17
-* <https://github.com/klezVirus/BYOUD> ⭐ 169 | 🐛 0 | 🌐 C++ | 📅 2026-03-15 \[BYOUD is a framework for x64 stack spoofing on Windows. It tackles a complete opposite approach from classic stack spoofing, manipulating unwind metadata to hide arbitrary chunks of the call chain in debuggers and EDRs]
+* <https://github.com/klezVirus/BYOUD> ⭐ 170 | 🐛 0 | 🌐 C++ | 📅 2026-03-15 \[BYOUD is a framework for x64 stack spoofing on Windows. It tackles a complete opposite approach from classic stack spoofing, manipulating unwind metadata to hide arbitrary chunks of the call chain in debuggers and EDRs]
 * <https://github.com/thesecretclub/callout-poc> ⭐ 142 | 🐛 1 | 🌐 C | 📅 2021-01-13
 * <https://github.com/xec412/NocturneLdr> ⭐ 119 | 🐛 0 | 🌐 C++ | 📅 2026-07-28 \[CET-compatible Windows x64 shellcode loader — fully backed call stacks via code-cave injection into signed module .text, RtlAddFunctionTable + inverted function table collapse, donor unwind metadata; CRT-free, DJB2 API hash, EAF/ShieldedRead, Zilean sleep obfuscation]
 * <https://github.com/Sizeable-Bingus/BingusLdr> ⭐ 112 | 🐛 0 | 🌐 C | 📅 2026-07-14 \[Crystal Palace DLL loader with CET-compatible stack spoofing, EAF-compatible API resolution, heap/image masking]
@@ -2783,7 +2783,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 * <https://github.com/JKornev/hidden> ⭐ 2,051 | 🐛 13 | 🌐 C | 📅 2022-07-13
 * <https://github.com/jxy-s/herpaderping> ⭐ 1,210 | 🐛 1 | 🌐 C++ | 📅 2023-07-05 \[Hide Process/File]
 * <https://github.com/KANKOSHEV/NoScreen> ⭐ 651 | 🐛 10 | 🌐 C | 📅 2024-12-26 \[Hide Window]
-* <https://github.com/armvirus/SinMapper> ⭐ 507 | 🐛 0 | 🌐 C++ | 📅 2022-01-03 \[Manual Map In Signed Driver]
+* <https://github.com/armvirus/SinMapper> ⭐ 506 | 🐛 0 | 🌐 C++ | 📅 2022-01-03 \[Manual Map In Signed Driver]
 * <https://github.com/Cracked5pider/KaynStrike> ⚠️ Archived \[Spoofs Thread Start Address]
 * <https://github.com/rad9800/BootExecuteEDR> ⭐ 420 | 🐛 1 | 🌐 C | 📅 2024-12-08 \[BootExecute EDR Bypass]
 * <https://github.com/armvirus/CosMapper> ⭐ 411 | 🐛 1 | 🌐 C++ | 📅 2021-08-08 \[Signed Driver Map]
@@ -2827,8 +2827,8 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 > Triggerbot & Aimbot
 
-* <https://github.com/Lexikos/AutoHotkey_L> ⭐ 13,017 | 🐛 22 | 🌐 C++ | 📅 2026-08-16
-* <https://github.com/univrsal/input-overlay> ⭐ 4,143 | 🐛 28 | 🌐 C++ | 📅 2026-07-25 \[Keyboard Mapper]
+* <https://github.com/Lexikos/AutoHotkey_L> ⭐ 13,020 | 🐛 22 | 🌐 C++ | 📅 2026-08-16
+* <https://github.com/univrsal/input-overlay> ⭐ 4,144 | 🐛 29 | 🌐 C++ | 📅 2026-07-25 \[Keyboard Mapper]
 * <https://github.com/RootKit-Org/AI-Aimbot> ⚠️ Archived \[Machine Learning YOLOv5]
 * <https://github.com/Passer1072/RookieAI_yolov8> ⭐ 811 | 🐛 48 | 🌐 Python | 📅 2026-02-04 \[Machine Learning YOLOv8]
 * <https://github.com/Chaoses-Ib/IbInputSimulator> ⭐ 563 | 🐛 28 | 🌐 C++ | 📅 2026-04-28 \[Simulating keyboard, mouse]
@@ -2875,9 +2875,9 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 > HWID
 
 * <https://github.com/5ec1cff/TrickyStore> ⭐ 6,315 | 🐛 4 | 📅 2025-11-30 \[trick of keystore. Android 12 or above is required]
-* <https://github.com/beakthoven/TrickyStore> ⭐ 1,327 | 🐛 5 | 🌐 Kotlin | 📅 2026-08-27 \[A trick of keystore. Android 10 or above is required]
+* <https://github.com/beakthoven/TrickyStore> ⭐ 1,328 | 🐛 5 | 🌐 Kotlin | 📅 2026-08-27 \[A trick of keystore. Android 10 or above is required]
 * <https://github.com/btbd/hwid> ⚠️ Archived
-* <https://github.com/Android1500/AndroidFaker> ⭐ 724 | 🐛 41 | 📅 2026-05-22 \[Android]
+* <https://github.com/Android1500/AndroidFaker> ⭐ 725 | 🐛 41 | 📅 2026-05-22 \[Android]
 * <https://github.com/SamuelTulach/mutante> ⚠️ Archived
 * <https://github.com/Alex3434/wmi-static-spoofer> ⭐ 515 | 🐛 9 | 🌐 C | 📅 2018-12-12
 * <https://github.com/SamuelTulach/negativespoofer> ⚠️ Archived \[EFI]
@@ -2891,7 +2891,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 * <https://github.com/Theordernarkoz/Hwid--Spoofer> ⭐ 88 | 🐛 0 | 🌐 C | 📅 2024-08-13
 * <https://github.com/singhhdev/Spoofer-AMIDEWIN> ⭐ 47 | 🐛 0 | 🌐 C | 📅 2026-01-09
 * <https://github.com/Skotschia/hwid_spoofer> ⭐ 44 | 🐛 0 | 🌐 C++ | 📅 2020-08-31
-* <https://github.com/gupr0x4/HWID-Spoofer-for-Fortnite-and-Valorant> ⭐ 40 | 🐛 3 | 🌐 C | 📅 2021-09-18
+* <https://github.com/gupr0x4/HWID-Spoofer-for-Fortnite-and-Valorant> ⭐ 41 | 🐛 3 | 🌐 C | 📅 2021-09-18
 * <https://github.com/Theordernarkoz/Hwid-Spoofer> ⭐ 33 | 🐛 0 | 🌐 C++ | 📅 2021-06-08
 * <https://github.com/s0ngidong3/TPM-SPOOFER> ⭐ 32 | 🐛 0 | 🌐 C | 📅 2023-12-16 \[TPM]
 * <https://github.com/roomyoni/Nvidia-GPU-Spoof> ⭐ 19 | 🐛 1 | 🌐 C++ | 📅 2024-09-11 \[Spoofing the NVIDIA GPU UUID by modifying "nvlddmkm.sys"]
@@ -2926,30 +2926,30 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 > Game Engine Explorer:Unreal
 
-* <https://github.com/praydog/UEVR> ⭐ 4,469 | 🐛 210 | 🌐 C++ | 📅 2026-08-27 \[Universal Unreal Engine VR Mod (4.8 - 5.4)]
-* <https://github.com/UE4SS-RE/RE-UE4SS> ⭐ 2,834 | 🐛 261 | 🌐 C++ | 📅 2026-08-27 \[Re-Host of Unreal Engine 4/5 Scripting System]
-* <https://github.com/Encryqed/Dumper-7> ⭐ 2,213 | 🐛 38 | 🌐 C | 📅 2026-08-06 \[SDK Dump for all of UE4 and UE5]
+* <https://github.com/praydog/UEVR> ⭐ 4,468 | 🐛 210 | 🌐 C++ | 📅 2026-08-27 \[Universal Unreal Engine VR Mod (4.8 - 5.4)]
+* <https://github.com/UE4SS-RE/RE-UE4SS> ⭐ 2,836 | 🐛 261 | 🌐 C++ | 📅 2026-08-27 \[Re-Host of Unreal Engine 4/5 Scripting System]
+* <https://github.com/Encryqed/Dumper-7> ⭐ 2,215 | 🐛 38 | 🌐 C | 📅 2026-08-06 \[SDK Dump for all of UE4 and UE5]
 * <https://github.com/Spuckwaffel/UEDumper> ⭐ 1,380 | 🐛 0 | 🌐 C++ | 📅 2026-04-18 \[SDK Dump for UE 4.19 - 5.2]
 * <https://github.com/atenfyr/UAssetGUI> ⭐ 1,040 | 🐛 15 | 🌐 C# | 📅 2026-08-14 \[Viewing and modifying UE4 game assets]
 * <https://github.com/kp7742/UE4Dumper> ⭐ 951 | 🐛 26 | 🌐 C++ | 📅 2026-03-04 \[SDK Dump For Android]
 * <https://github.com/guttir14/UnrealDumper-4.25> ⭐ 616 | 🐛 20 | 🌐 C++ | 📅 2023-01-28 \[SDK Dump]
-* <https://github.com/MJx0/AndUE4Dumper> ⭐ 466 | 🐛 17 | 🌐 C++ | 📅 2026-08-03 \[SDK Dump For Android]
+* <https://github.com/MJx0/AndUE4Dumper> ⭐ 466 | 🐛 18 | 🌐 C++ | 📅 2026-08-03 \[SDK Dump For Android]
 * <https://github.com/CorrM/Unreal-Finder-Tool> ⚠️ Archived \[SDK View]
 * <https://github.com/UE-Explorer/UE-Explorer> ⭐ 355 | 🐛 4 | 🌐 C# | 📅 2026-08-15 \[Browser and decompiler for UE packages]
-* [UE4 Cheat Source Code](https://github.com/1hAck-0/UE4-Cheat-Source-Code) ⭐ 280 | 🐛 2 | 🌐 C++ | 📅 2022-01-09
+* [UE4 Cheat Source Code](https://github.com/1hAck-0/UE4-Cheat-Source-Code) ⭐ 279 | 🐛 2 | 🌐 C++ | 📅 2022-01-09
 * <https://github.com/MJx0/iOS_UE4Dumper> ⭐ 264 | 🐛 8 | 🌐 C++ | 📅 2026-04-07 \[SDK Dump For IOS]
 * <https://github.com/RussellJerome/UnrealModLoader> ⭐ 245 | 🐛 21 | 🌐 C++ | 📅 2023-04-16 \[Mod Loader]
 * <https://github.com/cursey/ue4genny> ⭐ 218 | 🐛 10 | 🌐 C++ | 📅 2024-11-24 \[SDK Generator]
 * [unpack, pack, list, check and mount Unreal Engine 4 .pak archives](https://github.com/panzi/rust-u4pak) ⭐ 164 | 🐛 16 | 🌐 Rust | 📅 2023-02-01
 * <https://github.com/Zebratic/UE4Injector> ⭐ 147 | 🐛 0 | 🌐 C++ | 📅 2023-10-05 \[Inject]
+* <https://github.com/trumank/jmap> ⭐ 131 | 🐛 6 | 🌐 Rust | 📅 2026-08-04 \[Unreal Engine reflection data format and extractor]
 * <https://github.com/shalzuth/UnrealSharp> ⭐ 131 | 🐛 0 | 🌐 C# | 📅 2024-04-27 \[SDK View]
-* <https://github.com/trumank/jmap> ⭐ 129 | 🐛 6 | 🌐 Rust | 📅 2026-08-04 \[Unreal Engine reflection data format and extractor]
-* <https://github.com/N-T33/UE4-Silent-Aim> ⭐ 125 | 🐛 2 | 🌐 C++ | 📅 2023-01-21 \[Aimbot]
+* <https://github.com/N-T33/UE4-Silent-Aim> ⭐ 124 | 🐛 2 | 🌐 C++ | 📅 2023-01-21 \[Aimbot]
 * <https://github.com/spudgy/UnrealEngine4-SwissKnife> ⭐ 117 | 🐛 3 | 🌐 C | 📅 2020-04-29 \[SDK View]
 * <https://github.com/EZFNDEV/UEDumper> ⭐ 111 | 🐛 5 | 🌐 C++ | 📅 2022-07-02 \[SDK Dump]
 * <https://github.com/CorrM/CleanCheat> ⭐ 99 | 🐛 1 | 🌐 C++ | 📅 2023-11-21 \[Game cheat base]
 * <https://github.com/trumank/patternsleuth> ⭐ 88 | 🐛 6 | 🌐 Rust | 📅 2026-07-08 \[Unreal Engine address scanner and test suite]
-* <https://github.com/percpopper/UE4-Freecam> ⭐ 51 | 🐛 0 | 🌐 C | 📅 2021-11-01 \[FOV Changer]
+* <https://github.com/percpopper/UE4-Freecam> ⭐ 50 | 🐛 0 | 🌐 C | 📅 2021-11-01 \[FOV Changer]
 * [Intercept ProcessEvent calls on any game object (Unreal Engine 4)](https://github.com/Skengdo/ue4-processevent-intercept) ⭐ 48 | 🐛 1 | 🌐 C++ | 📅 2022-04-09
 * <https://github.com/yring-me/ts-ue4dumper> ⭐ 46 | 🐛 0 | 🌐 TypeScript | 📅 2024-08-23 \[TypeScript and Frida UE4dumper]
 * <https://github.com/Shhoya/Shh0yaUEDumper> ⭐ 45 | 🐛 0 | 🌐 C++ | 📅 2021-04-13 \[SDK Dump]
@@ -2973,17 +2973,17 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 * <https://github.com/Perfare/AssetStudio> ⚠️ Archived \[Extracting assets]
 * <https://github.com/mono/mono> ⭐ 11,466 | 🐛 2,266 | 🌐 C# | 📅 2024-08-27 \[mono]
-* <https://github.com/Perfare/Il2CppDumper> ⭐ 9,343 | 🐛 156 | 🌐 C# | 📅 2024-08-18 \[Il2Cpp Dump]
-* <https://github.com/Perfare/Il2CppDumper> ⭐ 9,343 | 🐛 156 | 🌐 C# | 📅 2024-08-18 \[Il2Cpp Dump GUI]
-* <https://github.com/BepInEx/BepInEx> ⭐ 8,508 | 🐛 388 | 🌐 C# | 📅 2026-06-28 \[plugin/modding framework]
-* <https://github.com/AssetRipper/AssetRipper> ⭐ 8,202 | 🐛 150 | 🌐 C# | 📅 2026-08-26 \[Extracting assets]
+* <https://github.com/Perfare/Il2CppDumper> ⭐ 9,346 | 🐛 156 | 🌐 C# | 📅 2024-08-18 \[Il2Cpp Dump]
+* <https://github.com/Perfare/Il2CppDumper> ⭐ 9,346 | 🐛 156 | 🌐 C# | 📅 2024-08-18 \[Il2Cpp Dump GUI]
+* <https://github.com/BepInEx/BepInEx> ⭐ 8,512 | 🐛 388 | 🌐 C# | 📅 2026-06-28 \[plugin/modding framework]
+* <https://github.com/AssetRipper/AssetRipper> ⭐ 8,205 | 🐛 150 | 🌐 C# | 📅 2026-08-26 \[Extracting assets]
 * <https://github.com/SeriousCache/UABE> ⚠️ Archived \[Extracting assets]
-* <https://github.com/Perfare/Zygisk-Il2CppDumper> ⭐ 3,277 | 🐛 173 | 🌐 C | 📅 2024-08-09 \[Il2Cpp Dump for Android Platform]
+* <https://github.com/Perfare/Zygisk-Il2CppDumper> ⭐ 3,276 | 🐛 173 | 🌐 C | 📅 2024-08-09 \[Il2Cpp Dump for Android Platform]
 * <https://github.com/sinai-dev/UnityExplorer> ⚠️ Archived
 * <https://github.com/djkaty/Il2CppInspector> ⭐ 3,036 | 🐛 65 | 🌐 C | 📅 2022-05-13 \[Il2Cpp Dump]
-* <https://github.com/vfsfitvnm/frida-il2cpp-bridge> ⭐ 1,726 | 🐛 47 | 🌐 TypeScript | 📅 2026-08-07 \[Frida dump Il2Cpp]
+* <https://github.com/vfsfitvnm/frida-il2cpp-bridge> ⭐ 1,727 | 🐛 47 | 🌐 TypeScript | 📅 2026-08-07 \[Frida dump Il2Cpp]
 * <https://github.com/Misaka-Mikoto-Tech/MonoHook> ⭐ 1,059 | 🐛 9 | 🌐 C# | 📅 2023-09-22 \[mono hook]
-* <https://github.com/axhlzy/Il2CppHookScripts> ⭐ 658 | 🐛 0 | 🌐 TypeScript | 📅 2026-02-02 \[Il2Cpp Hook Scripts]
+* <https://github.com/axhlzy/Il2CppHookScripts> ⭐ 659 | 🐛 0 | 🌐 TypeScript | 📅 2026-02-02 \[Il2Cpp Hook Scripts]
 * <https://github.com/knah/Il2CppAssemblyUnhollower> ⚠️ Archived
 * <https://github.com/knah/Il2CppAssemblyUnhollower> ⚠️ Archived \[Managed->IL2CPP proxy assemblies]
 * <https://github.com/sneakyevilSK/IL2CPP_Resolver> ⭐ 472 | 🐛 15 | 🌐 C++ | 📅 2024-07-30 \[IL2CPP resolver]
@@ -3004,7 +3004,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 * <https://github.com/khang06/Il2CppDumper-YuanShen> ⭐ 71 | 🐛 0 | 🌐 C# | 📅 2022-01-23 \[Il2Cpp Dump for Genshin Impact]
 * <https://github.com/xxzzddxzd/unitySpeedTools> ⭐ 64 | 🐛 4 | 🌐 Objective-C | 📅 2024-12-18 \[IOS Speed Tools]
 * <https://github.com/Compiled-Code/external-il2cpp> ⭐ 61 | 🐛 3 | 🌐 C++ | 📅 2021-07-06 \[Il2Cpp]
-* <https://github.com/bombaris34/il2cpp-pdb> ⭐ 52 | 🐛 1 | 🌐 C# | 📅 2026-06-06 \[Il2CppDumper fork with native Rust PDB generator for x64 PE (GameAssembly.dll) — function names, full struct types and typed prototypes, auto-loaded by IDA]
+* <https://github.com/bombaris34/il2cpp-pdb> ⭐ 53 | 🐛 1 | 🌐 C# | 📅 2026-06-06 \[Il2CppDumper fork with native Rust PDB generator for x64 PE (GameAssembly.dll) — function names, full struct types and typed prototypes, auto-loaded by IDA]
 * <https://github.com/BepInEx/BepInEx.Utility.IL2CPP> ⭐ 52 | 🐛 0 | 🌐 C# | 📅 2026-06-30 \[Universal BepInEx utility plugins for IL2CPP Unity games — graphics settings, window resize, mute in background, Message Center, ByteFiddler, ProcessAffinityOverride]
 * <https://github.com/BataBo/ACEPatcher> ⭐ 38 | 🐛 1 | 🌐 C# | 📅 2022-06-05 \[.NET Patcher]
 * <https://github.com/Octowolve/Il2CppSDKGenerator> ⭐ 31 | 🐛 0 | 📅 2020-07-23 \[Il2Cpp SDK generator for Android]
@@ -3013,7 +3013,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 * <https://github.com/sunnamed434/UnityVulnerableEntryPoint> ⚠️ Archived \[Looks for a vulnerable entry point]
 * <https://github.com/gmh5225/frida-il2cpp-datacollector> ⭐ 13 | 🐛 0 | 📅 2022-10-07 \[Il2Cpp datacollector for Android/IOS]
 * <https://github.com/dnSpy/Mono.Debugger.Soft> ⚠️ Archived \[Mono Debugger]
-* <https://github.com/matheusbranhann/taskbarhero-bot> ⭐ 10 | 🐛 0 | 🌐 C# | 📅 2026-08-11 \[C# Unity IL2CPP memory trainer/bot for TaskbarHero with ACTk bypass, batch-read automations, and WPF control panel]
+* <https://github.com/matheusbranhann/taskbarhero-bot> ⭐ 11 | 🐛 0 | 🌐 C# | 📅 2026-08-11 \[C# Unity IL2CPP memory trainer/bot for TaskbarHero with ACTk bypass, batch-read automations, and WPF control panel]
 * <https://github.com/gmh5225/unispectDMAPlugin> ⭐ 2 | 🐛 0 | 📅 2023-05-05 \[Mono Dump + DMA]
 * <https://github.com/00christian00/UnityDecompiled> ⭐ 2 | 🐛 0 | 🌐 C# | 📅 2015-09-01 \[An unofficial repo of decompiled Unity dll files]
 * <https://github.com/gmh5225/qiling-il2cpp-dump> ⭐ 0 | 🐛 0 | 📅 2023-05-18  \[Il2Cpp Dump using qiling]
@@ -3042,14 +3042,14 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 > Explore AntiCheat System:VAC
 
-* <https://github.com/danielkrupinski/VAC-Bypass> ⭐ 654 | 🐛 30 | 🌐 C | 📅 2021-09-23 \[User-mode VAC bypass (C) that aborts VAC scans so CE/cheats can attach without VAC Error]
+* <https://github.com/danielkrupinski/VAC-Bypass> ⭐ 653 | 🐛 30 | 🌐 C | 📅 2021-09-23 \[User-mode VAC bypass (C) that aborts VAC scans so CE/cheats can attach without VAC Error]
 * <https://github.com/danielkrupinski/VAC-Bypass-Loader> ⭐ 514 | 🐛 64 | 🌐 C | 📅 2020-06-16
 * <https://github.com/zyhp/vac3_inhibitor> ⚠️ Archived
 * <https://github.com/mdilai/Shtreeba> ⭐ 287 | 🐛 6 | 🌐 C++ | 📅 2021-06-01 \[Injector]
 * <https://github.com/Jackbail4/VAC-Bypass> ⭐ 191 | 🐛 4 | 🌐 C++ | 📅 2025-02-02
-* <https://github.com/danielkrupinski/vac-hooks> ⭐ 185 | 🐛 0 | 🌐 C | 📅 2020-06-12
-* <https://github.com/b1scoito/cozinha_loader> ⭐ 127 | 🐛 2 | 🌐 C++ | 📅 2022-08-18 \[Injector]
-* <https://github.com/crvvdev/vac-bypass-kernel> ⭐ 104 | 🐛 1 | 🌐 C++ | 📅 2025-02-21 \[Fully working kernel-mode VAC bypass]
+* <https://github.com/danielkrupinski/vac-hooks> ⭐ 184 | 🐛 0 | 🌐 C | 📅 2020-06-12
+* <https://github.com/b1scoito/cozinha_loader> ⭐ 126 | 🐛 2 | 🌐 C++ | 📅 2022-08-18 \[Injector]
+* <https://github.com/crvvdev/vac-bypass-kernel> ⭐ 103 | 🐛 1 | 🌐 C++ | 📅 2025-02-21 \[Fully working kernel-mode VAC bypass]
 * <https://github.com/ioncodes/vacation3-emu> ⭐ 100 | 🐛 0 | 🌐 C | 📅 2020-09-28 \[VAC3 module emulator]
 * <https://github.com/x1tan/vac3-dumper> ⭐ 44 | 🐛 0 | 🌐 Rust | 📅 2018-09-17 \[Dump]
 * <https://github.com/krispybyte/Vook> ⭐ 16 | 🐛 0 | 🌐 C++ | 📅 2022-08-19 \[VAC hook]
@@ -3066,10 +3066,10 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 * <https://github.com/thesecretclub/CVEAC-2020> ⭐ 355 | 🐛 0 | 🌐 C | 📅 2020-09-13 \[Integrity Checks]
 * <https://github.com/Schnocker/EAC_dbp> ⭐ 326 | 🐛 5 | 🌐 C | 📅 2020-05-11 \[Debug]
-* <https://github.com/kprprivate/EAC-CR3-BYPASS> ⭐ 206 | 🐛 1 | 🌐 C | 📅 2025-10-13 \[A simple UM + KM example of how to bypass EAC CR3]
+* <https://github.com/kprprivate/EAC-CR3-BYPASS> ⭐ 205 | 🐛 1 | 🌐 C | 📅 2025-10-13 \[A simple UM + KM example of how to bypass EAC CR3]
 * <https://github.com/Compiled-Code/eac-mapper> ⭐ 168 | 🐛 0 | 🌐 C++ | 📅 2022-05-03 \[Eac Mapper]
 * <https://github.com/CamxxCore/EasyAntiCheat-Emulator> ⭐ 154 | 🐛 6 | 🌐 C | 📅 2024-05-10 \[EAC Emulator]
-* <https://github.com/SamuelTulach/eac_cr3_shuffle> ⭐ 110 | 🐛 1 | 🌐 C++ | 📅 2023-10-06 \[Bypassing CR3 protection]
+* <https://github.com/SamuelTulach/eac_cr3_shuffle> ⭐ 109 | 🐛 1 | 🌐 C++ | 📅 2023-10-06 \[Bypassing CR3 protection]
 * <https://github.com/lguilhermee/EAC-Extractor-Utility> ⭐ 99 | 🐛 0 | 🌐 C | 📅 2026-02-17 \[Decrypt and Extract the files from the EAC]
 * <https://github.com/Sinclairq/hiearchy-eac> ⚠️ Archived \[Integrity Checks]
 * <https://github.com/Sinclairq/hierarchy-eac> ⚠️ Archived \[Bypassing self-integrity]
@@ -3169,7 +3169,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 > Explore AntiCheat System:ACE
 
 * <https://github.com/H3d9/sguard_limit> ⭐ 856 | 🐛 0 | 🌐 C++ | 📅 2026-06-14
-* <https://github.com/rogxo/ReadPhys> ⭐ 235 | 🐛 0 | 🌐 C++ | 📅 2023-10-19
+* <https://github.com/rogxo/ReadPhys> ⭐ 233 | 🐛 0 | 🌐 C++ | 📅 2023-10-19
 * <https://github.com/libtersafe/dfm_android_unicorn> ⭐ 81 | 🐛 3 | 🌐 Objective-C | 📅 2026-03-13 \[Coordinate Decryption (Android ARM64)]
 * <https://github.com/wwweeeqqu/honor-of-kings-RE-research> ⭐ 41 | 🐛 0 | 🌐 C | 📅 2026-06-08 \[Honor of Kings mobile RE: KernelPatch KPM reads, Tencent ACE analysis, IL2CPP/native notes]
 * <https://github.com/not1cyyy/Anti-Cheat-Amateur> ⭐ 3 | 🐛 0 | 🌐 C++ | 📅 2026-08-03 \[Stealth kdmapper kernel driver and virtualized UE memory scanner for Tencent ACE evasion research]
@@ -3200,7 +3200,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 > Explore AntiCheat System:CS2
 
-* <https://github.com/danielkrupinski/cs2-anticheat> ⭐ 181 | 🐛 0 | 📅 2023-08-07
+* <https://github.com/danielkrupinski/cs2-anticheat> ⭐ 180 | 🐛 0 | 📅 2023-08-07
 
 > Game:MapleStory
 
@@ -3263,7 +3263,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 > Game:Sword With Sauce
 
-* <https://github.com/1hAck-0/UE4-Cheat-Source-Code> ⭐ 280 | 🐛 2 | 🌐 C++ | 📅 2022-01-09
+* <https://github.com/1hAck-0/UE4-Cheat-Source-Code> ⭐ 279 | 🐛 2 | 🌐 C++ | 📅 2022-01-09
 
 > Game:Gunfire Reborn
 
@@ -3271,7 +3271,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 > Game:Fall Guys
 
-* <https://github.com/repinek/fallguys-frida-modmenu> ⭐ 47 | 🐛 2 | 🌐 TypeScript | 📅 2026-08-15 \[Android Fall Guys mod menu using Frida and frida-il2cpp-bridge]
+* <https://github.com/repinek/fallguys-frida-modmenu> ⭐ 48 | 🐛 2 | 🌐 TypeScript | 📅 2026-08-15 \[Android Fall Guys mod menu using Frida and frida-il2cpp-bridge]
 * <https://github.com/gmh5225/FallGuysSharp> ⭐ 0 | 🐛 0 | 📅 2020-08-31
 * <https://github.com/gmh5225/FallGuys> ⭐ 0 | 🐛 0 | 📅 2022-07-11
 * <https://github.com/gmh5225/Flying-Guys-fully-modified> ⭐ 0 | 🐛 0 | 📅 2022-08-30
@@ -3390,9 +3390,9 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 > Game:CSGO
 
-* <https://github.com/danielkrupinski/Osiris> ⭐ 3,849 | 🐛 331 | 🌐 C++ | 📅 2026-08-25
-* <https://github.com/frk1/hazedumper> ⭐ 1,685 | 🐛 0 | 🌐 Visual Basic .NET | 📅 2024-03-28 \[Offset]
-* <https://github.com/slack69/csgo-dma-overlay> ⭐ 823 | 🐛 2 | 🌐 C++ | 📅 2020-05-12 \[DMA]
+* <https://github.com/danielkrupinski/Osiris> ⭐ 3,848 | 🐛 331 | 🌐 C++ | 📅 2026-08-25
+* <https://github.com/frk1/hazedumper> ⭐ 1,684 | 🐛 0 | 🌐 Visual Basic .NET | 📅 2024-03-28 \[Offset]
+* <https://github.com/slack69/csgo-dma-overlay> ⭐ 822 | 🐛 2 | 🌐 C++ | 📅 2020-05-12 \[DMA]
 * <https://github.com/AimTuxOfficial/AimTux> ⚠️ Archived \[Linux]
 * <https://github.com/SteamDatabase/Protobufs/tree/master/csgo> ⭐ 569 | 🐛 0 | 🌐 Shell | 📅 2026-08-26 \[Protobuf]
 * <https://github.com/Speedi13/ROP-COMPILER> ⭐ 556 | 🐛 25 | 🌐 C++ | 📅 2020-06-04
@@ -3400,15 +3400,15 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 * <https://github.com/EternityX/DEADCELL-CSGO> ⚠️ Archived
 * <https://github.com/ekknod/EC> ⭐ 455 | 🐛 14 | 🌐 C | 📅 2024-10-14
 * <https://github.com/petercunha/Pine> ⭐ 443 | 🐛 39 | 🌐 Python | 📅 2021-06-28 \[Neural Network]
-* <https://github.com/danielkrupinski/GOESP> ⭐ 439 | 🐛 32 | 🌐 C++ | 📅 2023-02-02 \[Cross-platform]
+* <https://github.com/danielkrupinski/GOESP> ⭐ 438 | 🐛 32 | 🌐 C++ | 📅 2023-02-02 \[Cross-platform]
 * <https://github.com/spirthack/CSGOSimple> ⭐ 426 | 🐛 27 | 🌐 C++ | 📅 2022-09-29 \[Internal]
 * <https://github.com/boltgolt/boltobserv> ⭐ 384 | 🐛 4 | 🌐 JavaScript | 📅 2026-05-15 \[Radar]
 * <https://github.com/nbqofficial/norsefire> ⭐ 357 | 🐛 0 | 🌐 C++ | 📅 2020-09-01 \[Driver + Mouse Emulation]
 * <https://github.com/nbqofficial/kernel-csgo> ⭐ 287 | 🐛 2 | 🌐 C++ | 📅 2021-07-24
 * <https://github.com/designer1337/csgo-cheat-base> ⭐ 251 | 🐛 47 | 🌐 C++ | 📅 2022-04-20 \[Internal]
-* <https://github.com/s3pt3mb3r/Dainsleif> ⭐ 244 | 🐛 0 | 🌐 C++ | 📅 2024-07-03
+* <https://github.com/s3pt3mb3r/Dainsleif> ⭐ 243 | 🐛 0 | 🌐 C++ | 📅 2024-07-03
 * <https://github.com/Blaumaus/le_chiffre> ⚠️ Archived \[External]
-* <https://github.com/seksea/gamesneeze> ⭐ 207 | 🐛 26 | 🌐 C++ | 📅 2023-06-12 \[Linux]
+* <https://github.com/seksea/gamesneeze> ⭐ 206 | 🐛 26 | 🌐 C++ | 📅 2023-06-12 \[Linux]
 * <https://github.com/Bartis1313/csgo> ⭐ 195 | 🐛 0 | 🌐 C++ | 📅 2023-09-20
 * <https://github.com/danielkrupinski/Anubis> ⭐ 179 | 🐛 4 | 🌐 C | 📅 2021-07-12
 * <https://github.com/csgohacks/master-guide> ⭐ 159 | 🐛 9 | 📅 2023-06-19 \[Guide]
@@ -3480,35 +3480,35 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 > Game:CS2
 
-* <https://github.com/danielkrupinski/Osiris> ⭐ 3,849 | 🐛 331 | 🌐 C++ | 📅 2026-08-25
-* <https://github.com/a2x/cs2-dumper> ⭐ 2,279 | 🐛 11 | 🌐 Rust | 📅 2026-08-27 \[Dump]
-* <https://github.com/TKazer/CS2_External> ⭐ 831 | 🐛 64 | 🌐 C++ | 📅 2024-07-24 \[External]
+* <https://github.com/danielkrupinski/Osiris> ⭐ 3,848 | 🐛 331 | 🌐 C++ | 📅 2026-08-25
+* <https://github.com/a2x/cs2-dumper> ⭐ 2,280 | 🐛 11 | 🌐 Rust | 📅 2026-08-27 \[Dump]
+* <https://github.com/TKazer/CS2_External> ⭐ 831 | 🐛 63 | 🌐 C++ | 📅 2024-07-24 \[External]
 * <https://github.com/Valthrun/Valthrun> ⭐ 800 | 🐛 41 | 🌐 Rust | 📅 2026-07-14 \[External]
 * <https://github.com/clauadv/cs2_webradar> ⭐ 634 | 🐛 1 | 🌐 C++ | 📅 2026-07-30 \[undetected counter strike 2 browser based radar cheat]
-* <https://github.com/IMXNOOBX/cs2-external-esp> ⭐ 564 | 🐛 2 | 🌐 C++ | 📅 2026-07-25 \[External]
-* <https://github.com/bruhmoment21/cs2-sdk> ⭐ 419 | 🐛 2 | 🌐 C++ | 📅 2025-03-28 \[SDK]
+* <https://github.com/IMXNOOBX/cs2-external-esp> ⭐ 565 | 🐛 2 | 🌐 C++ | 📅 2026-07-25 \[External]
+* <https://github.com/bruhmoment21/cs2-sdk> ⭐ 418 | 🐛 2 | 🌐 C++ | 📅 2025-03-28 \[SDK]
 * <https://github.com/ByteCorum/DragonBurn> ⭐ 359 | 🐛 11 | 🌐 C++ | 📅 2026-08-21 \[External]
-* <https://github.com/sezzyaep/CS2-OFFSETS> ⭐ 312 | 🐛 1 | 🌐 HTML | 📅 2026-08-26 \[Offset]
+* <https://github.com/sezzyaep/CS2-OFFSETS> ⭐ 313 | 🐛 1 | 🌐 HTML | 📅 2026-08-26 \[Offset]
 * <https://github.com/maecry/asphyxia-cs2> ⚠️ Archived \[Internal]
 * <https://github.com/eden13378/CS2-DMA-Cheat> ⭐ 185 | 🐛 0 | 🌐 C++ | 📅 2026-03-20 \[DMA]
 * <https://github.com/MoZiHao/CS2_DMA_Radar> ⭐ 161 | 🐛 1 | 🌐 JavaScript | 📅 2025-02-18 \[DMA Radar]
 * <https://github.com/kristofhracza/tim_apple> ⚠️ Archived \[External]
-* <https://github.com/tiansongyu/cs2_cheat> ⭐ 126 | 🐛 0 | 🌐 C++ | 📅 2026-08-25 \[Educational CS2 external ESP (SDL2 + ImGui) with auto-updating offsets via cs2-dumper]
+* <https://github.com/tiansongyu/cs2_cheat> ⭐ 126 | 🐛 0 | 🌐 C++ | 📅 2026-08-27 \[Educational CS2 external ESP (SDL2 + ImGui) with auto-updating offsets via cs2-dumper]
 * <https://github.com/snipcola/ProExt> ⚠️ Archived \[Open-source external CS2 cheat written in Rust; ESP/RCS/Aimbot/Triggerbot/Crosshair/Radar/Bomb Timer/Spectator List]
 * <https://github.com/MoZiHao/CS2_DMA_Extrnal> ⭐ 119 | 🐛 1 | 🌐 C++ | 📅 2025-02-18 \[DMA External]
-* <https://github.com/Fr0go1/Aeonix-Cs2> ⭐ 104 | 🐛 16 | 🌐 C++ | 📅 2024-02-04 \[External]
+* <https://github.com/Fr0go1/Aeonix-Cs2> ⭐ 103 | 🐛 16 | 🌐 C++ | 📅 2024-02-04 \[External]
 * <https://github.com/UnnamedZ03/CS2-external-base> ⭐ 91 | 🐛 0 | 🌐 C++ | 📅 2026-03-02 \[External]
 * <https://github.com/chao-shushu/CS2-DMA> ⭐ 86 | 🐛 1 | 🌐 C | 📅 2026-08-19 \[Open-source CS2 DMA external (FPGA/LeechCore) with ESP, radar, and grenade helper on a second machine]
 * <https://github.com/dougwithseismic/dezlock-dump> ⭐ 85 | 🐛 10 | 🌐 C++ | 📅 2026-03-09 \[Runtime schema + RTTI extraction for Source 2 (Deadlock, CS2, Dota 2); no source2gen required]
 * <https://github.com/nezu-cc/BakaWare4> ⭐ 82 | 🐛 1 | 🌐 C++ | 📅 2023-05-14
 * <https://github.com/Omn1z/Counter-Strike2-SDK> ⭐ 65 | 🐛 0 | 🌐 C++ | 📅 2024-05-23 \[SDK]
 * <https://github.com/atombottle/cs2_kvm_dma> ⚠️ Archived \[KVM]
-* <https://github.com/HLND2T/CS2_VibeSignatures> ⭐ 64 | 🐛 40 | 🌐 Python | 📅 2026-08-27 \[Generate CS2 signatures via Agent SKILLS with ida-pro-mcp]
-* <https://github.com/papstuc/counterstrike2> ⭐ 62 | 🐛 0 | 🌐 C++ | 📅 2023-05-24
+* <https://github.com/HLND2T/CS2_VibeSignatures> ⭐ 64 | 🐛 37 | 🌐 Python | 📅 2026-08-27 \[Generate CS2 signatures via Agent SKILLS with ida-pro-mcp]
+* <https://github.com/papstuc/counterstrike2> ⭐ 61 | 🐛 0 | 🌐 C++ | 📅 2023-05-24
 * <https://github.com/clouddss/cs2-internal-sdk> ⭐ 45 | 🐛 2 | 🌐 C++ | 📅 2024-04-18 \[Internal]
 * <https://github.com/redbg/CS2-Internal> ⭐ 39 | 🐛 2 | 🌐 C++ | 📅 2023-10-22 \[Internal]
 * <https://github.com/xfi0/Titled-Gui-CS2> ⭐ 38 | 🐛 2 | 🌐 C# | 📅 2026-08-17 \[GPLv3 external CS2 cheat in C# with ESP, aimbot, radar, and minimal memory writes]
-* <https://github.com/NotOfficer/cs2-sdk> ⭐ 36 | 🐛 0 | 🌐 C++ | 📅 2024-06-11 \[SDK]
+* <https://github.com/NotOfficer/cs2-sdk> ⭐ 37 | 🐛 0 | 🌐 C++ | 📅 2024-06-11 \[SDK]
 * <https://github.com/Salvatore-Als/cs2-signature-list> ⭐ 29 | 🐛 0 | 🌐 C | 📅 2024-03-08 \[Signature]
 * <https://github.com/imnotdatguy/csgo2-cheat> ⭐ 20 | 🐛 1 | 🌐 C++ | 📅 2023-04-04
 * <https://github.com/gmh5225/tim_apple> ⭐ 16 | 🐛 0 | 🌐 C++ | 📅 2023-11-16 \[External]
@@ -3563,13 +3563,13 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 > Game:Valorant
 
 * <https://github.com/weedeej/ValorantCC> ⚠️ Archived \[Crosshair Setting]
-* <https://github.com/Chase1803/UCMiraka-ValorantExternal> ⭐ 306 | 🐛 0 | 🌐 C++ | 📅 2026-03-16 \[NtUserGetPointerProprietaryId]
+* <https://github.com/Chase1803/UCMiraka-ValorantExternal> ⭐ 305 | 🐛 0 | 🌐 C++ | 📅 2026-03-16 \[NtUserGetPointerProprietaryId]
 * <https://github.com/10HEAD/ValorantOffsets> ⭐ 194 | 🐛 0 | 🌐 C++ | 📅 2025-04-23 \[Offset]
 * <https://github.com/frankelitoc/UE4-c-> ⭐ 160 | 🐛 3 | 🌐 C++ | 📅 2022-07-01 \[External]
 * <https://github.com/94q/Valorant-Internal> ⭐ 87 | 🐛 3 | 🌐 C++ | 📅 2024-07-31 \[Internal]
 * <https://github.com/apekros/valorant_offsets> ⚠️ Archived \[Offset]
 * <https://github.com/AryuInka/Valorant-Cheat-External> ⭐ 73 | 🐛 2 | 🌐 C++ | 📅 2022-05-22 \[External]
-* <https://github.com/GLX-ILLUSION/valorant-offsets-autoupdater> ⭐ 71 | 🐛 0 | 🌐 C++ | 📅 2026-03-09 \[Offset]
+* <https://github.com/GLX-ILLUSION/valorant-offsets-autoupdater> ⭐ 72 | 🐛 0 | 🌐 C++ | 📅 2026-03-09 \[Offset]
 * <https://github.com/kali11211/valorant-internal-cheat> ⭐ 34 | 🐛 2 | 🌐 C++ | 📅 2024-07-18 \[Internal]
 * <https://github.com/kali11211/valorant-internal-cheat> ⭐ 34 | 🐛 2 | 🌐 C++ | 📅 2024-07-18 \[Internal]
 * <https://github.com/ofDataa/offsets> ⚠️ Archived \[Offset]
@@ -3626,7 +3626,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 > Game:COD WWII
 
-* <https://github.com/Brentdevent/S2x> ⭐ 83 | 🐛 11 | 🌐 C++ | 📅 2026-08-23 \[Custom Call of Duty: WWII client; modding and client-side improvements; offline MP/zombies/campaign, Steam/Demonware emulation]
+* <https://github.com/Brentdevent/S2x> ⭐ 83 | 🐛 11 | 🌐 C++ | 📅 2026-08-27 \[Custom Call of Duty: WWII client; modding and client-side improvements; offline MP/zombies/campaign, Steam/Demonware emulation]
 
 > Game:COD Warzone
 
@@ -3678,9 +3678,9 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 * <https://github.com/NaiJii/Apex-Mizu-Base> ⭐ 24 | 🐛 1 | 🌐 C++ | 📅 2023-09-28 \[Internal]
 * <https://github.com/ofDataa/offsets> ⚠️ Archived \[Offset]
 * <https://github.com/hooksteroid/ApexD3D_External> ⭐ 20 | 🐛 0 | 🌐 C++ | 📅 2021-06-04
-* <https://github.com/Keyzp1337/Fortnite> ⭐ 20 | 🐛 0 | 🌐 C++ | 📅 2022-04-12
 * <https://github.com/NekoRem/apex-external> ⚠️ Archived \[External]
 * <https://github.com/boowampp/ApexDmaCheatUpdated> ⭐ 20 | 🐛 0 | 🌐 C++ | 📅 2024-06-14 \[DMA]
+* <https://github.com/Keyzp1337/Fortnite> ⭐ 19 | 🐛 0 | 🌐 C++ | 📅 2022-04-12
 * <https://github.com/ekknod/apex_linux> ⚠️ Archived \[linux]
 * <https://github.com/RavenOfTime/Apex-Legends-Esp> ⭐ 6 | 🐛 0 | 📅 2022-02-16
 * <https://github.com/gmh5225/Apex-ApexCheeseTest> ⭐ 5 | 🐛 0 | 📅 2022-05-30
@@ -3708,8 +3708,8 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 * <https://github.com/Zetolac/FortniteOffsetsAndSigs> ⭐ 30 | 🐛 0 | 🌐 C | 📅 2024-06-22 \[Offset]
 * <https://github.com/kem0x/FortKit> ⭐ 28 | 🐛 0 | 🌐 C++ | 📅 2023-11-04 \[Dump]
 * <https://github.com/ofDataa/offsets> ⚠️ Archived \[Offset]
-* <https://github.com/pastor-ritz/ritz-amazing-fortnite-internal> ⭐ 21 | 🐛 3 | 🌐 C++ | 📅 2022-06-25
-* <https://github.com/Keyzp1337/Fortnite> ⭐ 20 | 🐛 0 | 🌐 C++ | 📅 2022-04-12
+* <https://github.com/pastor-ritz/ritz-amazing-fortnite-internal> ⭐ 20 | 🐛 3 | 🌐 C++ | 📅 2022-06-25
+* <https://github.com/Keyzp1337/Fortnite> ⭐ 19 | 🐛 0 | 🌐 C++ | 📅 2022-04-12
 * <https://github.com/CheaterRehab/GodFather-Fortnite-Cheat-Cracked> ⭐ 17 | 🐛 1 | 🌐 C++ | 📅 2023-01-09
 * <https://github.com/Waihbe/Fortnite-Cheat-LEAK> ⭐ 14 | 🐛 3 | 🌐 C++ | 📅 2022-06-27
 * <https://github.com/gmh5225/Fortnite-VoyagerTF> ⭐ 13 | 🐛 0 | 📅 2023-05-30 \[Voyager]
@@ -3786,7 +3786,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 > Game:PUBG
 
-* <https://github.com/iCollin/pubg-internal> ⭐ 155 | 🐛 2 | 🌐 C++ | 📅 2020-10-01
+* <https://github.com/iCollin/pubg-internal> ⭐ 154 | 🐛 2 | 🌐 C++ | 📅 2020-10-01
 * <https://github.com/K-cazb/pubg-public> ⭐ 74 | 🐛 1 | 🌐 C++ | 📅 2024-02-06
 * <https://github.com/dot1991/lilypublic> ⭐ 39 | 🐛 0 | 📅 2022-05-29
 * <https://github.com/ajkhoury/pubg_internal> ⭐ 33 | 🐛 0 | 🌐 C | 📅 2021-10-01
@@ -3833,7 +3833,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 * <https://github.com/Qemu-Gang/Escape-from-TuxKov> ⭐ 72 | 🐛 5 | 🌐 C++ | 📅 2022-07-10 \[QEMU]
 * <https://github.com/patrickcjk/TOG> ⭐ 67 | 🐛 7 | 🌐 C# | 📅 2022-09-12 \[Offsets Generator]
 * <https://github.com/krispybyte/Simple-EFT-Base> ⭐ 24 | 🐛 1 | 🌐 C++ | 📅 2022-01-25
-* <https://github.com/paul01784/MeatyEFTRelease> ⭐ 22 | 🐛 0 | 🌐 C++ | 📅 2026-08-26 \[Open-source DMA EFT radar and companion toolkit (C++/ImGui, fuser support, leechcore/vmm)]
+* <https://github.com/paul01784/MeatyEFTRelease> ⭐ 22 | 🐛 0 | 🌐 C++ | 📅 2026-08-27 \[Open-source DMA EFT radar and companion toolkit (C++/ImGui, fuser support, leechcore/vmm)]
 * <https://github.com/fcancelog/EftStreamedCheat> ⭐ 14 | 🐛 0 | 📅 2022-05-01
 * <https://github.com/Splitx12/eft> ⭐ 10 | 🐛 0 | 📅 2022-02-01
 * <https://github.com/ZhaoKunqi/simple-eft-superman-training-bot> ⭐ 3 | 🐛 0 | 🌐 C++ | 📅 2023-12-20
@@ -3983,7 +3983,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 > Game:Genshin Impact
 
-* <https://github.com/Grasscutters/Grasscutter> ⭐ 16,809 | 🐛 152 | 🌐 Java | 📅 2026-03-04 \[Private Server]
+* <https://github.com/Grasscutters/Grasscutter> ⭐ 16,811 | 🐛 152 | 🌐 Java | 📅 2026-03-04 \[Private Server]
 * <https://github.com/phonowell/genshin-impact-script> ⭐ 1,446 | 🐛 16 | 🌐 AutoHotkey | 📅 2026-06-24 \[A sweet genshin impact script]
 * <https://github.com/khang06/mhynot2> ⭐ 127 | 🐛 2 | 🌐 C++ | 📅 2022-08-25
 * <https://github.com/gmh5225/Genshin-Akebi-GC> ⭐ 75 | 🐛 0 | 🌐 C++ | 📅 2022-12-25 \[Cheat]
@@ -4152,20 +4152,20 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 > Stress Testing
 
-* <https://github.com/Mattiwatti/EfiGuard> ⭐ 2,523 | 🐛 20 | 🌐 C++ | 📅 2026-06-16 \[PG Testing]
-* [EDRSandblast/KernellandBypass/ETWThreatIntel.c](https://github.com/wavestone-cdt/EDRSandblast/blob/master/EDRSandblast/KernellandBypass/ETWThreatIntel.c) ⭐ 1,844 | 🐛 7 | 🌐 C | 📅 2024-08-30 \[ETW Testing]
+* <https://github.com/Mattiwatti/EfiGuard> ⭐ 2,522 | 🐛 20 | 🌐 C++ | 📅 2026-06-16 \[PG Testing]
+* [EDRSandblast/KernellandBypass/ETWThreatIntel.c](https://github.com/wavestone-cdt/EDRSandblast/blob/master/EDRSandblast/KernellandBypass/ETWThreatIntel.c) ⭐ 1,843 | 🐛 7 | 🌐 C | 📅 2024-08-30 \[ETW Testing]
 * <https://github.com/9176324/Shark> ⭐ 1,043 | 🐛 7 | 🌐 C | 📅 2022-04-21 \[PG Testing]
 * <https://github.com/niemand-sec/AntiCheat-Testing-Framework> ⭐ 822 | 🐛 3 | 🌐 C++ | 📅 2022-07-25 \[Testing Framework]
-* <https://github.com/noahware/hyper-reV> ⭐ 745 | 🐛 1 | 🌐 C++ | 📅 2026-07-24 \[memory introspection and reverse engineering hypervisor powered by leveraging Hyper-V]
+* <https://github.com/noahware/hyper-reV> ⭐ 746 | 🐛 1 | 🌐 C++ | 📅 2026-07-24 \[memory introspection and reverse engineering hypervisor powered by leveraging Hyper-V]
 * <https://github.com/deepinstinct/Dirty-Vanity> ⭐ 678 | 🐛 1 | 🌐 C | 📅 2022-12-23 \[Injection Testing:RtlCreateProcessReflection]
 * <https://github.com/ekknod/EC> ⭐ 455 | 🐛 14 | 🌐 C | 📅 2024-10-14 \[Testing Framework]
-* <https://github.com/zer0condition/Ophion> ⭐ 403 | 🐛 6 | 🌐 C | 📅 2026-03-20 \[Stealth Intel VT-x Type-2 hypervisor: passes common HV detection, works with EAC/BE/AVs; CPUID cache, CR4.VMXE hide, TSC compensation, private host CR3]
+* <https://github.com/zer0condition/Ophion> ⭐ 404 | 🐛 7 | 🌐 C | 📅 2026-03-20 \[Stealth Intel VT-x Type-2 hypervisor: passes common HV detection, works with EAC/BE/AVs; CPUID cache, CR4.VMXE hide, TSC compensation, private host CR3]
 * <https://github.com/zxd1994/vt-debuuger> ⭐ 373 | 🐛 7 | 🌐 C++ | 📅 2022-06-30 \[Hacked Hypervisor Testing]
 * <https://github.com/momo5502/hypervisor> ⭐ 360 | 🐛 1 | 🌐 C++ | 📅 2026-08-01 \[Experimental Intel VT-x type-2 hypervisor with EPT hooking for stealth memory interception and integrity-check bypass research]
 * <https://github.com/notscimmy/libelevate> ⭐ 349 | 🐛 2 | 🌐 C++ | 📅 2018-09-20 \[Elevating Handle]
 * <https://github.com/KooroshRZ/Windows-DLL-Injector> ⭐ 337 | 🐛 3 | 🌐 C++ | 📅 2022-01-23 \[Injection Testing]
-* <https://github.com/nkga/cheat-driver> ⭐ 321 | 🐛 2 | 🌐 C | 📅 2018-05-10 \[MmCopyVirtualMemory Testing]
-* <https://github.com/KANKOSHEV/face-injector-v2> ⭐ 301 | 🐛 21 | 🌐 C | 📅 2021-10-27 \[Injection/ Testing]
+* <https://github.com/nkga/cheat-driver> ⭐ 320 | 🐛 2 | 🌐 C | 📅 2018-05-10 \[MmCopyVirtualMemory Testing]
+* <https://github.com/KANKOSHEV/face-injector-v2> ⭐ 300 | 🐛 21 | 🌐 C | 📅 2021-10-27 \[Injection/ Testing]
 * <https://github.com/Idov31/NovaHypervisor> ⭐ 272 | 🐛 0 | 🌐 C++ | 📅 2026-07-18 \[NovaHypervisor is a defensive x64 Intel host based hypervisor. The goal of this project is to protect against kernel based attacks]
 * <https://github.com/Mr-Un1k0d3r/AMSI-ETW-Patch> ⭐ 251 | 🐛 0 | 🌐 PowerShell | 📅 2024-05-08 \[ETW Testing]
 * <https://github.com/Kudaes/Dumpy> ⭐ 246 | 🐛 0 | 🌐 Rust | 📅 2024-04-04 \[Reuse opened handles By LSASS]
@@ -4221,7 +4221,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 > Anti Debugging
 
-* <https://github.com/LordNoteworthy/al-khaser> ⭐ 7,109 | 🐛 42 | 🌐 C++ | 📅 2026-07-01
+* <https://github.com/LordNoteworthy/al-khaser> ⭐ 7,110 | 🐛 42 | 🌐 C++ | 📅 2026-07-01
 * <https://github.com/EvilBytecode/GoDefender> ⚠️ Archived \[Anti Debugging]
 * <https://github.com/HackOvert/AntiDBG> ⭐ 818 | 🐛 0 | 🌐 C++ | 📅 2021-05-07
 * <https://github.com/secrary/makin> ⭐ 744 | 🐛 2 | 🌐 C++ | 📅 2019-03-17 \[Reveal anti-debugging and anti-VM tricks]
@@ -4305,10 +4305,10 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 * <https://github.com/Systemcluster/wrappe> ⭐ 83 | 🐛 2 | 🌐 Rust | 📅 2026-05-08 \[Rust]
 * <https://github.com/longqun/Packer> ⭐ 80 | 🐛 1 | 🌐 C++ | 📅 2019-05-12 \[X86]
 * <https://github.com/frank2/oxide> ⭐ 74 | 🐛 0 | 🌐 Rust | 📅 2022-04-01 \[Written by Rust]
-* <https://github.com/akuafif/hXOR-Packer> ⭐ 70 | 🐛 2 | 🌐 C++ | 📅 2021-09-11 \[PE XOR]
+* <https://github.com/akuafif/hXOR-Packer> ⭐ 69 | 🐛 2 | 🌐 C++ | 📅 2021-09-11 \[PE XOR]
 * <https://github.com/friedkiwi/netcrypt> ⭐ 63 | 🐛 1 | 🌐 C# | 📅 2018-11-04 \[.NET]
-* <https://github.com/TheAenema/hm-pe-packer> ⭐ 54 | 🐛 2 | 🌐 HTML | 📅 2023-08-31 \[PE X64]
 * <https://github.com/ATsahikian/pe-protector> ⭐ 53 | 🐛 1 | 🌐 C++ | 📅 2021-07-26 \[X86]
+* <https://github.com/TheAenema/hm-pe-packer> ⭐ 53 | 🐛 2 | 🌐 HTML | 📅 2023-08-31 \[PE X64]
 * <https://github.com/jnastarot/shibari> ⭐ 52 | 🐛 0 | 🌐 C++ | 📅 2024-03-16 \[Linking multiple PE\PE + files to one]
 * <https://github.com/ytk2128/pe32-password> ⭐ 50 | 🐛 2 | 🌐 C++ | 📅 2025-01-09
 * <https://github.com/SamLarenN/PePacker> ⭐ 50 | 🐛 1 | 🌐 C++ | 📅 2017-05-28
@@ -4371,7 +4371,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 > Lazy Importer
 
-* <https://github.com/JustasMasiulis/lazy_importer> ⭐ 1,921 | 🐛 5 | 🌐 C++ | 📅 2023-08-03
+* <https://github.com/JustasMasiulis/lazy_importer> ⭐ 1,922 | 🐛 5 | 🌐 C++ | 📅 2023-08-03
 * <https://github.com/hypervisor/kli> ⭐ 137 | 🐛 0 | 🌐 C++ | 📅 2024-04-13
 * <https://github.com/1hAck-0/zeroimport> ⭐ 51 | 🐛 0 | 🌐 C++ | 📅 2023-03-22
 * <https://github.com/gmh5225/kli-ex> ⭐ 34 | 🐛 0 | 🌐 C++ | 📅 2023-02-16
@@ -4387,12 +4387,12 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 > Compile Time
 
 * <https://github.com/hanickadot/compile-time-regular-expressions> ⭐ 3,839 | 🐛 104 | 🌐 C++ | 📅 2026-07-11 \[Compile Time Regular Expression in C++]
-* <https://github.com/DosX-dev/obfus.h> ⭐ 1,838 | 🐛 3 | 🌐 C | 📅 2026-08-06 \[Macro-header for compile-time C obfuscation (tcc, win x86/x64)]
+* <https://github.com/DosX-dev/obfus.h> ⭐ 1,839 | 🐛 3 | 🌐 C | 📅 2026-08-06 \[Macro-header for compile-time C obfuscation (tcc, win x86/x64)]
 * <https://github.com/JustasMasiulis/xorstr> ⭐ 1,442 | 🐛 4 | 🌐 C++ | 📅 2021-11-19 \[String Crypter]
-* <https://github.com/adamyaxley/Obfuscate> ⭐ 1,338 | 🐛 2 | 🌐 C++ | 📅 2026-06-03 \[String Crypter]
-* <https://github.com/ac3ss0r/obfusheader.h> ⭐ 1,048 | 🐛 5 | 🌐 C++ | 📅 2024-08-19 \[Obfusheader.h is a portable header file for C++14 compile-time obfuscation]
-* <https://github.com/skadro-official/skCrypter> ⭐ 839 | 🐛 3 | 🌐 C++ | 📅 2021-06-03 \[String Crypter]
-* <https://github.com/x86byte/Obfusk8> ⭐ 810 | 🐛 3 | 🌐 C++ | 📅 2026-06-25 \[Obfusk8: C++17-Based Obfuscation Library]
+* <https://github.com/adamyaxley/Obfuscate> ⭐ 1,337 | 🐛 2 | 🌐 C++ | 📅 2026-06-03 \[String Crypter]
+* <https://github.com/ac3ss0r/obfusheader.h> ⭐ 1,049 | 🐛 5 | 🌐 C++ | 📅 2024-08-19 \[Obfusheader.h is a portable header file for C++14 compile-time obfuscation]
+* <https://github.com/skadro-official/skCrypter> ⭐ 840 | 🐛 3 | 🌐 C++ | 📅 2021-06-03 \[String Crypter]
+* <https://github.com/x86byte/Obfusk8> ⭐ 811 | 🐛 3 | 🌐 C++ | 📅 2026-06-25 \[Obfusk8: C++17-Based Obfuscation Library]
 * <https://github.com/JustasMasiulis/inline_syscall> ⭐ 740 | 🐛 1 | 🌐 C++ | 📅 2024-06-21 \[Inline syscalls made easy for windows on clang]
 * <https://github.com/CasualX/obfstr> ⭐ 615 | 🐛 0 | 🌐 Rust | 📅 2026-07-17 \[String Crypter for rust]
 * <https://github.com/llxiaoyuan/oxorany> ⭐ 544 | 🐛 8 | 🌐 C++ | 📅 2023-04-25 \[obfuscated any constant encryption in compile time on any platform]
@@ -4447,14 +4447,14 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 > Obfuscation Engine
 
 * <https://github.com/javascript-obfuscator/javascript-obfuscator> ⭐ 16,218 | 🐛 20 | 🌐 TypeScript | 📅 2026-08-23 \[JavaScript/Node.js obfuscator]
-* <https://github.com/burrowers/garble> ⭐ 5,662 | 🐛 34 | 🌐 Go | 📅 2026-08-25 \[Go build-time obfuscator]
+* <https://github.com/burrowers/garble> ⭐ 5,662 | 🐛 35 | 🌐 Go | 📅 2026-08-25 \[Go build-time obfuscator]
 * <https://github.com/dashingsoft/pyarmor> ⭐ 5,180 | 🐛 11 | 🌐 Python | 📅 2026-08-27 \[Python script obfuscator with machine-binding and expiry options]
 * <https://github.com/CalebFenton/simplify> ⭐ 4,657 | 🐛 32 | 🌐 Java | 📅 2022-04-30 \[Java]
 * <https://github.com/Guardsquare/proguard> ⭐ 3,638 | 🐛 176 | 🌐 Java | 📅 2026-08-24 \[Java]
 * <https://github.com/obfuscar/obfuscar> ⭐ 3,172 | 🐛 23 | 🌐 C# | 📅 2026-07-17 \[Open-source .NET assembly obfuscator]
 * <https://github.com/rockbruno/swiftshield> ⭐ 2,546 | 🐛 58 | 🌐 Swift | 📅 2022-11-20 \[Swift identifier obfuscator for iOS apps against RE]
-* <https://github.com/weak1337/Alcatraz> ⭐ 1,993 | 🐛 9 | 🌐 C++ | 📅 2023-07-14
-* <https://github.com/DosX-dev/obfus.h> ⭐ 1,838 | 🐛 3 | 🌐 C | 📅 2026-08-06 \[Macro-header for compile-time C obfuscation (tcc, win x86/x64)]
+* <https://github.com/weak1337/Alcatraz> ⭐ 1,992 | 🐛 9 | 🌐 C++ | 📅 2023-07-14
+* <https://github.com/DosX-dev/obfus.h> ⭐ 1,839 | 🐛 3 | 🌐 C | 📅 2026-08-06 \[Macro-header for compile-time C obfuscation (tcc, win x86/x64)]
 * <https://github.com/cherriesandmochi/gdmaim> ⭐ 1,223 | 🐛 7 | 🌐 GDScript | 📅 2026-08-24 \[Godot 4.x export plugin that obfuscates GDScript to raise reverse-engineering cost for shipped games]
 * <https://github.com/maoabc/nmmp> ⭐ 1,202 | 🐛 78 | 🌐 C | 📅 2025-08-22 \[Dex]
 * <https://github.com/CodingGay/BlackObfuscator> ⭐ 1,123 | 🐛 11 | 🌐 Java | 📅 2025-05-03 \[Dex]
@@ -4462,7 +4462,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 * <https://github.com/es3n1n/obfuscator> ⭐ 858 | 🐛 5 | 🌐 C++ | 📅 2025-10-11
 * <https://github.com/vxlang/vxlang-page> ⭐ 767 | 🐛 2 | 🌐 C++ | 📅 2026-08-19 \[Windows x86-64/.NET binary protector with obfuscation, code virtualization, and anti-tamper (PE/DLL/SYS)]
 * <https://github.com/mike1k/perses> ⭐ 540 | 🐛 2 | 🌐 C++ | 📅 2022-05-24
-* <https://github.com/LeoChen-CoreMind/VMPacker> ⭐ 490 | 🐛 6 | 🌐 Go | 📅 2026-03-26 \[ARM64 ELF Virtual Machine Protection System]
+* <https://github.com/LeoChen-CoreMind/VMPacker> ⭐ 491 | 🐛 6 | 🌐 Go | 📅 2026-03-26 \[ARM64 ELF Virtual Machine Protection System]
 * <https://github.com/xiaoweime/WProtect> ⭐ 484 | 🐛 2 | 🌐 C | 📅 2016-11-02
 * <https://github.com/open-obfuscator/dProtect> ⭐ 403 | 🐛 11 | 🌐 Java | 📅 2023-06-04 \[Java/Kotlin]
 * <https://github.com/keowu/Ryujin> ⭐ 344 | 🐛 0 | 🌐 C++ | 📅 2025-11-20 \[X86 PE BIN2BIN]
@@ -4481,7 +4481,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 * <https://github.com/zx0CF1/shredder-rs> ⭐ 112 | 🐛 1 | 🌐 Rust | 📅 2026-01-18 \[A high-fidelity x86\_64 polymorphic mutation engine focused on instruction-level fragmentation and context preservation]
 * <https://github.com/Washi1337/AwaitFuscator> ⭐ 101 | 🐛 0 | 🌐 C# | 📅 2024-12-23 \[.NET]
 * <https://github.com/killvxk/awesome-obfuscations> ⭐ 83 | 🐛 0 | 📅 2026-08-17 \[Curated index of binary, compile-time, and LLVM/GCC obfuscation tools]
-* <https://github.com/nak0823/ObfuscationMethods> ⭐ 80 | 🐛 0 | 🌐 C# | 📅 2023-04-16 \[C#/.NET assembly obfuscation technique demos using dnlib]
+* <https://github.com/nak0823/ObfuscationMethods> ⭐ 79 | 🐛 0 | 🌐 C# | 📅 2023-04-16 \[C#/.NET assembly obfuscation technique demos using dnlib]
 * <https://github.com/nkhmelni/Obscura> ⭐ 44 | 🐛 0 | 🌐 C | 📅 2026-04-06 \[Hassle-free LLVM pass-plugin obfuscator for C/C++/ObjC/Swift]
 * <https://github.com/DeDf/WProtect> ⭐ 41 | 🐛 0 | 🌐 C++ | 📅 2019-11-05
 * <https://github.com/sfr-development/Lua-Obfuscator-Clyde-Protection> ⭐ 40 | 🐛 0 | 🌐 TypeScript | 📅 2026-06-01 \[Luau/Lua VM-based obfuscator for Roblox script protection]
@@ -4527,19 +4527,19 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 > Open Source Anti Cheat System
 
-* <https://github.com/wazuh/wazuh> ⭐ 16,696 | 🐛 2,992 | 🌐 C++ | 📅 2026-08-27 \[XDR]
+* <https://github.com/wazuh/wazuh> ⭐ 16,696 | 🐛 3,006 | 🌐 C++ | 📅 2026-08-27 \[XDR]
 * <https://github.com/TheHive-Project/TheHive> ⚠️ Archived \[EDR]
 * <https://github.com/ComodoSecurity/openedr> ⭐ 2,717 | 🐛 37 | 🌐 C++ | 📅 2026-05-23 \[EDR]
-* <https://github.com/GrimAnticheat/Grim> ⭐ 1,725 | 🐛 358 | 🌐 Java | 📅 2026-08-27 \[Minecraft]
+* <https://github.com/GrimAnticheat/Grim> ⭐ 1,726 | 🐛 360 | 🌐 Java | 📅 2026-08-27 \[Minecraft]
 * <https://github.com/ION28/BLUESPAWN> ⭐ 1,334 | 🐛 31 | 🌐 C++ | 📅 2026-03-31 \[EDR]
-* <https://github.com/0xrawsec/whids> ⭐ 1,312 | 🐛 20 | 🌐 Go | 📅 2023-02-25 \[EDR]
+* <https://github.com/0xrawsec/whids> ⭐ 1,313 | 🐛 20 | 🌐 Go | 📅 2023-02-25 \[EDR]
 * <https://github.com/Neo23x0/Raccine> ⭐ 983 | 🐛 21 | 🌐 C++ | 📅 2023-11-08 \[EDR]
 * <https://github.com/danielkrupinski/VAC> ⭐ 815 | 🐛 0 | 🌐 C | 📅 2020-06-12 \[Reversed VAC]
 * <https://github.com/donnaskiez/ac> ⭐ 678 | 🐛 5 | 🌐 C | 📅 2024-08-04
 * <https://github.com/AlSch092/UltimateAntiCheat> ⭐ 642 | 🐛 3 | 🌐 C++ | 📅 2026-06-23
 * <https://github.com/mq1n/NoMercy> ⭐ 625 | 🐛 0 | 🌐 C++ | 📅 2025-12-09
 * <https://github.com/0xflux/Sanctum> ⚠️ Archived \[Sanctum is an experimental proof-of-concept EDR, designed to detect modern malware techniques, above and beyond the capabilities of antivirus. Built in Rust]
-* <https://github.com/chztbby/RebirthGuard> ⭐ 509 | 🐛 6 | 🌐 C++ | 📅 2022-07-22
+* <https://github.com/chztbby/RebirthGuard> ⭐ 508 | 🐛 6 | 🌐 C++ | 📅 2022-07-22
 * <https://github.com/D4stiny/PeaceMaker> ⭐ 429 | 🐛 2 | 🌐 C++ | 📅 2020-05-22 \[Anti Virus in fact but also Anti Cheat]
 * <https://github.com/NoCheatPlus/NoCheatPlus> ⭐ 402 | 🐛 7 | 🌐 Java | 📅 2021-06-04 \[Open-source anti-cheat plugin for Minecraft (Bukkit/Spigot)]
 * <https://github.com/J-Tanzanite/Little-Anti-Cheat> ⚠️ Archived \[For Source Games]
@@ -4560,7 +4560,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 * <https://github.com/JackBro/BetaShield> ⭐ 46 | 🐛 0 | 🌐 C++ | 📅 2017-01-11
 * <https://github.com/KaelusAI/Shard> ⭐ 43 | 🐛 0 | 🌐 Kotlin | 📅 2026-08-25 \[AI-powered open-source Minecraft Paper/Folia anti-cheat plugin]
 * <https://github.com/PatchRequest/PeregrineAntiCheat> ⭐ 41 | 🐛 0 | 🌐 C | 📅 2026-07-24 \[Educational Windows anti-cheat: kernel minifilter, ObCallbacks, APC injection, MinHook API hooks, ETW-TI, YARA, Tauri GUI, cheat test suite]
-* <https://github.com/Visual1mpact/Paradox_AntiCheat> ⭐ 41 | 🐛 0 | 🌐 TypeScript | 📅 2026-08-26 \[Open-source anti-cheat for Minecraft Bedrock (Realms/BDS)]
+* <https://github.com/Visual1mpact/Paradox_AntiCheat> ⭐ 41 | 🐛 0 | 🌐 TypeScript | 📅 2026-08-27 \[Open-source anti-cheat for Minecraft Bedrock (Realms/BDS)]
 * <https://github.com/JonathanBerkeley/Quack> ⭐ 33 | 🐛 18 | 🌐 C++ | 📅 2026-06-30
 * [Deep Learning Anti-Cheat For CSGO](https://github.com/LaihoE/DLAC) ⚠️ Archived
 * [Cheat developer platform](https://github.com/c4kef/UAC) ⚠️ Archived
@@ -4573,7 +4573,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 * <https://github.com/realTristan/Reborn> ⭐ 10 | 🐛 0 | 🌐 Rust | 📅 2023-05-31 \[Designed with Rust]
 * <https://github.com/GhostNgEnd/Ghost-AntiCheat> ⭐ 8 | 🐛 0 | 🌐 Java | 📅 2026-08-18 \[Prediction-based movement anti-cheat for Minecraft Bedrock Edition with packet, offset, and ping checks]
 * <https://github.com/enis1enis2/Windfall-AntiCheat> ⭐ 7 | 🐛 6 | 🌐 Java | 📅 2026-08-27 \[Open-source Minecraft Spigot/Paper/Folia packet-based anti-cheat with combat/movement/inventory checks]
-* <https://github.com/GiannBart/BanMod> ⭐ 6 | 🐛 2 | 🌐 C# | 📅 2026-08-22 \[Among Us BepInEx mod with host-side AntiCheat module for RPC/task abuse, crashers, and lobby integrity]
+* <https://github.com/GiannBart/BanMod> ⭐ 6 | 🐛 2 | 🌐 C# | 📅 2026-08-27 \[Among Us BepInEx mod with host-side AntiCheat module for RPC/task abuse, crashers, and lobby integrity]
 * <https://github.com/adem-hosni/AtomicShieldClient> ⭐ 6 | 🐛 1 | 🌐 C++ | 📅 2026-08-09 \[Multi-layered FiveM anti-cheat client with tray agent, manual-map loader, and runtime guards]
 * <https://github.com/nsharp-collab/AvAAntiCheat> ⭐ 5 | 🐛 1 | 🌐 Java | 📅 2026-08-16 \[Minecraft Bukkit/Spigot anti-cheat plugin with movement, combat, autoclick, and packet checks]
 * [User-mode C++ Anti-Cheat written for German Roleplay Server GVMP.de](https://github.com/divodeuxsevres/gvmp-anticheat) ⭐ 5 | 🐛 0 | 🌐 C | 📅 2021-11-14
@@ -4583,6 +4583,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 * [Source Engine serverside anti-cheat plugin. (CS:S, CS:GO, CS:P, TF2)](https://github.com/kanekikun420/NoCheatZ-3) ⭐ 4 | 🐛 0 | 🌐 C++ | 📅 2015-09-23
 * [This is the Anti Cheat System for Knight Online Gamesoft vversion](https://github.com/luisfelipe18/GamesoftACS) ⭐ 4 | 🐛 0 | 🌐 C | 📅 2022-04-28
 * <https://github.com/gmh5225/be_shellcode_dump> ⭐ 3 | 🐛 0 | 📅 2023-12-30 \[Reversed BE Shellcode]
+* <https://github.com/StarBloomMinecraft/BlarionAntiCheat> ⭐ 3 | 🐛 0 | 🌐 JavaScript | 📅 2026-08-27 \[Minecraft Bedrock behavior-pack anti-cheat on ScriptAPI with 40+ combat/movement/inventory detection modules]
 * <https://github.com/xihedun-2026/Ponytail-Risk-> ⭐ 2 | 🐛 0 | 🌐 Rust | 📅 2026-08-01 \[Open-source behavior risk-control and evidence-review platform for private game servers (Rust agent, C ABI SDK, read-only DB analysis, rule scoring, plugin events)]
 * <https://github.com/YcbrYL1/YCBR-AntiCheat> ⭐ 2 | 🐛 0 | 🌐 Java | 📅 2026-08-23 \[Paper 1.8.9 Minecraft anti-cheat plugin with 19 combat/movement/protocol checks, auth, DDoS protection, and admin GUI]
 * <https://github.com/llsgllsg/Minecraft_AntiCheatAI> ⭐ 2 | 🐛 0 | 🌐 Java | 📅 2026-08-20 \[DeepGuard: Paper Minecraft anti-cheat with ONNX scaffold AI detection, behavior recorder, and training pipeline]
@@ -4602,7 +4603,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 * <https://github.com/Garou3299/tf2bd-database> ⭐ 1 | 🐛 0 | 🌐 Shell | 📅 2026-08-26 \[Community-maintained TF2 cheater and suspicious-player JSON lists for surepy/tf2\_bot\_detector]
 * <https://github.com/gmh5225/Basic_Anti-Cheat> ⭐ 1 | 🐛 0 | 📅 2023-07-31
 * <https://github.com/vul-os/magnetite> ⭐ 0 | 🐛 0 | 🌐 Rust | 📅 2026-08-11 \[Rust self-hostable game platform with magnetite-anticheat: server-authoritative deterministic replay verification and composable cheat validators]
-* <https://github.com/web-coder-lab/chessking> ⭐ 0 | 🐛 0 | 🌐 Rust | 📅 2026-08-24 \[Rust server-side anti-cheat for multiplayer chess: risk scoring, device fingerprinting, match integrity, captcha, and ban escalation]
+* <https://github.com/web-coder-lab/chessking> ⭐ 0 | 🐛 0 | 🌐 Rust | 📅 2026-08-27 \[Rust server-side anti-cheat for multiplayer chess: risk scoring, device fingerprinting, match integrity, captcha, and ban escalation]
 * <https://github.com/XX-Batsu/bevy-personal-test> ⭐ 0 | 🐛 1 | 🌐 Rust | 📅 2026-08-14 \[Rust Bevy multiplayer framework with sandboxed Rhai script VM, rollback netcode, and shadow-VM anti-cheat verification]
 * <https://github.com/joeltco/ff3mmo> ⭐ 0 | 🐛 0 | 🌐 JavaScript | 📅 2026-08-27 \[Browser-based NES FF3 MMO with server-authoritative PvE/PvP/economy arbiters, inventory mirror anti-dup, wire validation, and moderation tooling]
 * <https://github.com/wflores9/Ironwall> ⭐ 0 | 🐛 0 | 🌐 Python | 📅 2026-07-31 \[Open-source anti-cheat protocol stack with thin client, TEE attestation, ZK-SNARK human-input proofs, and Hedera HCS + XRPL dual-anchored match receipts]
@@ -4650,7 +4651,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 > Detection:Hook
 
-* <https://github.com/hasherezade/pe-sieve> ⭐ 3,868 | 🐛 7 | 🌐 C++ | 📅 2026-06-06
+* <https://github.com/hasherezade/pe-sieve> ⭐ 3,869 | 🐛 7 | 🌐 C++ | 📅 2026-06-06
 * <https://github.com/ORCx41/KnownDllUnhook> ⭐ 306 | 🐛 0 | 🌐 C | 📅 2022-09-28 \[Replace the .txt section of the current loaded modules from \KnownDlls]
 * <https://github.com/paranoidninja/EtwTi-Syscall-Hook> ⭐ 266 | 🐛 0 | 🌐 C | 📅 2022-11-18 \[Instrumentation Callback]
 * <https://github.com/mike1k/HookHunter> ⭐ 264 | 🐛 2 | 🌐 C++ | 📅 2021-07-28
@@ -4761,8 +4762,8 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 > Detection:HWID
 
-* <https://github.com/LibreHardwareMonitor/LibreHardwareMonitor> ⭐ 8,958 | 🐛 519 | 🌐 C# | 📅 2026-08-19
-* <https://github.com/openhardwaremonitor/openhardwaremonitor> ⭐ 6,446 | 🐛 1,092 | 🌐 C# | 📅 2024-07-13
+* <https://github.com/LibreHardwareMonitor/LibreHardwareMonitor> ⭐ 8,962 | 🐛 517 | 🌐 C# | 📅 2026-08-27
+* <https://github.com/openhardwaremonitor/openhardwaremonitor> ⭐ 6,447 | 🐛 1,092 | 🌐 C# | 📅 2024-07-13
 * <https://github.com/lavoiesl/osx-cpu-temp> ⭐ 942 | 🐛 22 | 🌐 C | 📅 2024-08-20 \[CPU temperature for OSX]
 * <https://github.com/lfreist/hwinfo> ⭐ 732 | 🐛 31 | 🌐 C++ | 📅 2026-07-21 \[cross platform C++ library for hardware information (CPU, RAM, GPU)]
 * <https://github.com/trustdecision/trustdevice-android> ⭐ 478 | 🐛 3 | 🌐 Kotlin | 📅 2026-07-24 \[Android]
@@ -4828,7 +4829,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 * <https://github.com/vvb2060/KeyAttestation> ⭐ 2,092 | 🐛 18 | 🌐 Java | 📅 2025-09-30 \[Bootloader]
 * <https://github.com/reveny/Android-Native-Root-Detector> ⭐ 1,378 | 🐛 16 | 🌐 Kotlin | 📅 2026-04-11 \[A tool for detecting root on android]
-* <https://github.com/rushiranpise/detection> ⭐ 721 | 🐛 0 | 📅 2026-08-08 \[Collection of Various Root Detection Apps for Android]
+* <https://github.com/rushiranpise/detection> ⭐ 722 | 🐛 0 | 📅 2026-08-08 \[Collection of Various Root Detection Apps for Android]
 * <https://github.com/LSPosed/DirtySepolicy> ⭐ 442 | 🐛 0 | 🌐 Java | 📅 2026-05-29 \[Detect userspace su solutions via SELinux access checks from the App Zygote process]
 * <https://github.com/VisionR1/KeyAttestation> ⭐ 428 | 🐛 2 | 🌐 Java | 📅 2026-07-21 \[Bootloader]
 * <https://github.com/talsec/Free-RASP-Android> ⭐ 259 | 🐛 0 | 🌐 Kotlin | 📅 2026-08-26 \[Native Android freeRASP SDK for root/Magisk, Frida, hook, emulator, tamper, and integrity detection]
@@ -4844,7 +4845,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 * <https://github.com/talsec/Free-RASP-KMP> ⭐ 11 | 🐛 1 | 🌐 C | 📅 2026-08-26 \[Kotlin Multiplatform freeRASP SDK for mobile root/jailbreak, Frida, hook, emulator, tamper, and integrity detection]
 * <https://github.com/NoobDigital/react-native-shieldscan> ⭐ 9 | 🐛 0 | 🌐 TypeScript | 📅 2026-08-18 \[React Native root/jailbreak, Frida, debugger, emulator, and hook-framework detection]
 * <https://github.com/Binuka97/cordova-plugin-rootguard> ⭐ 8 | 🐛 0 | 🌐 Java | 📅 2026-07-25 \[Cordova plugin detecting Android root (Magisk/KernelSU/APatch), Frida, and iOS jailbreak/Frida]
-* <https://github.com/Laert-Android/Advanced-Root-Checker> ⭐ 5 | 🐛 0 | 🌐 Java | 📅 2026-08-16 \[Offline Android root/hook detector (Magisk/KernelSU/APatch, Frida, Xposed) with anti-tamper checks]
+* <https://github.com/Laert-Android/Advanced-Root-Checker> ⭐ 6 | 🐛 0 | 🌐 Java | 📅 2026-08-16 \[Offline Android root/hook detector (Magisk/KernelSU/APatch, Frida, Xposed) with anti-tamper checks]
 * <https://github.com/Xheghun/DeviceTrust> ⭐ 5 | 🐛 0 | 🌐 Kotlin | 📅 2026-08-07 \[Kotlin + NDK Android library for root, emulator, hooking, custom ROM, and bootloader integrity checks with configurable risk scoring]
 * <https://github.com/AfanasievN/react-native-device-risk-signals> ⭐ 5 | 🐛 3 | 🌐 TypeScript | 📅 2026-08-26 \[React Native device-intel TurboModule: root/jailbreak, emulator, Frida, and tamper signals without vendor backend]
 * <https://github.com/cognis-digital/rootsentry> ⭐ 1 | 🐛 0 | 🌐 Python | 📅 2026-08-20 \[Zero-dependency mobile RASP CLI that scores root/jailbreak, emulator, hook, and tamper evidence into TRUSTED→CRITICAL posture verdicts]
@@ -4853,7 +4854,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 > Detection:Magisk
 
-* <https://github.com/Dr-TSNG/ApplistDetector> ⭐ 1,118 | 🐛 1 | 🌐 Kotlin | 📅 2023-10-31
+* <https://github.com/Dr-TSNG/ApplistDetector> ⭐ 1,119 | 🐛 1 | 🌐 Kotlin | 📅 2023-10-31
 * <https://github.com/apkunpacker/MagiskDetection> ⭐ 1,050 | 🐛 4 | 📅 2026-05-10
 * <https://github.com/vvb2060/MagiskDetector> ⚠️ Archived
 * <https://github.com/canyie/MagiskKiller> ⭐ 218 | 🐛 1 | 🌐 Java | 📅 2023-03-21
@@ -4863,10 +4864,10 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 > Detection:Frida
 
-* <https://github.com/darvincisec/DetectFrida> ⭐ 799 | 🐛 16 | 🌐 C | 📅 2021-06-12
+* <https://github.com/darvincisec/DetectFrida> ⭐ 800 | 🐛 16 | 🌐 C | 📅 2021-06-12
 * <https://github.com/qtfreet00/AntiFrida> ⭐ 519 | 🐛 2 | 🌐 C++ | 📅 2019-11-05
 * <https://github.com/muellerberndt/frida-detection> ⚠️ Archived
-* <https://github.com/apkunpacker/Anti-Frida> ⭐ 131 | 🐛 0 | 📅 2022-05-25 \[Some Of Anti-Frida Stuff]
+* <https://github.com/apkunpacker/Anti-Frida> ⭐ 132 | 🐛 0 | 📅 2022-05-25 \[Some Of Anti-Frida Stuff]
 
 > Detection:Overlay
 
@@ -4894,7 +4895,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 * <https://github.com/Psmths/windows-forensic-artifacts> ⭐ 498 | 🐛 1 | 📅 2024-08-13 \[Guide to the various Windows forensic artifacts]
 * <https://github.com/travisfoley/dfirtriage> ⭐ 348 | 🐛 2 | 🌐 Python | 📅 2024-05-07
 * <https://github.com/mubix/netview> ⭐ 301 | 🐛 2 | 🌐 C++ | 📅 2022-01-30
-* <https://github.com/olafhartong/BamboozlEDR> ⭐ 278 | 🐛 0 | 🌐 Go | 📅 2025-09-23 \[A comprehensive ETW (Event Tracing for Windows) event generation tool designed for testing and research purposes]
+* <https://github.com/olafhartong/BamboozlEDR> ⭐ 279 | 🐛 0 | 🌐 Go | 📅 2025-09-23 \[A comprehensive ETW (Event Tracing for Windows) event generation tool designed for testing and research purposes]
 * <https://github.com/MagnetForensics/dumpit-linux> ⭐ 249 | 🐛 3 | 🌐 Rust | 📅 2023-11-21 \[DumpIt for linux]
 * <https://github.com/gtworek/VolatileDataCollector> ⭐ 219 | 🐛 0 | 🌐 C | 📅 2026-07-08
 * <https://github.com/MemNixFS/MemNixFS> ⭐ 200 | 🐛 0 | 🌐 C++ | 📅 2026-07-04 \[Linux memory forensics]
@@ -4931,7 +4932,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 > Fuzzer
 
-* <https://github.com/0vercl0k/wtf> ⭐ 1,793 | 🐛 26 | 🌐 C++ | 📅 2026-08-26
+* <https://github.com/0vercl0k/wtf> ⭐ 1,793 | 🐛 27 | 🌐 C++ | 📅 2026-08-26
 * <https://github.com/0vercl0k/snapshot> ⭐ 139 | 🐛 2 | 🌐 Rust | 📅 2026-08-11 \[Rust WinDbg extension that dumps CPU register state and VM physical memory for snapshot-based kernel fuzzing (companion to wtf)]
 * <https://github.com/jxy-s/vfdynf> ⭐ 42 | 🐛 4 | 🌐 C | 📅 2026-08-18 \[Application Verifier DynFault provider for stack-aware Windows fault injection and targeted API fuzzing]
 * <https://github.com/kernullist/kernforge> ⭐ 25 | 🐛 0 | 🌐 Go | 📅 2026-07-23 \[Go workbench for Windows/anti-cheat project analysis, fuzzing, and evidence-backed verification]
@@ -4947,7 +4948,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 * <https://github.com/paranoidninja/EtwTi-Syscall-Hook> ⭐ 266 | 🐛 0 | 🌐 C | 📅 2022-11-18 \[Instrumentation Callback]
 * [ATPMiniDump Callback](https://github.com/b4rtik/ATPMiniDump) ⭐ 256 | 🐛 0 | 🌐 C | 📅 2019-12-02
 * <https://github.com/jackullrich/syscall-detect> ⭐ 211 | 🐛 0 | 🌐 C++ | 📅 2025-11-13 \[Instrumentation Callback]
-* <https://github.com/secrary/Hooking-via-InstrumentationCallback> ⭐ 180 | 🐛 0 | 🌐 C++ | 📅 2017-11-30 \[Instrumentation Callback]
+* <https://github.com/secrary/Hooking-via-InstrumentationCallback> ⭐ 179 | 🐛 0 | 🌐 C++ | 📅 2017-11-30 \[Instrumentation Callback]
 * <https://github.com/Deputation/instrumentation_callbacks> ⭐ 162 | 🐛 0 | 🌐 C++ | 📅 2021-11-14 \[Instrumentation Callback]
 * <https://github.com/whokilleddb/function-collections> ⭐ 121 | 🐛 0 | 🌐 C | 📅 2025-08-31 \[A collection of PoCs to do common things in unconventional ways]
 * <https://github.com/whokilleddb/function-collections/tree/main/hijack_callbacks/vkAllocateMemory> ⭐ 121 | 🐛 0 | 🌐 C | 📅 2025-08-31 \[vkAllocateMemory]
@@ -4990,13 +4991,13 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 > Sign Tools
 
-* <https://github.com/mtrojnar/osslsigncode> ⭐ 1,079 | 🐛 0 | 🌐 C | 📅 2026-08-26
+* <https://github.com/mtrojnar/osslsigncode> ⭐ 1,080 | 🐛 0 | 🌐 C | 📅 2026-08-26
 * <https://github.com/Jemmy1228/HookSigntool> ⭐ 589 | 🐛 4 | 🌐 C | 📅 2020-01-07 \[Sign Leaked Cert]
 * <https://github.com/namazso/MagicSigner> ⭐ 525 | 🐛 1 | 🌐 C++ | 📅 2023-06-10 \[Sign Leaked Cert]
 * <https://github.com/hackerhouse-opensource/SignToolEx> ⭐ 350 | 🐛 0 | 🌐 C++ | 📅 2026-02-02 \[Sign Leaked Cert]
 * <https://github.com/mattifestation/WDACTools> ⭐ 256 | 🐛 2 | 🌐 PowerShell | 📅 2022-03-02 \[Decrypt p7b]
 * <https://github.com/hzqst/FuckCertVerifyTimeValidity> ⚠️ Archived \[Sign Leaked Cert]
-* <https://github.com/utoni/PastDSE> ⭐ 164 | 🐛 0 | 🌐 C | 📅 2025-10-03 \[Sign Leaked Cert]
+* <https://github.com/utoni/PastDSE> ⭐ 163 | 🐛 0 | 🌐 C | 📅 2025-10-03 \[Sign Leaked Cert]
 * <https://github.com/mathisvickie/sign-expired> ⚠️ Archived \[Sign Leaked Cert]
 * <https://github.com/gmh5225/chainoffools> ⭐ 0 | 🐛 0 | 📅 2020-03-22 \[CVE]
 
@@ -5020,7 +5021,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 > Windows Ring0
 
 * <https://github.com/wbenny/KSOCKET> ⭐ 551 | 🐛 7 | 🌐 C | 📅 2022-09-02 \[Kernel Berkeley socket]
-* <https://github.com/Cr4sh/KernelForge> ⭐ 526 | 🐛 0 | 🌐 C++ | 📅 2021-05-18 \[A library to develop kernel level Windows payloads for post HVCI era]
+* <https://github.com/Cr4sh/KernelForge> ⭐ 525 | 🐛 0 | 🌐 C++ | 📅 2021-05-18 \[A library to develop kernel level Windows payloads for post HVCI era]
 * <https://github.com/Xyrem/HyperDeceit> ⭐ 382 | 🐛 0 | 🌐 C++ | 📅 2023-06-03 \[HvcallCodeVa]
 * <https://github.com/Xyrem/Yumekage> ⭐ 316 | 🐛 1 | 🌐 C++ | 📅 2023-05-31 \[PTE Hook]
 * <https://github.com/SamuelTulach/HookGuard> ⭐ 269 | 🐛 1 | 🌐 C | 📅 2025-01-24 \[Global exception/KdpDebugRoutineSelect]
@@ -5037,7 +5038,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 * <https://github.com/Th3Spl/IoCreateDriver> ⭐ 148 | 🐛 0 | 🌐 C | 📅 2026-06-05 \[IoCreateDriver Implementation]
 * <https://github.com/Rythorndoran/PageTableHook> ⭐ 143 | 🐛 2 | 🌐 C | 📅 2022-12-10 \[PTE Hook]
 * <https://github.com/NSG650/NoMoreBugCheck> ⭐ 142 | 🐛 5 | 🌐 C | 📅 2021-12-16 \[BSOD]
-* <https://github.com/GetRektBoy724/KPDB> ⭐ 116 | 🐛 0 | 🌐 C | 📅 2025-06-07 \[Parsing PDB in Driver]
+* <https://github.com/GetRektBoy724/KPDB> ⭐ 115 | 🐛 0 | 🌐 C | 📅 2025-06-07 \[Parsing PDB in Driver]
 * <https://github.com/Archie-osu/PowerHook> ⭐ 80 | 🐛 0 | 🌐 C++ | 📅 2025-04-13 \[Hooking KPRCB IdlePreselect]
 * <https://github.com/brew02/BudgetEPT> ⭐ 69 | 🐛 0 | 🌐 C | 📅 2024-10-19 \[Create stealthy, inline, EPT-like hooks using SMAP and SMEP]
 * <https://github.com/stdhu/windows-kernel-pagehook> ⭐ 41 | 🐛 2 | 🌐 C++ | 📅 2022-10-30 \[PTE Hook]
@@ -5079,30 +5080,30 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 > Windows Ring3
 
-* <https://github.com/secretsquirrel/SigThief> ⭐ 2,416 | 🐛 0 | 🌐 Python | 📅 2021-08-11 \[Stealing signatures from pe files]
-* [open-source windows defender manager can disable windows defender permanently](https://github.com/qtkite/defender-control) ⭐ 1,977 | 🐛 14 | 🌐 C++ | 📅 2026-06-26
+* <https://github.com/secretsquirrel/SigThief> ⭐ 2,417 | 🐛 0 | 🌐 Python | 📅 2021-08-11 \[Stealing signatures from pe files]
+* [open-source windows defender manager can disable windows defender permanently](https://github.com/qtkite/defender-control) ⭐ 1,978 | 🐛 14 | 🌐 C++ | 📅 2026-06-26
 * [A tool for patching authenticode signed PE files (exe, dll, sys ..etc) without invalidating or breaking the existing signature](https://github.com/med0x2e/SigFlip) ⭐ 1,290 | 🐛 5 | 🌐 C# | 📅 2023-08-27
 * <https://github.com/Tylous/Limelighter> ⭐ 975 | 🐛 4 | 🌐 Go | 📅 2023-04-17 \[Fake Cert]
 * <https://github.com/deepinstinct/Dirty-Vanity> ⭐ 678 | 🐛 1 | 🌐 C | 📅 2022-12-23 \[Abusing RtlCreateProcessReflection]
 * <https://github.com/LloydLabs/delete-self-poc> ⭐ 620 | 🐛 0 | 🌐 C | 📅 2025-11-05 \[A way to delete a locked file, or current running executable, on disk]
 * <https://github.com/Jemmy1228/HookSigntool> ⭐ 589 | 🐛 4 | 🌐 C | 📅 2020-01-07 \[Sign Leaked Cert]
 * <https://github.com/jfmaes/LazySign> ⭐ 570 | 🐛 2 | 🌐 PowerShell | 📅 2024-03-28 \[Fake Cert]
-* <https://github.com/huntandhackett/process-cloning> ⭐ 553 | 🐛 2 | 🌐 C | 📅 2024-01-03 \[Clone process]
+* <https://github.com/huntandhackett/process-cloning> ⭐ 554 | 🐛 2 | 🌐 C | 📅 2024-01-03 \[Clone process]
 * <https://github.com/namazso/MagicSigner> ⭐ 525 | 🐛 1 | 🌐 C++ | 📅 2023-06-10 \[Sign Leaked Cert]
 * <https://github.com/rad9800/BootExecuteEDR> ⭐ 420 | 🐛 1 | 🌐 C | 📅 2024-12-08 \[BootExecute EDR Bypass]
 * <https://github.com/dslee2022/SignatureKid> ⚠️ Archived \[Stealing signatures from pe files]
 * [A library that meant to perform evasive communication using stolen browser socket](https://github.com/Idov31/Venom) ⭐ 397 | 🐛 0 | 🌐 C++ | 📅 2023-09-26
-* <https://github.com/waryas/WaryasSWHE> ⭐ 389 | 🐛 1 | 🌐 C++ | 📅 2025-11-26 \[Usermode exploit to bypass any AC using a 0day shatter attack]
+* <https://github.com/waryas/WaryasSWHE> ⭐ 388 | 🐛 1 | 🌐 C++ | 📅 2025-11-26 \[Usermode exploit to bypass any AC using a 0day shatter attack]
 * <https://github.com/2x7EQ13/CreateProcessAsPPL> ⭐ 304 | 🐛 0 | 🌐 C++ | 📅 2026-05-23 \[This is the loader that supports running a program with Protected Process Light (PPL) protection functionality]
 * <https://github.com/mandiant/ShimCacheParser> ⚠️ Archived \[Shim Cache parser]
 * <https://github.com/hzqst/FuckCertVerifyTimeValidity> ⚠️ Archived \[Sign Leaked Cert]
 * <https://github.com/LloydLabs/shellcode-plain-sight> ⭐ 210 | 🐛 0 | 🌐 C | 📅 2025-11-12 \[Hiding shellcode in plain sight within a large memory region]
 * <https://github.com/xaitax/NTSleuth> ⭐ 172 | 🐛 1 | 🌐 C++ | 📅 2025-08-30 \[Comprehensive Windows syscall extraction and analysis framework]
 * <https://github.com/Teach2Breach/moonwalk> ⭐ 170 | 🐛 0 | 🌐 Rust | 📅 2025-07-13 \[find dll base addresses without PEB WALK]
-* <https://github.com/utoni/PastDSE> ⭐ 164 | 🐛 0 | 🌐 C | 📅 2025-10-03 \[Sign Leaked Cert]
+* <https://github.com/utoni/PastDSE> ⭐ 163 | 🐛 0 | 🌐 C | 📅 2025-10-03 \[Sign Leaked Cert]
 * <https://github.com/weak1337/SkipHook> ⭐ 137 | 🐛 0 | 🌐 C | 📅 2022-08-06 \[Skip Hook]
 * <https://github.com/gabriellandau/ShadowStackWalk> ⚠️ Archived \[Finding Truth in the Shadows]
-* <https://github.com/KriyosArcane/TrustMeBro> ⭐ 120 | 🐛 0 | 🌐 Python | 📅 2026-08-13 \[Authenticode signature manipulation toolkit: signature stealing, metadata cloning, SIP hijacking (19 file types), WinVerifyTrust FinalPolicy bypass, PKCS#7 payload embedding (SigStash), SIPExec lateral movement, Smart App Control bypass, FormatGhost OID persistence; Python + C++; YARA/Sigma detection rules]
+* <https://github.com/KriyosArcane/TrustMeBro> ⭐ 121 | 🐛 0 | 🌐 Python | 📅 2026-08-13 \[Authenticode signature manipulation toolkit: signature stealing, metadata cloning, SIP hijacking (19 file types), WinVerifyTrust FinalPolicy bypass, PKCS#7 payload embedding (SigStash), SIPExec lateral movement, Smart App Control bypass, FormatGhost OID persistence; Python + C++; YARA/Sigma detection rules]
 * <https://github.com/SilentisVox/DoomSyscalls> ⭐ 102 | 🐛 0 | 🌐 C | 📅 2026-04-30 \[Indirect syscalls: dynamic SSN and syscall-instruction resolve; return-address spoof via ntdll gadgets; userland hook / RIP-return evasion research]
 * <https://github.com/Idov31/EtwLeakKernel> ⭐ 94 | 🐛 0 | 🌐 C++ | 📅 2025-11-06 \[Leaking kernel addresses from ETW consumers. Requires Administrator privileges]
 * <https://github.com/SamuelTulach/SecureGame> ⭐ 73 | 🐛 0 | 🌐 C++ | 📅 2024-11-10 \[POC game using VBS enclaves to protect itself from cheating]
@@ -5145,14 +5146,14 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 > Android
 
-* <https://github.com/tiann/KernelSU> ⭐ 18,021 | 🐛 62 | 🌐 Kotlin | 📅 2026-08-27 \[A Kernel based root solution for Android GKI]
-* <https://github.com/Dr-TSNG/ZygiskOnKernelSU> ⭐ 10,432 | 🐛 1 | 🌐 C | 📅 2026-08-27 \[Run Zygisk on KernelSU]
-* <https://github.com/abcz316/SKRoot-linuxKernelRoot> ⭐ 3,903 | 🐛 52 | 🌐 C++ | 📅 2026-08-25 \[Kernel root]
+* <https://github.com/tiann/KernelSU> ⭐ 18,030 | 🐛 61 | 🌐 Kotlin | 📅 2026-08-27 \[A Kernel based root solution for Android GKI]
+* <https://github.com/Dr-TSNG/ZygiskOnKernelSU> ⭐ 10,437 | 🐛 1 | 🌐 C | 📅 2026-08-27 \[Run Zygisk on KernelSU]
+* <https://github.com/abcz316/SKRoot-linuxKernelRoot> ⭐ 3,905 | 🐛 52 | 🌐 C++ | 📅 2026-08-25 \[Kernel root]
 * <https://github.com/LSPosed/AndroidHiddenApiBypass> ⭐ 2,481 | 🐛 3 | 🌐 Java | 📅 2026-06-05 \[Bypass hidden api restriction]
 * <https://github.com/okhsunrog/vpnhide> ⭐ 527 | 🐛 3 | 🌐 Kotlin | 📅 2026-08-26 \[Hide active VPN from selected Android apps via system\_server LSPosed hooks and kernel/Zygisk native filtering]
 * <https://github.com/WindySha/bypassHiddenApiRestriction> ⭐ 139 | 🐛 2 | 🌐 C++ | 📅 2025-07-12 \[Bypass hidden api restriction]
 * <https://github.com/stars-one/ASCTool> ⭐ 53 | 🐛 1 | 🌐 Kotlin | 📅 2022-06-20 \[Apk Signature Crack Tool]
-* <https://github.com/quarkslab/android-hardware-attestation-demo> ⭐ 43 | 🐛 0 | 🌐 Python | 📅 2026-08-05 \[Relay hardware Key Attestation from a clean device to defeat backend integrity checks on a rooted analysis phone — Frida hook + attestation oracle, no TEE tampering]
+* <https://github.com/quarkslab/android-hardware-attestation-demo> ⭐ 44 | 🐛 0 | 🌐 Python | 📅 2026-08-05 \[Relay hardware Key Attestation from a clean device to defeat backend integrity checks on a rooted analysis phone — Frida hook + attestation oracle, no TEE tampering]
 * <https://github.com/MlgmXyysd/KernelSU_Debug> ⭐ 34 | 🐛 1 | 🌐 Kotlin | 📅 2023-08-09 \[KernelSU modified for debugging]
 * <https://github.com/ekknod/usbsn> ⭐ 6 | 🐛 0 | 🌐 C++ | 📅 2022-10-08 \[USB serial number changer (root only)]
 * <https://github.com/CoolestEnoch/kernel-su-huawei-nova2> ⭐ 5 | 🐛 0 | 🌐 C | 📅 2025-03-21 \[KernelSU for huawei]
@@ -5174,7 +5175,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 ## WSL
 
-* <https://github.com/microsoft/WSL> ⭐ 33,536 | 🐛 973 | 🌐 C++ | 📅 2026-08-27
+* <https://github.com/microsoft/WSL> ⭐ 33,539 | 🐛 976 | 🌐 C++ | 📅 2026-08-27
 * <https://github.com/microsoft/WSL2-Linux-Kernel> ⭐ 10,543 | 🐛 134 | 🌐 C | 📅 2026-08-01
 * <https://github.com/Nevuly/WSL2-Linux-Kernel-Rolling> ⭐ 321 | 🐛 0 | 🌐 C | 📅 2026-08-27 \[Stable Kernel for WSL2]
 * <https://github.com/sxlmnwb/windows-subsystem-linux> ⭐ 1 | 🐛 0 | 🌐 C | 📅 2023-09-11
@@ -5182,8 +5183,8 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 ## WSA
 
 * <https://github.com/MustardChef/WSABuilds> ⭐ 18,261 | 🐛 231 | 🌐 Python | 📅 2026-08-11
-* <https://github.com/LSPosed/MagiskOnWSALocal> ⭐ 10,590 | 🐛 3 | 🌐 Shell | 📅 2025-09-20
-* <https://github.com/alesimula/wsa_pacman> ⭐ 4,175 | 🐛 57 | 🌐 Dart | 📅 2023-12-22
+* <https://github.com/LSPosed/MagiskOnWSALocal> ⭐ 10,589 | 🐛 3 | 🌐 Shell | 📅 2025-09-20
+* <https://github.com/alesimula/wsa_pacman> ⭐ 4,174 | 🐛 57 | 🌐 Dart | 📅 2023-12-22
 * <https://github.com/cinit/WSAPatch> ⭐ 1,563 | 🐛 26 | 🌐 C++ | 📅 2024-03-01 \[Make WSA run on Windows 10]
 * <https://github.com/LSPosed/WSA-Kernel-SU> ⚠️ Archived \[WSA with KernelSU]
 * <https://github.com/WSA-Community/WSA-Linux-Kernel> ⭐ 142 | 🐛 3 | 🌐 Shell | 📅 2022-05-21
@@ -5193,9 +5194,9 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 ## Windows Emulator
 
-* <https://github.com/brunodev85/winlator> ⭐ 18,796 | 🐛 403 | 🌐 C | 📅 2026-08-19 \[Android application for running Windows applications with Wine and Box86/Box64]
-* <https://github.com/momo5502/sogen> ⭐ 3,554 | 🐛 24 | 🌐 C++ | 📅 2026-08-26 \[Windows User Space Emulator]
-* <https://github.com/x86matthew/WinVisor> ⭐ 674 | 🐛 0 | 🌐 C++ | 📅 2025-01-23 \[A hypervisor-based emulator for Windows x64 user-mode executables using Windows Hypervisor Platform API]
+* <https://github.com/brunodev85/winlator> ⭐ 18,800 | 🐛 403 | 🌐 C | 📅 2026-08-19 \[Android application for running Windows applications with Wine and Box86/Box64]
+* <https://github.com/momo5502/sogen> ⭐ 3,555 | 🐛 24 | 🌐 C++ | 📅 2026-08-26 \[Windows User Space Emulator]
+* <https://github.com/x86matthew/WinVisor> ⭐ 673 | 🐛 0 | 🌐 C++ | 📅 2025-01-23 \[A hypervisor-based emulator for Windows x64 user-mode executables using Windows Hypervisor Platform API]
 * <https://github.com/ShallowFeather/KDemu> ⭐ 192 | 🐛 2 | 🌐 C++ | 📅 2026-08-27 \[A hybrid semi-emulated, semi-native Windows kernel driver emulator designed for advanced rootkit and anti-cheat analysis, addressing the limitations of existing emulation solutions]
 * <https://github.com/binsnake/KUBERA> ⭐ 163 | 🐛 7 | 🌐 C++ | 📅 2025-08-25 \[A x86 environment emulator for Windows user and kernel binaries]
 * <https://github.com/momo5502/vmtrace> ⭐ 60 | 🐛 0 | 🌐 C++ | 📅 2026-03-14 \[Windows Hypervisor Platform (WHP) C++ library for trap-driven guest execution: host-backed memory, page-level traps, CPUID/syscall interception]
@@ -5203,7 +5204,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 ## Linux Emulator
 
-* <https://github.com/OFFTKP/felix86> ⭐ 663 | 🐛 44 | 🌐 C++ | 📅 2026-08-27 \[Run x86-64 programs on RISC-V Linux]
+* <https://github.com/OFFTKP/felix86> ⭐ 663 | 🐛 43 | 🌐 C++ | 📅 2026-08-27 \[Run x86-64 programs on RISC-V Linux]
 
 ## Android Emulator
 
@@ -5219,8 +5220,8 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 ## IOS Emulator
 
-* <https://github.com/Lakr233/vphone-cli> ⭐ 8,088 | 🐛 21 | 🌐 Swift | 📅 2026-08-25 \[Boot virtual iPhone (iOS) on macOS via Virtualization.framework using PCC research VM; SIP/AMFI disabled, DFU/restore/ramdisk/CFW]
-* <https://github.com/34306/vphone-aio> ⭐ 6,338 | 🐛 29 | 🌐 Shell | 📅 2026-08-27 \[1 script run the vphone]
+* <https://github.com/Lakr233/vphone-cli> ⭐ 8,174 | 🐛 21 | 🌐 Swift | 📅 2026-08-25 \[Boot virtual iPhone (iOS) on macOS via Virtualization.framework using PCC research VM; SIP/AMFI disabled, DFU/restore/ramdisk/CFW]
+* <https://github.com/34306/vphone-aio> ⭐ 6,514 | 🐛 30 | 🌐 Shell | 📅 2026-08-27 \[1 script run the vphone]
 * <https://github.com/ChefKissInc/qemu-apple-silicon> ⭐ 3,864 | 🐛 39 | 🌐 C | 📅 2026-08-26
 
 ## Game Boy
@@ -5243,7 +5244,7 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 ## Nintendo Switch
 
 * <https://github.com/Atmosphere-NX/Atmosphere> ⭐ 19,474 | 🐛 12 | 🌐 C++ | 📅 2026-08-21 \[Customized firmware]
-* <https://github.com/CTCaer/hekate> ⭐ 8,632 | 🐛 28 | 🌐 C | 📅 2026-06-16 \[A GUI based Nintendo Switch Bootloader]
+* <https://github.com/CTCaer/hekate> ⭐ 8,633 | 🐛 28 | 🌐 C | 📅 2026-06-16 \[A GUI based Nintendo Switch Bootloader]
 * <https://github.com/jakcron/nstool> ⭐ 541 | 🐛 14 | 🌐 C++ | 📅 2024-10-14 \[General purpose read/extract tool]
 * <https://github.com/tomvita/SE-tools> ⭐ 64 | 🐛 1 | 🌐 C | 📅 2021-04-19 \[Memory hacking]
 * <https://github.com/qqq26/nuzu> ⭐ 3 | 🐛 0 | 📅 2024-03-06 \[Yuzu based repository]
@@ -5253,8 +5254,8 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 
 ## Xbox
 
-* <https://github.com/xenia-project/xenia> ⭐ 9,650 | 🐛 315 | 🌐 C++ | 📅 2026-02-18 \[Xbox 360 Emulator Research Project]
-* <https://github.com/xemu-project/xemu> ⭐ 4,071 | 🐛 960 | 🌐 C | 📅 2026-08-27 \[Xbox Emulator for Windows]
+* <https://github.com/xenia-project/xenia> ⭐ 9,651 | 🐛 315 | 🌐 C++ | 📅 2026-02-18 \[Xbox 360 Emulator Research Project]
+* <https://github.com/xemu-project/xemu> ⭐ 4,070 | 🐛 960 | 🌐 C | 📅 2026-08-27 \[Xbox Emulator for Windows]
 * <https://github.com/rexdex/recompiler> ⭐ 1,740 | 🐛 19 | 🌐 C++ | 📅 2022-02-12 \[Porting Xbox360 executables to Windows]
 * <https://github.com/exploits-forsale/collateral-damage> ⭐ 528 | 🐛 10 | 🌐 C++ | 📅 2025-07-13 \[Kernel exploit for Xbox SystemOS using CVE-2024-30088]
 * <https://github.com/wmarti/xenia-mac> ⭐ 99 | 🐛 14 | 🌐 C++ | 📅 2026-02-22 \[MacOS Port of the Xbox 360 Emulator]
@@ -5265,8 +5266,8 @@ npx skills add https://github.com/gmh5225/awesome-game-security --skill reverse-
 ## PlayStation
 
 * <https://github.com/ps5-linux/ps5-linux-loader> ⭐ 2,316 | 🐛 1 | 🌐 C | 📅 2026-08-18 \[Linux payload implementing HV exploits to run a custom bootloader]
-* <https://github.com/Gezine/BD-UN-JB> ⭐ 354 | 🐛 0 | 🌐 C++ | 📅 2026-08-04 \[BD-JB RemoteJarLoader for already-jailbroken PS5 (≤12.00); unpatch BD-J, ISO, network JAR load / logging]
-* <https://github.com/ntfargo/CSSFontFace-Exploit> ⭐ 310 | 🐛 9 | 🌐 JavaScript | 📅 2026-07-27 \[WebKit CSSFontFace UAF for PS4/PS5; PS4 6.00-11.02 (kernel chain 7.00-11.02); PS5 needs separate ASLR/vtable defeat; writeup: linearfox.com]
+* <https://github.com/Gezine/BD-UN-JB> ⭐ 355 | 🐛 0 | 🌐 C++ | 📅 2026-08-04 \[BD-JB RemoteJarLoader for already-jailbroken PS5 (≤12.00); unpatch BD-J, ISO, network JAR load / logging]
+* <https://github.com/ntfargo/CSSFontFace-Exploit> ⭐ 311 | 🐛 9 | 🌐 JavaScript | 📅 2026-07-27 \[WebKit CSSFontFace UAF for PS4/PS5; PS4 6.00-11.02 (kernel chain 7.00-11.02); PS5 needs separate ASLR/vtable defeat; writeup: linearfox.com]
 * <https://github.com/cragson/a53-code-exec> ⭐ 53 | 🐛 0 | 🌐 C | 📅 2026-08-23 \[PoC for code execution on a53 used by PS5 on fw 02.00]
 * <https://github.com/DrYenyen/Drive-Cloning-For-PS4-PS5> ⭐ 33 | 🐛 0 | 📅 2026-06-02 \[Research and instructions for cloning PS4 and PS5 internal storage drives]
 * <https://github.com/ArabPixel/PSFree-Enhanced> ⭐ 0 | 🐛 0 | 🌐 HTML | 📅 2026-08-14 \[Feature-rich PS4 WebKit jailbreak exploit host — chains PSFree/Bad Hoist/CSSFontFace userland with Lapse/NetCtrl/sleirsgoevy kernel exploits (FW 6.00-11.02), auto fw/console detection, GoldHEN/HEN selector, payload loader on port 9020]
